@@ -1,0 +1,299 @@
+﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos,Compartido
+MA0101,Matemática general,Electromecánica,Básicas,1,1,5,0,2,SI
+FI1101,Física general I,Electromecánica,Básicas,1,2,4,0,3,SI
+FI2201,Laboratorio de física general I,Electromecánica,Básicas,1,3,0,2,1,NO
+QU1106,Química básica I,Electromecánica,Básicas,1,4,4,0,3,SI
+QU1102,Laboratorio de química básica I,Electromecánica,Básicas,1,5,0,2,1,SI
+CI1230,Inglés I,Electromecánica,Básicas,1,6,3,0,2,NO
+IEM2101,Dibujo técnico,Electromecánica,Mecánica,1,7,4,0,3,SI
+CS1502,Introducción a la técnica ciencia y tecnología,Electromecánica,Básicas,1,8,2,0,1,SI
+CI1106,Comunicación escrita,Electromecánica,Básicas,1,9,3,0,2,SI
+MA1102,Cálculo diferencial e integral,Electromecánica,Básicas,2,1,5,0,4,SI
+FI1102,Física general II,Electromecánica,Básicas,2,2,4,0,3,SI
+FI1202,Laboratorio de física general II,Electromecánica,Básicas,2,3,0,2,1,SI
+CA21XX,Introducción a la computación,Electromecánica,Básicas,2,5,4,0,3,NO
+CI1231,Inglés II,Electromecánica,Básicas,2,6,3,0,2,NO
+ME2208,Ciencia e ingeniería de los materiales,Electromecánica,Básicas,2,7,3,1,3,SI
+CS2303,Relaciones laborales,Electromecánica,Básicas,2,8,3,0,2,NO
+SE1200,Actividad deportiva I,Electromecánica,Básicas,2,9,0,2,0,SI
+MA1103,Cálculo y algebra lineal,Electromecánica,Básicas,3,1,4,0,4,SI
+FI2103,Física general III,Electromecánica,Básicas,3,2,4,0,3,NO
+IEM2201,Análisis de circuitos 1,Electromecánica,Eléctrica,3,3,4,0,3,SI
+IEM2251,Laboratorio de circuitos 1,Electromecánica,Eléctrica,3,4,0,2,1,SI
+IEM2301,Transductores,Electromecánica,Sistemas,3,5,2,0,2,SI
+IEM2102,Estática,Electromecánica,Mecánica,3,7,4,0,3,SI
+CS4402,Seminario de estudios costarricenses,Electromecánica,Básicas,3,8,3,0,2,SI
+SE1100,Actividad cultural I,Electromecánica,Básicas,3,9,2,0,0,SI
+MA2105,Ecuaciones diferenciales,Electromecánica,Básicas,4,1,4,0,4,SI
+MT6001,Probabilidad y procesos estocásticos,Electromecánica,Básicas,4,2,3,0,2,SI
+IEM2202,Análisis de circuitos 2,Electromecánica,Eléctrica,4,3,4,0,3,SI
+IEM2252,Laboratorio de circuitos 2,Electromecánica,Eléctrica,4,4,0,2,1,SI
+IEM2302,Instrumentación,Electromecánica,Sistemas,4,5,2,0,2,NO
+IEM2352,Laboratorio de instrumentación,Electromecánica,Sistemas,4,6,0,2,1,NO
+IEM2103,Dinámica,Electromecánica,Mecánica,4,7,4,0,3,SI
+CS3404,Seminario de ética para la ingeniería,Electromecánica,Básicas,4,8,3,0,2,SI
+FH1000,Centros de formación humanistica,Electromecánica,Básicas,4,9,3,0,1,SI
+MA2104,Cálculo superior,Electromecánica,Básicas,5,1,4,0,4,SI
+CM3207,Métodos numéricos,Electromecánica,Básicas,5,2,4,0,3,NO
+IEM2203,Sistemas analógicos,Electromecánica,Eléctrica,5,3,3,2,2,SI
+IEM2104,Termodinámica,Electromecánica,Mecánica,5,6,4,0,3,NO
+IEM2105,Manufactura,Electromecánica,Mecánica,5,7,3,0,3,SI
+IEM2155,Laboratorio de manufactura,Electromecánica,Mecánica,5,8,0,4,2,SI
+CI1107,Comunicación oral,Electromecánica,Básicas,5,9,3,0,1,SI
+IEM2204,Sistemas digitales,Electromecánica,Eléctrica,6,3,3,2,2,SI
+IEM2303,Modelado y simulación de sistemas electromecánicos,Electromecánica,Sistemas,6,4,3,1,3,NO
+IEM2106,Transferencia de calor,Electromecánica,Mecánica,6,5,4,0,3,NO
+IEM2107,Resistencia de materiales,Electromecánica,Mecánica,6,6,4,0,3,SI
+IEM2108,Dibujo industrial,Electromecánica,Mecánica,6,7,4,0,3,NO
+IEM2109,Mecánica de fluidos,Electromecánica,Mecánica,6,8,4,0,3,SI
+IEM2159,Laboratorio de mecánica de fluidos,Electromecánica,Mecánica,6,9,0,2,1,SI
+IEM2304,Fundamentos de gestión de proyectos,Electromecánica,Sistemas,7,1,4,0,2,NO
+IEM2305,Gestión de la ingeniería electromecánica,Electromecánica,Sistemas,7,2,3,0,2,NO
+IEM2205,Máquinas eléctricas 1,Electromecánica,Eléctrica,7,3,4,0,3,NO
+IEM2255,Laboratorio de máquinas eléctricas 1,Electromecánica,Eléctrica,7,4,0,2,1,NO
+IEM2306,Control automático,Electromecánica,Sistemas,7,5,3,0,3,SI
+IEM2110,Máquinas y mecanismos,Electromecánica,Mecánica,7,6,4,0,3,SI
+IEM2111,Turbomáquinas,Electromecánica,Mecánica,7,7,4,0,3,NO
+IEM2161,Laboratorio de turbomáquinas,Electromecánica,Mecánica,7,8,0,2,1,NO
+SE1400,Actividad cultural - deportiva,Electromecánica,Básica,7,9,0,2,0,SI
+IEM2400,Metodología de la investigación,Electromecánica,Ciencias Básicas,8,1,0,1,3,SI
+IEM2307,Monitoreo de la condición,Electromecánica,Sistemas,8,2,3,1,2,NO
+IEM2206,Máquinas eléctricas 2,Electromecánica,Eléctrica,8,3,4,0,3,NO
+IEM2256,Laboratorio de máquinas eléctricas 2,Electromecánica,Eléctrica,8,4,0,2,1,NO
+IEM2308,Control eléctrico,Electromecánica,Sistemas,8,5,3,0,3,NO
+IEM2358,Laboratorio de control,Electromecánica,Sistemas,8,6,0,2,1,NO
+IEM2112,Elementos de máquinas,Electromecánica,Mecánica,8,7,0,2,3,SI
+IEM2113,Sistemas térmicos,Electromecánica,Mecánica,8,8,3,0,3,NO
+IEM2163,Laboratorio de sistemas térmicos,Electromecánica,Mecánica,8,9,0,2,1,NO
+IEM2309,Gestión de la energía,Electromecánica,Sistemas,9,2,4,0,2,NO
+IEM2207,Sistemas de potencia,Electromecánica,Eléctrica,9,3,4,0,3,NO
+IEM2208,Instalaciones eléctricas,Electromecánica,Eléctrica,9,4,4,0,3,NO
+IEM2310,Diseño e integración de sistemas electromecánicos,Electromecánica,Sistemas,9,5,2,0,3,SI
+IEM2360,Laboratorio de diseño e integración de sistemas electromecánicos,Electromecánica,Sistemas,9,6,0,2,1,NO
+IEM2114,Diseño mecánico,Electromecánica,Mecánica,9,7,0,2,3,NO
+IEM2115,Fundamentos de refrigeración y aire acondicionado,Electromecánica,Mecánica,9,8,3,2,3,NO
+IEM2401,Electiva I,Electromecánica,General,10,2,4,0,2,NO
+IEM2402,Electiva II,Electromecánica,General,10,3,4,0,2,NO
+IEM2311,Automatización,Electromecánica,Sistemas,10,5,1,3,3,NO
+IEM2403,TFG,Electromecánica,General,10,6,0,21,7,NO
+MA0101,Matemática general,AeronáuticaV2,-,0,2,5,0,2,SI
+CA2125,Elementos de computación,AeronáuticaV2,-,1,1,4,0,3,NO
+MA1102,Cálculo diferencial e integral,AeronáuticaV2,-,1,2,5,0,4,SI
+FI1101,Física general I,AeronáuticaV2,-,1,3,4,0,3,SI
+FI1201,Laboratorio de física general I,AeronáuticaV2,-,1,4,0,2,1,NO
+QU1106,Química básica I,AeronáuticaV2,-,1,5,4,0,3,SI
+QU1102,Laboratorio de química básica I,AeronáuticaV2,-,1,6,0,2,1,SI
+CI1106,Comunicación escrita,AeronáuticaV2,-,1,7,3,0,2,SI
+CS1502,Introducción a la técnica ciencia y tecnología,AeronáuticaV2,-,1,8,2,0,1,SI
+SE1200,Actividad deportiva I,AeronáuticaV2,-,1,9,0,2,0,SI
+MA1103,Cálculo y álgebra lineal,AeronáuticaV2,-,2,1,4,0,4,SI
+FI1102,Física general II,AeronáuticaV2,-,2,2,4,0,3,SI
+FI1202,Laboratorio de física general II,AeronáuticaV2,-,2,3,0,2,1,SI
+QU1107,Química básica II,AeronáuticaV2,-,2,4,4,0,3,NO
+QU1104,Laboratorio de química básica II,AeronáuticaV2,-,2,5,0,2,1,NO
+IEM2501,Geometría descriptiva,AeronáuticaV2,-,2,6,4,0,3,NO
+CI1107,Comunicación oral,AeronáuticaV2,-,2,7,3,0,1,SI
+CS1302,Derecho laboral,AeronáuticaV2,-,2,8,3,0,2,NO
+SE1100,Actividad cultural I,AeronáuticaV2,-,2,9,0,2,0,SI
+IEM2201,Análisis de circuitos 1,AeronáuticaV2,-,3,1,4,0,3,SI
+IEM2251,Laboratorio de circuitos 1,AeronáuticaV2,-,3,2,0,2,1,SI
+MA2104,Cálculo superior,AeronáuticaV2,-,3,3,4,0,4,SI
+FI1103,Física general III,AeronáuticaV2,-,3,4,4,0,3,NO
+ME2208,Ciencia e ingeniería de los materiales,AeronáuticaV2,-,3,5,3,0,2,SI
+IEM2101,Dibujo técnico,AeronáuticaV2,-,3,6,4,0,3,SI
+SO2601,Fundamentos de seguridad e higiene ocupacional,AeronáuticaV2,-,3,8,2,0,1,NO
+SE1400,Actividad cultural - deportiva,AeronáuticaV2,-,3,9,0,2,0,SI
+IEM2202,Análisis de Circuitos 2,AeronáuticaV2,-,4,1,4,0,3,SI
+IEM2252,Laboratorio de circuitos 2,AeronáuticaV2,-,4,2,0,2,1,SI
+MA2105,Ecuaciones diferenciales,AeronáuticaV2,-,4,3,4,0,4,SI
+IEM2102,Estática,AeronáuticaV2,-,4,5,4,0,3,SI
+IEM2502,Dibujo aeronáutico,AeronáuticaV2,-,4,6,4,0,3,NO
+AE5121,Ingeniería económica,AeronáuticaV2,-,4,8,3,0,3,NO
+FH1000,Centros de formación humanistica,AeronáuticaV2,-,4,9,2,0,0,SI
+IEM2203,Sistemas analógicos,AeronáuticaV2,-,5,1,3,2,2,SI
+IEM2503,Materiales de aviación y hardware,AeronáuticaV2,-,5,3,4,0,2,NO
+IEM2504,Termodinámica y transferencia de calor,AeronáuticaV2,-,5,4,4,0,3,NO
+IEM2103,Dinámica,AeronáuticaV2,-,5,5,4,0,3,SI
+IEM2105,Manufactura,AeronáuticaV2,-,5,6,3,0,3,SI
+IEM2155,Laboratorio de manufactura,AeronáuticaV2,-,5,6,0,4,2,SI
+IEM2107,Resistencia de materiales,AeronáuticaV2,-,5,7,4,0,3,SI
+IEM2505,Examen inglés,AeronáuticaV2,-,5,9,0,0,0,NO
+IEM2204,Sistemas digitales,AeronáuticaV2,-,6,1,3,2,2,SI
+MT6001,Probabilidad y procesos estocásticos,AeronáuticaV2,-,6,4,3,0,2,SI
+IEM2109,Mecánica de fluidos,AeronáuticaV2,-,6,5,4,0,3,SI
+IEM2159,Laboratorio de mecánica de fluidos,AeronáuticaV2,-,6,5,0,2,1,SI
+IEM2110,Máquinas y mecanismos,AeronáuticaV2,-,6,6,4,0,3,SI
+IEM2507,Sistemas de aeronaves,AeronáuticaV2,-,6,7,4,0,2,NO
+IEM2508,Ingeniería en mantenimiento aeronáutico,AeronáuticaV2,-,6,8,4,0,3,NO
+IEM2509,Aviónica,AeronáuticaV2,-,7,1,4,0,3,NO
+IEM2400,Metodología de la investigación,AeronáuticaV2,-,7,4,4,0,3,SI
+IEM2511,Sistemas de propulsión,AeronáuticaV2,-,7,5,4,0,3,NO
+IEM2512,Aerodinámica y dinámica de vuelo,AeronáuticaV2,-,7,6,4,0,3,NO
+IEM2513,Taller de mediciones para aeronáutica,AeronáuticaV2,-,7,7,0,4,3,NO
+IEM2112,Elementos de máquinas,AeronáuticaV2,-,7,8,4,0,3,SI
+IEM2310,Diseño e integración de sistemas electromecánicos,AeronáuticaV2,-,8,1,2,0,3,SI
+IEM2301,Transductores,AeronáuticaV2,-,8,3,2,0,2,SI
+IEM2515,Ingeniería en mantenimiento aviónico,AeronáuticaV2,-,8,4,4,0,3,NO
+IEM2516,Fundamentos del motor de reacción,AeronáuticaV2,-,8,5,4,0,3,NO
+IEM2517,Análisis matricial de estructuras del avión,AeronáuticaV2,-,8,6,4,0,3,NO
+IEM2518,Electiva I,AeronáuticaV2,-,8,7,3,0,2,NO
+CS3404,Seminario de ética en ingeniería,AeronáuticaV2,-,8,9,5,0,2,SI
+IEM2519,Diseño eléctrico aeroportuario,AeronáuticaV2,-,9,1,4,0,3,NO
+IEM2306,Control automático,AeronáuticaV2,-,9,3,4,0,3,SI
+IEM2521,Aeromecánica,AeronáuticaV2,-,9,5,4,0,3,NO
+IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,AeronáuticaV2,-,9,6,4,0,3,NO
+IEM2523,Electiva II,AeronáuticaV2,-,9,7,3,0,2,NO
+IEM2524,Seguridad de vuelos y del ambiente,AeronáuticaV2,-,9,8,3,0,2,NO
+CS4402,Seminario de estudios costarricenses,AeronáuticaV2,-,9,9,3,0,2,SI
+IEM2525,Proyecto final de graduación,AeronáuticaV2,-,10,8,20,0,10,NO
+AE4208,Desarrollo de emprendedores,AeronáuticaV2,-,10,9,4,0,4,NO
+CI0200,Examen de diagnóstico,Mantenimiento Industrial,Básicas,0,5,0,0,0,NO
+CI0202,Ingles básico,Mantenimiento Industrial,Básicas,0,6,2,0,2,NO
+MA0101,Matemática general,Mantenimiento Industrial,Básicas,1,1,5,0,2,SI
+QU1106,Química básica I,Mantenimiento Industrial,Básicas,1,4,4,0,3,SI
+QU1102,Laboratorio de química básica I,Mantenimiento Industrial,Básicas,1,5,0,2,1,SI
+CI1230,Inglés I,Mantenimiento Industrial,Básicas,1,6,3,0,2,NO
+CA2125,Elementos de computación,Mantenimiento Industrial,Básicas,1,7,4,0,3,SI
+CS1502,Introducción a la técnica ciencia y tecnología,Mantenimiento Industrial,Básicas,1,8,2,0,1,SI
+CI1106,Comunicación escrita,Mantenimiento Industrial,Básicas,1,9,3,0,2,SI
+SE1200,Actividad deportiva I,Mantenimiento Industrial,Básicas,1,10,0,2,0,SI
+MA1102,Cálculo diferencial e integral,Mantenimiento Industrial,Básicas,2,1,5,0,4,SI
+FI1101,Física general I,Mantenimiento Industrial,Básicas,2,2,4,0,3,SI
+FI2201,Laboratorio de física general I,Mantenimiento Industrial,Básicas,2,3,0,2,1,NO
+QU1107,Química básica II,Mantenimiento Industrial,-,2,4,4,0,3,SI
+QU1104,Laboratorio de química básica II,Mantenimiento Industrial,-,2,5,0,2,1,SI
+CI1107,Comunicación oral,Mantenimiento Industrial,-,2,7,3,0,1,SI
+SE1100,Actividad cultural I,Mantenimiento Industrial,-,2,9,0,2,0,SI
+MA1103,Cálculo y algebra lineal,Mantenimiento Industrial,Básicas,3,1,4,0,4,SI
+FI1102,Física general III,Mantenimiento Industrial,Básicas,3,2,4,0,3,SI
+FI1202,Laboratorio de física general II,Mantenimiento Industrial,Básicas,3,3,0,2,1,SI
+CS2303,Relaciones laborales,Mantenimiento Industrial,Básicas,3,8,3,0,2,NO
+CI1231,Inglés II,Mantenimiento Industrial,Básicas,3,9,3,0,2,NO
+SE1400,Actividad cultural - deportiva,Mantenimiento Industrial,Básica,3,10,0,2,0,SI
+MA2104,Cálculo superior,Mantenimiento Industrial,Básicas,4,1,4,0,4,SI
+FI1103,Física general III,Mantenimiento Industrial,Básicas,4,2,4,0,3,NO
+FH1000,Centros de formación humanistica,Mantenimiento Industrial,Básicas,4,10,3,0,1,SI
+MA2105,Ecuaciones diferenciales,Mantenimiento Industrial,Básicas,5,1,4,0,4,SI
+ME3208,Tecnología de materiales,Mantenimiento Industrial,-,5,7,3,0,2,SI
+ME3209,Laboratorio de tecnología de materiales,Mantenimiento Industrial,-,5,8,0,2,1,SI
+PI2609,Probabilidad y estadística,Mantenimiento Industrial,Básicas,6,2,3,0,2,NO
+AE5121,Ingeniería económica,Mantenimiento Industrial,-,6,3,3,0,3,SI
+CM4108,Transferencia de calor,Mantenimiento Industrial,Básicas,6,10,3,0,3,NO
+CM3207,Métodos numéricos,Mantenimiento Industrial,Básicas,7,1,4,0,3,NO
+AE4208,Desarrollo de emprendedores,Mantenimiento Industrial,-,7,10,4,0,4,SI
+SO2601,Fundamentos de seguridad e higiene ocupacional,Mantenimiento Industrial,-,8,8,2,0,1,SI
+CS3404,Seminario de ética en ingeniería,Mantenimiento Industrial,-,8,10,5,0,2,SI
+CS4402,Seminario de estudios costarricenses,Mantenimiento Industrial,-,9,10,3,0,2,SI
+MI4136,Elementos de máquinas,Mantenimiento Industrial,Solido,8,7,5,0,4,NO
+MI4300,Administración de mantenimiento I,Mantenimiento Industrial,Gestión,7,2,4,0,4,NO
+MI2101,Dibujo técnico,Mantenimiento Industrial,Solido,2,7,4,0,3,SI
+MI2106,Estática,Mantenimiento Industrial,Solido,3,5,4,0,3,SI
+MI2202,Laboratorio de electricidad I,Mantenimiento Industrial,Eléctrica,4,5,0,2,1,SI
+MI2204,Laboratorio de electricidad II,Mantenimiento Industrial,Eléctrica,5,5,0,2,1,SI
+MI2205,Electricidad I,Mantenimiento Industrial,Eléctrica,4,4,4,0,3,SI
+MI2207,Electricidad II,Mantenimiento Industrial,Eléctrica,5,4,4,0,4,SI
+MI3103,Procesos de manufactura,Mantenimiento Industrial,Solido,3,6,3,0,3,SI
+MI3104,Laboratorio procesos de manufactura,Mantenimiento Industrial,Solido,3,7,0,4,2,SI
+MI3108,Mecánica de fluidos,Mantenimiento Industrial,Fluidos,6,8,4,0,4,SI
+MI3111,Laboratorio de mecánica de fluidos,Mantenimiento Industrial,Fluidos,6,9,0,3,1,SI
+MI3115,Resistencia de materiales,Mantenimiento Industrial,Solido,5,6,4,0,3,SI
+MI3116,Turbomáquinas,Mantenimiento Industrial,Fluidos,7,8,4,0,4,NO
+MI3117,Dinámica,Mantenimiento Industrial,Solido,5,6,4,0,3,SI
+MI3119,Laboratorio de turbomáquinas,Mantenimiento Industrial,Fluidos,7,9,0,2,1,NO
+MI3124,Dibujo industrial,Mantenimiento Industrial,Solido,4,8,4,0,4,NO
+MI3130,Termodinámica,Mantenimiento Industrial,Fluidos,5,9,4,0,4,NO
+MI3206,Laboratorio de máquinas eléctricas,Mantenimiento Industrial,Eléctrica,6,5,0,2,1,NO
+MI3209,Electricidad III,Mantenimiento Industrial,Eléctrica,7,4,3,0,3,NO
+MI3210,Máquinas eléctricas,Mantenimiento Industrial,Eléctrica,6,4,3,0,4,NO
+MI4125,Laboratorio de sistemas de vapor,Mantenimiento Industrial,Fluidos,9,9,0,2,1,NO
+MI4126,Refrigeración,Mantenimiento Industrial,Fluidos,11,1,4,0,4,NO
+MI4127,Laboratorio de refrigeración,Mantenimiento Industrial,Fluidos,11,2,0,2,1,NO
+MI4209,Control eléctrico,Mantenimiento Industrial,Eléctrica,8,4,3,0,3,NO
+MI4210,Laboratorio de control eléctrico,Mantenimiento Industrial,Eléctrica,8,5,0,2,1,NO
+MI4212,Instalaciones eléctricas,Mantenimiento Industrial,Eléctrica,9,5,4,0,4,NO
+MI4305,Administración de mantenimiento II,Mantenimiento Industrial,Gestión,8,2,3,0,3,NO
+MI4311,Modelos cuantitativos para la toma de decisiones,Mantenimiento Industrial,Gestión,7,3,3,0,3,NO
+MI5135,Ventilación industrial,Mantenimiento Industrial,Fluidos,11,3,4,0,4,NO
+MI5152,Aire acondicionado,Mantenimiento Industrial,Fluidos,11,4,4,0,4,NO
+MI5215,Análisis de sistemas eléctricos de potencia,Mantenimiento Industrial,Eléctrica,9,4,4,0,4,NO
+MI5411,Automatismo,Mantenimiento Industrial,Eléctrica,11,5,4,0,4,NO
+MI6153,Ahorro energético,Mantenimiento Industrial,Gestión,11,6,4,0,4,NO
+MI6252,Neumática,Mantenimiento Industrial,Fluidos,11,7,4,0,4,NO
+MI6253,Fundamentos en administración de proyectos en ingeniería,Mantenimiento Industrial,Gestión,11,8,4,0,4,NO
+MI6254,Sistemas de protección contra incendios a base de agua,Mantenimiento Industrial,Fluidos,11,9,4,0,4,NO
+MI6255,Sistemas de control automático,Mantenimiento Industrial,Eléctrica,11,10,4,0,4,NO
+MI6351,Mantenimiento predictivo,Mantenimiento Industrial,Gestión,9,2,4,0,4,NO
+MI5520,Práctica profesional,Mantenimiento Industrial,Básicas,10,10,0,30,12,NO
+MA0101,Matemática general,AeronáuticaV1,-,0,2,5,0,2,SI
+CA2125,Elementos de computación,AeronáuticaV1,-,1,1,4,0,3,SI
+MA1102,Cálculo diferencial e integral,AeronáuticaV1,-,1,3,5,0,4,SI
+FI1101,Física general I,AeronáuticaV1,-,1,4,4,0,3,SI
+FI1201,Laboratorio de física general I,AeronáuticaV1,-,1,4,0,2,1,NO
+QU1106,Química básica I,AeronáuticaV1,-,1,5,4,0,3,SI
+QU1102,Laboratorio de química básica I,AeronáuticaV1,-,1,5,0,2,1,SI
+CI1106,Comunicación escrita,AeronáuticaV1,-,1,7,3,0,2,SI
+CS1502,Introducción a la técnica ciencia y tecnología,AeronáuticaV1,-,1,8,2,0,1,SI
+SE1200,Actividad deportiva I,AeronáuticaV1,-,1,9,0,2,0,SI
+MA1103,Cálculo y álgebra lineal,AeronáuticaV1,-,2,3,4,0,4,SI
+FI1102,Física general II,AeronáuticaV1,-,2,4,4,0,3,SI
+FI1202,Laboratorio de física general II,AeronáuticaV1,-,2,4,0,2,1,SI
+QU1107,Química básica II,AeronáuticaV1,-,2,5,4,0,3,SI
+QU1104,Laboratorio de química básica II,AeronáuticaV1,-,2,5,0,2,1,SI
+IEM2501,Geometría descriptiva,AeronáuticaV1,-,2,6,4,0,3,NO
+CI1107,Comunicación oral,AeronáuticaV1,-,2,7,3,0,1,SI
+CS1302,Derecho laboral,AeronáuticaV1,-,2,8,3,0,2,NO
+SE1100,Actividad cultural I,AeronáuticaV1,-,2,9,0,2,0,SI
+MI2205,Electricidad I,AeronáuticaV1,-,3,1,4,0,3,SI
+MI2202,Laboratorio de electricidad I,AeronáuticaV1,-,3,2,0,2,1,SI
+MA2104,Cálculo superior,AeronáuticaV1,-,3,3,4,0,4,SI
+FI2103,Física general III,AeronáuticaV1,-,3,4,4,0,3,NO
+ME3208,Tecnología de materiales,AeronáuticaV1,-,3,5,3,0,2,SI
+ME3209,Laboratorio de tecnología de materiales,AeronáuticaV1,-,3,5,0,2,1,SI
+MI2101,Dibujo técnico,AeronáuticaV1,-,3,6,4,0,3,SI
+SO2601,Fundamentos de seguridad e higiene ocupacional,AeronáuticaV1,-,3,8,2,0,1,SI
+SE1400,Actividad cultural - deportiva,AeronáuticaV1,-,3,9,0,2,0,SI
+MI2207,Electricidad II,AeronáuticaV1,-,4,1,4,0,4,SI
+MI2204,Laboratorio de electricidad II,AeronáuticaV1,-,4,2,0,2,1,SI
+MA2105,Ecuaciones diferenciales,AeronáuticaV1,-,4,3,4,0,4,SI
+MI2106,Estática,AeronáuticaV1,-,4,5,4,0,3,SI
+IEM2502,Dibujo aeronáutico,AeronáuticaV1,-,4,6,4,0,3,NO
+AE5121,Ingeniería económica,AeronáuticaV1,-,4,8,3,0,3,SI
+FH1000,Centros de formación humanistica,AeronáuticaV1,-,4,9,2,0,0,SI
+IA0001,Dispositivos analógicos,AeronáuticaV1,-,5,1,3,0,2,NO
+IEM2503,Materiales de avición y hardware,AeronáuticaV1,-,5,3,4,0,2,NO
+IEM2504,Termodinámica y transferencia de calor,AeronáuticaV1,-,5,4,4,0,3,NO
+MI3117,Dinámica,AeronáuticaV1,-,5,5,4,0,3,SI
+MI3103,Procesos de manufactura,AeronáuticaV1,-,5,6,3,0,3,SI
+MI3104,Laboratorio procesos de manufactura,AeronáuticaV1,-,5,6,0,4,2,SI
+MI3115,Resistencia de materiales,AeronáuticaV1,-,5,7,4,0,3,SI
+IA0002,Examen Inglés,AeronáuticaV1,-,5,9,0,0,0,NO
+IA0003,Dispositivos digitales ,AeronáuticaV1,-,6,1,3,0,2,NO
+IA0004,Laboratorio de dispositivos analógicos y digitales,AeronáuticaV1,-,6,3,2,0,1,NO
+MT6001,Probabilidad y procesos estocásticos,AeronáuticaV1,-,6,4,3,0,2,NO
+MI3108,Mecánica de fluidos,AeronáuticaV1,-,6,5,4,0,4,SI
+MI3111,Laboratorio de mecánica de fluidos,AeronáuticaV1,-,6,5,0,2,1,SI
+IA0005,Teoría de máquinas y mecanismos.,AeronáuticaV1,-,6,6,4,0,3,NO
+IEM2507,Sistemas de aeronaves,AeronáuticaV1,-,6,7,4,0,2,NO
+IEM2508,Ingeniería en mantenimiento aeronáutico,AeronáuticaV1,-,6,8,4,0,3,NO
+IEM2509,Aviónica,AeronáuticaV1,-,7,1,4,0,3,NO
+IA0006,Métodos numéricos para electromecánica,AeronáuticaV1,-,7,4,4,0,3,NO
+IEM2511,Sistemas de propulsión,AeronáuticaV1,-,7,5,4,0,3,NO
+IEM2512,Aerodinámica y dinámica de vuelo,AeronáuticaV1,-,7,6,4,0,3,NO
+IEM2513,Taller de mediciones para aeronáutica,AeronáuticaV1,-,7,7,0,4,3,NO
+IA0007,Elementos de máquinas y dispositivos de elevación y transporte,AeronáuticaV1,-,7,8,4,0,3,NO
+IA0008,Diseño electromecánico industrial,AeronáuticaV1,-,8,1,4,0,3,NO
+IA0009,Sensores y actuadores para aeronaútica,AeronáuticaV1,-,8,3,3,0,2,NO
+IEM2515,Ingeniería en mantenimiento aviónico,AeronáuticaV1,-,8,4,4,0,3,NO
+IEM2516,Fundamentos del motor de reacción,AeronáuticaV1,-,8,5,4,0,3,NO
+IEM2517,Análisis matricial de estructuras del avión,AeronáuticaV1,-,8,6,4,0,3,NO
+IEM2518,Electiva I,AeronáuticaV1,-,8,7,3,0,2,NO
+CS3404,Seminario de ética en ingeniería,AeronáuticaV1,-,8,9,5,0,2,SI
+IEM2519,Diseño eléctrico aeroportuario,AeronáuticaV1,-,9,1,4,0,3,NO
+IA0010,Sistemas de control automático,AeronáuticaV1,-,9,3,4,0,3,NO
+IEM2521,Aeromecánica,AeronáuticaV1,-,9,5,4,0,3,NO
+IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,AeronáuticaV1,-,9,6,4,0,3,NO
+IEM2523,Electiva II,AeronáuticaV1,-,9,7,3,0,2,NO
+IEM2524,Seguridad de vuelos y del ambiente,AeronáuticaV1,-,9,8,3,0,2,NO
+CS4402,Seminario de estudios costarricenses,AeronáuticaV1,-,9,9,3,0,2,SI
+IEM2525,Proyecto final de graduación,AeronáuticaV1,-,10,8,20,0,10,NO
+AE4208,Desarrollo de emprendedores,AeronáuticaV1,-,10,9,4,0,4,SI

@@ -1,0 +1,72 @@
+﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+MA0101,Matemática general,AeronáuticaV2,-,0,2,5,0,2
+CA2125,Elementos de computación,AeronáuticaV2,-,1,1,4,0,3
+MA1102,Cálculo diferencial e integral,AeronáuticaV2,-,1,2,5,0,4
+FI1101,Física general I,AeronáuticaV2,-,1,3,4,0,3
+FI1201,Laboratorio de física general I,AeronáuticaV2,-,1,4,0,2,1
+QU1106,Química básica I,AeronáuticaV2,-,1,5,4,0,3
+QU1102,Laboratorio de química básica I,AeronáuticaV2,-,1,6,0,2,1
+CI1106,Comunicación escrita,AeronáuticaV2,-,1,7,3,0,2
+CS1502,Introducción a la técnica ciencia y tecnología,AeronáuticaV2,-,1,8,2,0,1
+SE1200,Actividad deportiva I,AeronáuticaV2,-,1,9,0,2,0
+MA1103,Cálculo y álgebra lineal,AeronáuticaV2,-,2,1,4,0,4
+FI1102,Física general II,AeronáuticaV2,-,2,2,4,0,3
+FI1202,Laboratorio de física general II,AeronáuticaV2,-,2,3,0,2,1
+QU1107,Química básica II,AeronáuticaV2,-,2,4,4,0,3
+QU1104,Laboratorio de química básica II,AeronáuticaV2,-,2,5,0,2,1
+IEM2501,Geometría descriptiva,AeronáuticaV2,-,2,6,4,0,3
+CI1107,Comunicación oral,AeronáuticaV2,-,2,7,3,0,1
+CS1302,Derecho laboral,AeronáuticaV2,-,2,8,3,0,2
+SE1100,Actividad cultural I,AeronáuticaV2,-,2,9,0,2,0
+IEM2201,Análisis de circuitos 1,AeronáuticaV2,-,3,1,4,0,3
+IEM2251,Laboratorio de circuitos 1,AeronáuticaV2,-,3,2,0,2,1
+MA2104,Cálculo superior,AeronáuticaV2,-,3,3,4,0,4
+FI1103,Física general III,AeronáuticaV2,-,3,4,4,0,3
+ME2208,Ciencia e ingeniería de los materiales,AeronáuticaV2,-,3,5,3,0,2
+IEM2101,Dibujo técnico,AeronáuticaV2,-,3,6,4,0,3
+SO2601,Fundamentos de seguridad e higiene ocupacional,AeronáuticaV2,-,3,8,2,0,1
+SE1400,Actividad cultural - deportiva,AeronáuticaV2,-,3,9,0,2,0
+IEM2202,Análisis de Circuitos 2,AeronáuticaV2,-,4,1,4,0,3
+IEM2252,Laboratorio de circuitos 2,AeronáuticaV2,-,4,2,0,2,1
+MA2105,Ecuaciones diferenciales,AeronáuticaV2,-,4,3,4,0,4
+IEM2102,Estática,AeronáuticaV2,-,4,5,4,0,3
+IEM2502,Dibujo aeronáutico,AeronáuticaV2,-,4,6,4,0,3
+AE5121,Ingeniería económica,AeronáuticaV2,-,4,8,3,0,3
+FH1000,Centros de formación humanistica,AeronáuticaV2,-,4,9,2,0,0
+IEM2203,Sistemas analógicos,AeronáuticaV2,-,5,1,3,2,2
+IEM2503,Materiales de aviación y hardware,AeronáuticaV2,-,5,3,4,0,2
+IEM2504,Termodinámica y transferencia de calor,AeronáuticaV2,-,5,4,4,0,3
+IEM2103,Dinámica,AeronáuticaV2,-,5,5,4,0,3
+IEM2105,Manufactura,AeronáuticaV2,-,5,6,3,0,3
+IEM2155,Laboratorio de manufactura,AeronáuticaV2,-,5,6,0,4,2
+IEM2107,Resistencia de materiales,AeronáuticaV2,-,5,7,4,0,3
+IEM2505,Examen inglés,AeronáuticaV2,-,5,9,0,0,0
+IEM2204,Sistemas digitales,AeronáuticaV2,-,6,1,3,2,2
+MT6001,Probabilidad y procesos estocásticos,AeronáuticaV2,-,6,4,3,0,2
+IEM2109,Mecánica de fluidos,AeronáuticaV2,-,6,5,4,0,3
+IEM2159,Laboratorio de mecánica de fluidos,AeronáuticaV2,-,6,5,0,2,1
+IEM2110,Máquinas y mecanismos,AeronáuticaV2,-,6,6,4,0,3
+IEM2507,Sistemas de aeronaves,AeronáuticaV2,-,6,7,4,0,2
+IEM2508,Ingeniería en mantenimiento aeronáutico,AeronáuticaV2,-,6,8,4,0,3
+IEM2509,Aviónica,AeronáuticaV2,-,7,1,4,0,3
+IEM2400,Metodología de la investigación,AeronáuticaV2,-,7,4,4,0,3
+IEM2511,Sistemas de propulsión,AeronáuticaV2,-,7,5,4,0,3
+IEM2512,Aerodinámica y dinámica de vuelo,AeronáuticaV2,-,7,6,4,0,3
+IEM2513,Taller de mediciones para aeronáutica,AeronáuticaV2,-,7,7,0,4,3
+IEM2112,Elementos de máquinas,AeronáuticaV2,-,7,8,4,0,3
+IEM2310,Diseño e integración de sistemas electromecánicos,AeronáuticaV2,-,8,1,2,0,3
+IEM2301,Transductores,AeronáuticaV2,-,8,3,2,0,2
+IEM2515,Ingeniería en mantenimiento aviónico,AeronáuticaV2,-,8,4,4,0,3
+IEM2516,Fundamentos del motor de reacción,AeronáuticaV2,-,8,5,4,0,3
+IEM2517,Análisis matricial de estructuras del avión,AeronáuticaV2,-,8,6,4,0,3
+IEM2518,Electiva I,AeronáuticaV2,-,8,7,3,0,2
+CS3404,Seminario de ética en ingeniería,AeronáuticaV2,-,8,9,5,0,2
+IEM2519,Diseño eléctrico aeroportuario,AeronáuticaV2,-,9,1,4,0,3
+IEM2306,Control automático,AeronáuticaV2,-,9,3,4,0,3
+IEM2521,Aeromecánica,AeronáuticaV2,-,9,5,4,0,3
+IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,AeronáuticaV2,-,9,6,4,0,3
+IEM2523,Electiva II,AeronáuticaV2,-,9,7,3,0,2
+IEM2524,Seguridad de vuelos y del ambiente,AeronáuticaV2,-,9,8,3,0,2
+CS4402,Seminario de estudios costarricenses,AeronáuticaV2,-,9,9,3,0,2
+IEM2525,Proyecto final de graduación,AeronáuticaV2,-,10,8,20,0,10
+AE4208,Desarrollo de emprendedores,AeronáuticaV2,-,10,9,4,0,4

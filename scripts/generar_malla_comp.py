@@ -10,11 +10,13 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-datos = pd.read_csv("mallas_IEM.csv",
-    dtype = {'Codigo':str,'Programa':str,'Plan':str,'Semestre':int,'Columna':int,'HorasTeoria':int,'HorasPractica':int,'Creditos':int})
-nombresCurs = pd.read_csv("cursos_IEM.csv")
-nombresProg = pd.read_csv("nombres_programas.csv")
+datos = pd.read_csv("mallas_IEM_comp.csv")
 
+datos.Semestre = datos.Semestre.astype(int)
+datos.Columna = datos.Columna.astype(int)
+datos.HorasTeoria = datos.HorasTeoria.astype(int)
+datos.HorasPractica = datos.HorasPractica.astype(int)
+datos.Creditos = datos.Creditos.astype(int)
 
 def textcolor(size,vspace,color,bold,text,hspace="0"):
     dump = NoEscape(r"\par")
@@ -38,28 +40,26 @@ def colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,credi
     dump += NoEscape(f"pic{{curso={{{codigo},{nombre},{round(horasteoria)},{round(horaspractica)},{round(creditos)},{color}}}}};")
     return dump
 
-def colocar_semestre(semestre,color,horasteoriasemestre,horaspracticasemestre,creditossemestre):
+def colocar_semestre(semestre,color):
     dump = NoEscape(f"\draw ({round(0)},{round(-4*semestre)})")
     if semestre == 0:
-        dump += NoEscape(f"pic{{semestre={{{semestre},{color},{horasteoriasemestre},{horaspracticasemestre},{creditossemestre}}}}};")
+        dump += NoEscape(f"pic{{semestre={{{semestre},{color}}}}};")
     else:
-        dump += NoEscape(f"pic{{semestre={{{roman.toRoman(semestre)},{color},{horasteoriasemestre},{horaspracticasemestre},{creditossemestre}}}}};")
+        dump += NoEscape(f"pic{{semestre={{{roman.toRoman(semestre)},{color}}}}};")
     return dump
 
-def generar_malla(programa,plan):
+def generar_malla(programa):
     cursos = datos[datos.Programa == programa]
-    cursos = cursos[cursos.Plan == plan]
-    nombreProg = nombresProg[nombresProg.Programa == programa].NomPrograma.item()
-    #Geometría
+    #Geometry
     geometry_options = { 
         "left": "0mm",
         "right": "0mm",
-        "top": "2mm",
+        "top": "0mm",
         "bottom": "0mm",
         "headheight": "1mm",
         "footskip": "1mm"
     }
-    #Opciones del documento
+    #Document options
     doc = Document(documentclass="article", \
                    fontenc=None, \
                    inputenc=None, \
@@ -69,7 +69,7 @@ def generar_malla(programa,plan):
                    indent=False, \
                    document_options=["letterpaper","landscape"],
                    geometry_options=geometry_options)
-    #Paquetes
+    #Packages
     doc.packages.append(Package(name="fontspec", options=None))
     doc.packages.append(Package(name="babel", options=['spanish',"activeacute"]))
     doc.packages.append(Package(name="graphicx"))
@@ -79,52 +79,53 @@ def generar_malla(programa,plan):
     doc.packages.append(Package(name="colortbl"))
     doc.packages.append(Package(name="array"))
     doc.packages.append(Package(name="float"))
+    #doc.packages.append(Package(name="lastpage")) con pagenumbers+true
     doc.packages.append(Package(name="longtable"))
     doc.packages.append(Package(name="multirow"))
     doc.packages.append(Package(name="fancyhdr"))
-    #Bloques
+    
+    #bloques
+
     bloqueTitulo = NoEscape(
     r'''\tikzset{
             pics/titulo/.style args={#1,#2}{
             code={
                 \def\ancho{45}
                 \def\alto{0.7}
-                \draw[fill=#2] (-\ancho/2-2,2*\alto) rectangle (\ancho/2+2,-2*\alto) node[midway,align=center,text width=45cm]{\fontsize{30pt}{0pt}\selectfont \textbf{#1}};
+                \draw[fill=#2] (-\ancho/2-2,2*\alto) rectangle (\ancho/2+2,-2*\alto) node[midway,align=center,text width=45cm]{\fontsize{40pt}{0pt}\selectfont \textbf{#1}};
             }
         }
     }'''
     )
+
     bloqueCurso = NoEscape(
     r'''\tikzset{
             pics/curso/.style args={#1,#2,#3,#4,#5,#6}{
             code={
                 \def\ancho{4}
                 \def\alto{0.7}
-                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=4cm]{\fontsize{8.5pt}{2pt}\selectfont {#2}};
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont {#2}};
                 \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,\alto + \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #1};
                 \draw[fill=#6] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
                 \draw[fill=#6] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
                 \draw[fill=#6] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
             }
         }
-    }''' 
-    #1: codigo, #2: nombre, #3: horasteoria, #4: horaspractica, #5: creditos, #6: color
+    }'''
     )
+
     bloqueSemestre = NoEscape(
     r'''\tikzset{
-            pics/semestre/.style args={#1,#2,#3,#4,#5}{
+            pics/semestre/.style args={#1,#2}{
             code={
                 \def\ancho{4}
                 \def\alto{0.7}
-                \draw[fill=#2] (-\ancho/2,1.5*\alto) rectangle (\ancho/2,-1.5*\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont \textbf{#1}};
-                \draw[fill=#2] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
-                \draw[fill=#2] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
-                \draw[fill=#2] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
+                \draw[fill=#2] (-\ancho/2,2*\alto) rectangle (\ancho/2,-2*\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont \textbf{#1}};
             }
         }
     }'''
-    #1: semestre, #2: color, #3: horasteoria, #4: horaspractica, #5: creditos
     )
+
     doc.preamble.append(bloqueTitulo)        
     doc.preamble.append(bloqueCurso)
     doc.preamble.append(bloqueSemestre)
@@ -137,20 +138,23 @@ def generar_malla(programa,plan):
                 )
         )) as malla:
         # malla.append(NoEscape(r"\draw (,0)--(45,-2);"))
-        malla.append(colocar_titulo(f"{nombreProg} - Plan: {plan}","lightgray"))
+        malla.append(colocar_titulo(f"Licenciatura en Ingeniería {programa}","lightgray"))
         for semestre in range(0,11):
-            horasteoriasemestre = cursos[cursos.Semestre == semestre].HorasTeoria.sum()
-            horaspracticasemestre = cursos[cursos.Semestre == semestre].HorasPractica.sum()
-            creditossemestre = cursos[cursos.Semestre == semestre].Creditos.sum()
-            malla.append(colocar_semestre(semestre,"lightgray",horasteoriasemestre,horaspracticasemestre,creditossemestre))            
+            malla.append(colocar_semestre(semestre,"lightgray"))
         for codigo in cursos.Codigo:
-            nombre = nombresCurs[nombresCurs.Codigo == codigo].Nombre.item()
+            nombre = cursos[cursos.Codigo == codigo].Nombre.item()
             columna = cursos[cursos.Codigo == codigo].Columna.item()
             semestre = cursos[cursos.Codigo == codigo].Semestre.item()
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
             horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
             creditos = cursos[cursos.Codigo == codigo].Creditos.item()
             area = cursos[cursos.Codigo == codigo].Area.item()
+            comp = cursos[cursos.Codigo == codigo].Compartido.item()
+            match comp:
+                case "SI":
+                    color = "gray"
+                case "NO":   
+                    color = "white" 
             # match area:
             #     case "Mecánica":
             #         color = "teal"
@@ -168,13 +172,14 @@ def generar_malla(programa,plan):
             #         color = "teal"
             #     case "-":
             #         color = "white"
-            color = "white"
             if semestre <= 10:
                 malla.append(colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,creditos,color))
-    doc.generate_pdf(f"./mallas/{programa}-{plan}", clean=True, clean_tex=False, compiler='lualatex',silent=True)
+         
+    doc.generate_pdf(f"./mallas/{programa}", clean=True, clean_tex=False, compiler='lualatex')
 
 
-generar_malla('MI','1313')
-generar_malla('AE','0001')
-generar_malla('EM','0001')
-generar_malla('MA','0001')
+
+generar_malla("Electromecánica")
+generar_malla("AeronáuticaV2")
+generar_malla("AeronáuticaV1")
+generar_malla("Mantenimiento Industrial")

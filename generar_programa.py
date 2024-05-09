@@ -12,10 +12,6 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-class ExampleEnvironment(Environment):
-    _latex_name = 'parcolumns'
-    packages = [Package('parcolumns')]
-
 def textcolor(size,vspace,color,bold,text,hspace="0",par=True):
     dump = NoEscape(r"")
     if par==True:
@@ -28,6 +24,44 @@ def textcolor(size,vspace,color,bold,text,hspace="0",par=True):
         dump += NoEscape(Command("textbf", NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())).dumps())
     else:
         dump += NoEscape(Command("textcolor",arguments=Arguments(color,text)).dumps())
+    return dump
+
+def VarCol(ltext,rtext):
+    dump = NoEscape(
+r'''
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+'''
+    )
+    dump += textcolor(   
+            par=False,
+            hspace="0mm",
+            size="12",
+            vspace="14",
+            color="parte",
+            bold=True,
+            text=f"{ltext}" 
+            )
+    dump += NoEscape(
+r'''
+};}]
+'''
+    )
+    dump += NoEscape(rtext)
+    dump += NoEscape(
+r''' 
+\end{tcolorbox}
+'''
+    )
     return dump
 
 def number_to_ordinals(number_str):
@@ -49,8 +83,9 @@ def number_to_ordinals(number_str):
 cursos = pd.read_csv("cursos_IEM.csv")
 datos_gen = pd.read_csv("datos_IEM.csv")
 descrip_obj = pd.read_csv("descrip_obj_IEM.csv")
+profes = pd.read_csv("profesores.csv")
 
-def generar_programa(codigo):
+def generar_programa(codigo,listProf):
     codCurso = codigo
     nomEscue = "Escuela de Ingeniería Electromecánica"
     lisProgr = cursos[cursos.Codigo == codCurso].Programas.str.split('\n',expand=False).explode()
@@ -92,7 +127,11 @@ def generar_programa(codigo):
     desGener = descrip_obj[descrip_obj.Codigo == codCurso].Descripcion.item()
     objGener = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivoGeneral.item()
     objGener = objGener[0].lower() + objGener[1:len(objGener)] # primera letra en minuscula
+    objCurso = f"Al final del curso la persona estudiante será capaz de {objGener}" + r'\\' + '\n'\
+    + "La persona estudiante será capaz de:" + r'\\' + '\n'
     objEspec = descrip_obj[descrip_obj.Codigo == codCurso].ObjetivosEspecificos.str.split('\n',expand=False).explode()
+    for index, row in objEspec.items():     
+        objCurso += r"\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, " + row + r"\strut}\\" + '\n'
     conCurso = descrip_obj[descrip_obj.Codigo == codCurso].Contenidos.str.split('\r\n',expand=False).explode()
     conCurso.reset_index(inplace = True, drop = True)
     nivel_1, nivel_2, nivel_3 = [0,0,0]
@@ -108,10 +147,11 @@ def generar_programa(codigo):
         elif res == 2:
             nivel_2 += 1
             nivel_3 = 0
-            conCurso.iloc[index] = r"\hspace{0.02\linewidth}\parbox{0.98\linewidth}{" + row.replace('**', f"{str(nivel_1)}.{str(nivel_2)}. ") + r"}"
+            conCurso.iloc[index] = r"\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut " + row.replace('**', f"{str(nivel_1)}.{str(nivel_2)}. ") + r"\strut}"
         elif res == 3:
             nivel_3 += 1
-            conCurso.iloc[index] = r"\hspace{0.04\linewidth}\parbox{0.96\linewidth}{" + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)}. ") + r"}"
+            conCurso.iloc[index] = r"\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut " + row.replace('***', f"{str(nivel_1)}.{str(nivel_2)}.{str(nivel_3)}. ") + r"\strut}"
+    conCursoStr = (r'\\'+'\n').join(conCurso) + r'\\'
     metCurso = descrip_obj[descrip_obj.Codigo == codCurso].Metodologia.item()
     evaCurso = descrip_obj[descrip_obj.Codigo == codCurso].Evaluacion.str.split('\n',expand=False).explode()
     evaCurso = evaCurso.str.split(';',expand=True)
@@ -119,10 +159,28 @@ def generar_programa(codigo):
     evaCurso.columns = ['2','3','4']
     evaCurso[['0','1','5']] = ""
     evaCurso.sort_index(axis=1, inplace=True)
-    bibCurso = '\n'+ r'\nocite{' + ('}\n'+r'\nocite{').join(descrip_obj[descrip_obj.Codigo == codCurso].Bibtex.item().split(';')) + '}\n' + r'\printbibliography[heading=none]'
-    nomProfe = "Juan José Rojas Hernández"
-    corProfe = "juan.rojas@itcr.ac.cr"
-    conProfe = "Miercoles 7:30 a.m. - 10: 30 a.m." #Esto seria mejor construirlo tambien 
+    bibCurso = NoEscape('\n'+ r'\nocite{' + ('}\n'+r'\nocite{').join(descrip_obj[descrip_obj.Codigo == codCurso].Bibtex.item().split(';')) + '}\n' + r'\printbibliography[heading=none]')
+    filProfe = profes[profes.Codigo.isin(listProf)]
+    proCurso = r"" 
+    for index, row in filProfe.iterrows():
+        titulo = row['Titulo']
+        match titulo:
+            case "M.Sc." | "Ing." | "Máster":
+                proCurso += \
+                row['Titulo'] + " "\
+                + row['Nombre']
+            case "Ph.D.":
+                proCurso += \
+                row['Nombre'] + " "\
+                + row['Titulo']
+        proCurso += r'\\' + '\n'
+        for i in range(len(row['Titulos'].split('\r\n'))):
+            proCurso += row['Titulos'].split('\r\n')[i] + r'\\' + '\n'
+        proCurso += \
+        'Correo: ' + row['Correo']\
+        + '. Oficina: ' + str(row['Oficina']) + r'\\' + '\n'\
+        + 'Escuela de ' + row['Escuela']\
+        + '. ' + row['Sede'] + r'\\[12pt]' + '\n'                    
     #Config
     config.active = config.Version1(row_heigth=1.5)
     #Geometry
@@ -149,7 +207,9 @@ def generar_programa(codigo):
     doc.packages.append(Package(name="babel", options=['spanish','activeacute']))
     doc.packages.append(Package(name="anyfontsize"))
     doc.packages.append(Package(name="fancyhdr"))
+    doc.packages.append(Package(name="csquotes"))
     doc.packages.append(Package(name="biblatex", options=['style=ieee','backend=biber']))
+    doc.packages.append(Package(name="tcolorbox",options=['skins','breakable']))
     #Package options
     doc.preamble.append(Command('setmainfont','Arial'))
     #doc.preamble.append(Command('usetikzlibrary','calc'))
@@ -184,7 +244,7 @@ def generar_programa(codigo):
         footer_left.append(NoEscape(r"}"))
     #Right foot
     with headerfooter.create(Foot("R")) as footer_right:
-        footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref{LastPage}")))        
+        footer_right.append(TextColor("azulsuaveTEC", NoEscape(r"Página \thepage \hspace{1pt} de \pageref*{LastPage}")))        
   
     title = NoEscape(
     r'''
@@ -312,59 +372,13 @@ def generar_programa(codigo):
             table.append(NoEscape('[10pt]'))
             table.add_row([bold("Vigencia del programa:"), f"{vigProgr}"])
             table.append(NoEscape('[10pt]'))
-    with doc.create(Tabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}")) as table:
-            table.add_row([
-                textcolor
-                    (
-                    size="12",
-                    vspace="0",
-                    color="parte",
-                    bold=True,
-                    text="2 Descripción general"
-                    ),
-                    f"{desGener}"
-                ])
-    with doc.create(Tabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}")) as table:
-            table.add_row([
-                textcolor
-                    (
-                    size="12",
-                    vspace="0",
-                    color="parte",
-                    bold=True,
-                    text="3 Objetivos"
-                    ),
-                    f"Al final del curso la persona estudiante será capaz de {objGener}"
-                ])
-    with doc.create(Tabularx(table_spec=r">{\raggedleft}p{0.18\textwidth}p{0.72\textwidth}")) as table:
-            table.add_row([
-                    "",
-                    "La persona estudiante será capaz de:"
-                    ])    
-            for index, row in objEspec.items():     
-                table.add_row([
-                    NoEscape(r'\textbullet'),
-                    NoEscape(row)
-                    ])
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
-        for index, row in conCurso.items():
-            if index == 0:
-                table.add_row([
-                    textcolor
-                    (
-                    size="12",
-                    vspace="0",
-                    color="parte",
-                    bold=True,
-                    text="4 Contenidos"
-                    ),
-                    NoEscape(row)
-                ])
-            else:
-                table.add_row([
-                    "",
-                    NoEscape(row)
-                ])
+    doc.append(VarCol("2 Descripción general",desGener))
+    doc.append(VerticalSpace("10mm", star=True))
+    doc.append(VarCol("3 Objetivos",objCurso))
+    doc.append(VerticalSpace("10mm", star=True))
+    doc.append(VarCol("4 Contenidos",conCursoStr))
+    doc.append(VerticalSpace("10mm", star=True))
+    doc.append(NewPage())
     doc.append(textcolor
     (   
     size="14",
@@ -393,8 +407,9 @@ def generar_programa(codigo):
                 ),
                 f"{metCurso}"
             ])
+    # doc.append(VarCol("5 Metodología de enseñanza y aprendizaje",metCurso))
     with doc.create(Tabularx(table_spec=r">{\raggedright}m{0.18\textwidth}m{0.07\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.04\textwidth}")) as table:
-            table.add_hline(start=3, end=5)
+            #table.add_hline(start=3, end=5)
             table.add_row([
                 textcolor
                 (
@@ -433,32 +448,23 @@ def generar_programa(codigo):
             ])
             table.append(NoEscape('[12pt]'))
             for row in evaCurso.itertuples(index=False):
-                table.add_hline(start=3, end=5)
+                #table.add_hline(start=3, end=5)
                 table.add_row(row)
                 table.append(NoEscape('[12pt]'))
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
-            table.add_row([
-                textcolor
-                (
-                size="12",
-                vspace="0",
-                color="parte",
-                bold=True,
-                text="7 Bibliografía"
-                ),NoEscape(bibCurso)
-            ])
-    with doc.create(LongTable(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
-            table.add_row([
-                textcolor
-                (
-                size="12",
-                vspace="0",
-                color="parte",
-                bold=True,
-                text="8 Profesor"
-                ),
-                f"profesor"
-            ])
+    # with doc.create(LongTabularx(table_spec=r">{\raggedright}p{0.18\textwidth}p{0.72\textwidth}",row_height=1.5)) as table:
+    #         table.add_row([
+    #             textcolor
+    #             (
+    #             size="12",
+    #             vspace="0",
+    #             color="parte",
+    #             bold=True,
+    #             text="7 Bibliografía"
+    #             ),NoEscape(bibCurso)
+    #         ])
+    doc.append(VarCol("7 Bibliografía",bibCurso))
+    doc.append(VerticalSpace("10mm", star=True))
+    doc.append(VarCol("8 Profesor",proCurso))
     doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
     subprocess.run(["biber", "C:\\Repositories\\IEM_programas\\programas\\IEM2101"])
     doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
@@ -466,5 +472,6 @@ def generar_programa(codigo):
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
-    
-generar_programa("IEM2101")
+
+listProf = ['LCR0','CVS0']
+generar_programa("IEM2101",listProf)

@@ -1,0 +1,313 @@
+\documentclass[letterpaper]{article}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage{geometry}%
+\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
+\usepackage{fontspec}%
+\usepackage[spanish,activeacute]{babel}%
+\usepackage{anyfontsize}%
+\usepackage{fancyhdr}%
+\usepackage{csquotes}%
+\usepackage[style=ieee,backend=biber]{biblatex}%
+\usepackage[skins,breakable]{tcolorbox}%
+\usepackage{color}%
+\usepackage{tikz}%
+\usepackage{tabularx}%
+\usepackage{longtable}%
+\usepackage{ltablex}%
+\usepackage{ragged2e}%
+\usepackage{graphicx}%
+\usepackage{xcolor}%
+%
+\setmainfont{Arial}%
+\addbibresource{../bibliografia.bib}%
+\renewcommand*{\bibfont}{\fontsize{12}{16}\selectfont}%
+\definecolor{gris}{rgb}{0.27,0.27,0.27}%
+\definecolor{parte}{rgb}{0.02,0.204,0.404}%
+\definecolor{azulsuaveTEC}{rgb}{0.02,0.455,0.773}%
+\definecolor{fila}{rgb}{0.929,0.929,0.929}%
+\definecolor{linea}{rgb}{0.749,0.749,0.749}%
+\fancypagestyle{headfoot}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+\begin{minipage}{0.5\textwidth}%
+\flushleft%
+\includegraphics[width=62.5mm]{../figuras/Logo.png}%
+\end{minipage}%
+}%
+\fancyfoot[L]{%
+\textcolor{azulsuaveTEC}{%
+Escuela de Ingeniería Electromecánica%
+}%
+\par \parbox{0.85\textwidth}{%
+\fontsize{8}{0}\selectfont \textcolor{azulsuaveTEC}{Carreras de: Ingeniería en Mantenimiento Industrial; Ingeniería en Electrónica; Ingeniería en Producción Industrial; Ingeniería Mecatrónica e Ingeniería en Materiales}%
+}%
+}%
+\fancyfoot[R]{%
+\textcolor{azulsuaveTEC}{%
+Página \thepage \hspace{1pt} de \pageref*{LastPage}%
+}%
+}%
+}%
+%
+\begin{document}%
+\normalsize%
+\thispagestyle{empty}%
+\begin{tikzpicture}[overlay,remember picture]%
+\node[inner sep = 0mm,outer sep = 0mm,anchor = north west,xshift = -23mm,yshift = 22mm] at (0.0,0.0) {\includegraphics[width=21cm]{../figuras/Logo_portada.png}};%
+\end{tikzpicture}%
+\vspace*{150mm}%
+\par\fontsize{14}{0}\selectfont \textcolor{black}{Programa del curso IEM2101}%
+\par\fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{Dibujo técnico asistido por computadora}}%
+\begin{tabularx}{\textwidth}{m{0.02\textwidth}m{0.98\textwidth}}%
+&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Escuela de Ingeniería Electromecánica}}\\%
+[-4pt]%
+&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Carreras de: Ingeniería en Mantenimiento Industrial; Ingeniería en Electrónica; Ingeniería en Producción Industrial; Ingeniería Mecatrónica e Ingeniería en Materiales}}\\%
+\end{tabularx}%
+\newpage%
+\pagestyle{headfoot}%
+\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
+\par\hspace*{4mm}\fontsize{12}{20}\selectfont \textbf{\textcolor{parte}{1 Datos generales}}%
+\begin{tabularx}{\textwidth}{p{7cm}p{9cm}}%
+\textbf{Nombre del curso:}&Dibujo técnico asistido por computadora\\%
+[10pt]%
+\textbf{Código:}&IEM2101\\%
+[10pt]%
+\textbf{Tipo de curso:}&Teórico\\%
+[10pt]%
+\textbf{Electivo o no:}&No\\%
+[10pt]%
+\textbf{Nº de créditos:}&3\\%
+[10pt]%
+\textbf{Nº horas de clase por semana:}&4\\%
+[10pt]%
+\textbf{Nº horas extraclase por semana:}&5\\%
+[10pt]%
+\textbf{\% de areas curriculares:}&6.0\% del area: \textbf{mecánica}\\%
+[10pt]%
+\textbf{Ubicación en el plan de estudios:}&Curso de 1 semestre en Ingeniería en Electrónica e Ingeniería en Producción Industrial. Curso de 2 semestre en Ingeniería en Mantenimiento Industrial. Curso de 3 semestre en Ingeniería Mecatrónica. Curso de 4\textsuperscript{to} semestre en Ingeniería en Materiales. \\%
+[10pt]%
+\textbf{Requisitos:}&nan\\%
+[10pt]%
+\textbf{Correquisitos:}&nan\\%
+[10pt]%
+\textbf{El curso es requisito de:}&nan\\%
+[10pt]%
+\textbf{Asistencia:}&nan\\%
+[10pt]%
+\textbf{Suficiencia:}&nan\\%
+[10pt]%
+\textbf{Posibilidad de reconocimiento:}&nan\\%
+[10pt]%
+\textbf{Vigencia del programa:}&nan\\%
+[10pt]%
+\end{tabularx}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{2 Descripción general}}
+};}]
+El curso de Dibujo Técnico Asistido por Computadora contribuye significativamente a la formación y desarrollo profesional de los estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería.
+Entre los aprendizajes más destacados se encuentran:  interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas; visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa; desarrollar destrezas en el uso de herramientas CAD para la elaboración de planos; y además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.​
+Este curso: sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.​
+En caso de que un estudiante requiera apoyos educativos, podrá solicitarlos a través del Departamento de Orientación y Psicología. 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{3 Objetivos}}
+};}]
+Al final del curso la persona estudiante será capaz de realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza.\\
+La persona estudiante será capaz de:\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Aplicar las normas INTE/ISO y de otros estándares.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Representar mediante proyecciones ortogonales, proyecciones axonométricas, vistas auxiliares y vistas de corte una pieza mecánica.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales.\strut}\\
+ 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{4 Contenidos}}
+};}]
+1. Generalidades\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.1. El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.2. Objetivos del curso\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.3. Instrumentos de Dibujo: Escalímetro, escuadras.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.4. Rotulado técnico y Formatos para dibujo Técnico\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.5. Norma de rotulado INTE-ISO 3098/0/2/3-2008\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.6. Formatos según INTE-ISO 5457-2008\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.7. Información que debe contener un cajetín INTE-ISO 7200-2008\strut}\\
+2. Geometría Descriptiva (2 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.1. Consideraciones fundamentales de la Geometría Descriptiva :\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.1.1. Objetivos del curso\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.1.2. Concepto de Geometría Descriptiva y su Historia\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.2. Proyección del punto, el segmento y los planos en el espacio\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.2.1. Proyección de un punto, el segmento y los planos en las vistas\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.2.2. Proyección de un punto, el segmento y los planos en el espacio\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.3. Longitudes y dimensiones naturales\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.3.1. Procedimiento de rotación para encontrar la dimensión real de un segmento y un plano;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.3.2. Procedimiento de sustitución de planos para encontrar la dimensión real de un segmento y un plano;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.3.3. Procedimiento de superposición para encontrar la dimensión real de un segmento y un plano.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.4. Características particulares de la representación de los Cuerpos Geométricos\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.1. Características particulares del prisma y su representación;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.2. Características del cono y su representación;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.3. Características de la pirámide y su representación;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.4. Características del cilindro y su representación;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.5. Características del toroide y su representación;\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.4.6. Características de la esfera y su representación\strut}\\
+3. Escalas (4 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.1. Concepto de escalas\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.2. Escalas según INTE ISO 5455-2008\strut}\\
+4. Proyecciones ortogonales (14 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.1. Sistema de proyección y designación de vistas según la norma INTE- ISO 128/30/34-2008\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.2. Criterios de selección de la vista frontal y la ubicación de las otras vistas.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.3. Cantidad de vistas que definen un objeto.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.4. Significado y utilización de los tipos de líneas.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.5. Tipos de líneas según la norma INTE ISO 128/20/21/22/23/24-2008\strut}\\
+5. Presentación de un plano:\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.1. Calidad de líneas\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.2. Orden y adecuada ubicación de la información\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.3. Especificaciones técnicas.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.4. Práctica de proyecciones ortogonales croquizando “a mano alzada”.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.5. Práctica de proyecciones ortogonales utilizando Software de dibujo.\strut}\\
+6. Proyecciones Axonométricas (12 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.1. Ejes de proyección\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.2. Tipos de axonometrías\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.3. Proyecciones axonométricas a mano alzada y utilizando software de dibujo.\strut}\\
+7. Acotado (4 hrs) \\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.1. Normas y recomendaciones INTE/ISO 129/1-2008 sobre acotado.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.2. Líneas utilizadas en el acotado\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.3. Posición de la cota\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.4. Rotulado de cotas\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.5. Criterios para la acotación correcta de piezas.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.6. Relación entre cota y escala.\strut}\\
+8. Cortes y secciones (4 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.1. Concepto de cortes y secciones. Conveniencia de su utilización\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.2. Representación e indicación de cortes según la norma INTE/ISO 128/40-44- 2008\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.3. Achurado\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.4. Tipos de cortes.\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.1. Sección en un plano de corte.\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.2. Sección en dos planos paralelos.\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.3. Sección en tres planos de corte continuos\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.4. Sección en dos planos de intersección\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.5. Plano de corte posesionado parcialmente fuera de la pieza\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.6. Sección removida de una vista\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.7. Secciones sucesivas\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.8. Cortes oblicuos o auxiliares\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.9. Cortes y secciones parciales\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 8.4.10. Corte y secciones de piezas simétricas\strut}\\
+9. Vistas auxiliares simples (4 hrs)\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.1. Vistas auxiliares\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.2. Tipos de vistas auxiliares\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.3. Ubicación de las vistas auxiliares\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.4. Rotulado de vistas auxiliares.\strut}\\ 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+\newpage%
+\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{II parte: Aspectos operativos}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{ }}%
+\renewcommand{\arraystretch}{1.5}%
+\begin{tabularx}{\textwidth}{>{\raggedright}p{0.18\textwidth}p{0.72\textwidth}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{5 Metodología de enseñanza y aprendizaje}}&Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.\\%
+\end{tabularx}%
+\begin{tabularx}{\textwidth}{>{\raggedright}m{0.18\textwidth}m{0.07\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.04\textwidth}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{6 Evaluación}}&&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Tipo}}&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Cantidad}}&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Porcentaje}}&\\%
+[12pt]%
+&&Examen Parcial&1&25&\\%
+[12pt]%
+&&Examen Parcial&1&35&\\%
+[12pt]%
+&&Proyecto grupal&1&25&\\%
+[12pt]%
+&&Tareas digitales coordinadas&1&15&\\%
+[12pt]%
+\end{tabularx}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{7 Bibliografía}}
+};}]
+
+\nocite{hernandez2013dibujo}
+\nocite{lieu2011dibujo}
+\nocite{bogoliubov1988dibujo}
+\nocite{bogoliubov1989tareas}
+\printbibliography[heading=none] 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{8 Profesor}}
+};}]
+M.Sc. Luis Felipe Córdoba Ramírez\\
+Máster en ciencias en Ingeniería Mecánica. Universidad de Utah. Estados Unidos.\\
+Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica\\
+Correo: lfcordoba@itcr.ac.cr. Oficina: 22\\
+Escuela de Ingeniería Electromecánica. Cartago\\[12pt]
+Christopher Vega Sánchez Ph.D.\\
+Doctor en filosofía en ciencias. Universidad de Sídney, Australia. \\
+Máster en ciencias en Ingeniería de Sistemas Microelectromecánicos. Universidad de Freiburg. Alemania.\\
+Licenciado en Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica. Costa Rica.\\
+Correo: cvega@itcr.ac.cr. Oficina: 20\\
+Escuela de Ingeniería Electromecánica. Cartago\\[12pt]
+ 
+\end{tcolorbox}
+%
+\end{document}

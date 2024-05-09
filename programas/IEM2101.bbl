@@ -1,0 +1,155 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{hernandez2013dibujo}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=696c9c4da331d1510b3acf4484862505}{%
+           family={Hernández\bibnamedelima González},
+           familyi={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Victor\bibnamedelima Julio},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d798167366e5641fa0ee683d1c1c8a26}{%
+           family={Barahona\bibnamedelima Guzmán},
+           familyi={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Greivin},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Tecnológica de Costa Rica}%
+      }
+      \strng{namehash}{26caa609efac95b8898ce5771e87843e}
+      \strng{fullhash}{26caa609efac95b8898ce5771e87843e}
+      \strng{fullhashraw}{26caa609efac95b8898ce5771e87843e}
+      \strng{bibnamehash}{26caa609efac95b8898ce5771e87843e}
+      \strng{authorbibnamehash}{26caa609efac95b8898ce5771e87843e}
+      \strng{authornamehash}{26caa609efac95b8898ce5771e87843e}
+      \strng{authorfullhash}{26caa609efac95b8898ce5771e87843e}
+      \strng{authorfullhashraw}{26caa609efac95b8898ce5771e87843e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentos de dibujo técnico para ingeniería}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{lieu2011dibujo}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=27f13f0de6258125dc27bf93076cad9f}{%
+           family={Lieu},
+           familyi={L\bibinitperiod},
+           given={Dennis\bibnamedelima Kenmon},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=44fd8b0fa94644101fd8d7cfb2f438cf}{%
+           family={Sorby},
+           familyi={S\bibinitperiod},
+           given={Sheryl},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dc097b33fe6915df73f2ff063753b3a6}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={Javier\bibnamedelima León},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=21a47e27e3377a51e6cf2bfde80b2158}{%
+           family={Álvarez\bibnamedelima Miranda},
+           familyi={Á\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gilberto\bibnamedelima Domingo},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{346dfd83213010e959b5f6db8e4bace1}
+      \strng{fullhash}{6e3875262114c89e8a7fbad883578c98}
+      \strng{fullhashraw}{6e3875262114c89e8a7fbad883578c98}
+      \strng{bibnamehash}{6e3875262114c89e8a7fbad883578c98}
+      \strng{authorbibnamehash}{6e3875262114c89e8a7fbad883578c98}
+      \strng{authornamehash}{346dfd83213010e959b5f6db8e4bace1}
+      \strng{authorfullhash}{6e3875262114c89e8a7fbad883578c98}
+      \strng{authorfullhashraw}{6e3875262114c89e8a7fbad883578c98}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dibujo para diseño de ingeniería}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{bogoliubov1988dibujo}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6959dbd91e99aed370e4f67da8821118}{%
+           family={Bogoliúbov},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIR}%
+      }
+      \strng{namehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{fullhash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{fullhashraw}{6959dbd91e99aed370e4f67da8821118}
+      \strng{bibnamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorbibnamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authornamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorfullhash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorfullhashraw}{6959dbd91e99aed370e4f67da8821118}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dibujo técnico}
+      \field{year}{1988}
+      \true{nocite}
+    \endentry
+    \entry{bogoliubov1989tareas}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6959dbd91e99aed370e4f67da8821118}{%
+           family={Bogoliúbov},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIR}%
+      }
+      \strng{namehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{fullhash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{fullhashraw}{6959dbd91e99aed370e4f67da8821118}
+      \strng{bibnamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorbibnamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authornamehash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorfullhash}{6959dbd91e99aed370e4f67da8821118}
+      \strng{authorfullhashraw}{6959dbd91e99aed370e4f67da8821118}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tareas para el curso de dibujo técnico}
+      \field{year}{1989}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

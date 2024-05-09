@@ -1,0 +1,73 @@
+﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+MA0101,Matemática general,Aeronáutica,Básicas,0,0,5,0,2
+CA2125,Elementos de computación,Aeronáutica,Básicas,1,1,4,0,3
+MA1102,Cálculo diferencial e intregal,Aeronáutica,Básicas,1,2,5,0,4
+FI1101,Física general I,Aeronáutica,Básicas,1,3,4,0,3
+FI1201,Laboratorio de Física general I,Aeronáutica,Básicas,1,4,0,2,1
+QU1106,Química básica I,Aeronáutica,Básicas,1,5,0,4,3
+QU1102,Laboratorio de Química básica I,Aeronáutica,Básicas,1,6,2,0,1
+CI1106,Comunicación escrita,Aeronáutica,Básicas,1,7,0,3,2
+CS1502,Int. Ciencia y la tecnología,Aeronáutica,Básicas,1,8,0,2,1
+SE1200,Act. Deportiva I,Aeronáutica,Básicas,1,9,2,0,0
+MA1103,Cálculo y álgebra lineal,Aeronáutica,Básicas,2,1,0,4,4
+FI1102,Física general II,Aeronáutica,Básicas,2,2,2,4,3
+FI1202,Laboratorio de Física general II,Aeronáutica,Básicas,2,3,0,0,1
+QU1107,Química básica II,Aeronáutica,Básicas,2,4,0,4,3
+QU1104,Laboratorio de Química básica II,Aeronáutica,Básicas,2,5,2,0,1
+IE2501,Geometría descriptiva,Aeronáutica,otros,2,6,0,4,3
+CI1107,Comunicación oral,Aeronáutica,Básicas,2,7,0,3,1
+CS1302,Derecho laboral,Aeronáutica,Básicas,2,8,0,3,2
+SE1100,Act. Cultural I,Aeronáutica,Básicas,2,9,2,0,0
+IE2201,Análisis de Circuitos 1,Aeronáutica,comun,3,1,4,0,3
+IE2251,Laboratorio de Análisis de Circuitos 1,Aeronáutica,comun,3,2,0,2,1
+MA2104,Cálculo superior,Aeronáutica,Básicas,3,3,0,4,4
+FI2103,Física general III,Aeronáutica,Básicas,3,4,0,4,3
+ME3208,Tecnología de materiales,Aeronáutica,Básicas,3,5,0,3,2
+ME3209,Laboratorio de Tecnología de materiales,Aeronáutica,Básicas,3,6,2,0,1
+IE2101,Dibujo técnico,Aeronáutica,comun,3,7,0,4,3
+SO2601,Fund. Seg. Hig. Ocup.,Aeronáutica,Básicas,3,8,0,2,1
+SE1400,Act. Cult. - Depor.,Aeronáutica,Básicas,3,9,2,0,0
+IE2202,Análisis de Circuitos 2,Aeronáutica,comun,4,1,4,0,3
+IE2252,Laboratorio de Análisis de Circuitos 2,Aeronáutica,comun,4,2,0,2,1
+MA2105,Ecuaciones diferenciales,Aeronáutica,Básicas,4,3,0,4,4
+IE2102,Estática,Aeronáutica,comun,4,4,0,4,3
+IE2502,Dibujo aeronáutico,Aeronáutica,otros,4,5,0,4,3
+AE5121,Ing. Económica,Aeronáutica,Básicas,4,6,0,3,3
+FH1000,Centr. Form. Hum,Aeronáutica,Básicas,4,7,0,2,0
+IE2203,Sistemas Analógicos,Aeronáutica,comun,5,1,3,2,2
+IE2503,Mat. Avia. Y hard.,Aeronáutica,otros,5,2,0,4,2
+IE2504,Term. Y tran. Cal.,Aeronáutica,otros,5,3,0,4,3
+IE2103,Dinámica,Aeronáutica,comun,5,4,4,0,3
+IE2105,Manufactura,Aeronáutica,comun,5,5,3,0,3
+IE2155,Laboratorio de Manufactura,Aeronáutica,comun,5,6,0,4,2
+IE2107,Resistencia de materiales,Aeronáutica,comun,5,7,0,4,3
+IE2505,Examen Inglés EMeMA,Aeronáutica,otros,5,8,0,0,0
+IE2204,Sistemas Digitales,Aeronáutica,comun,6,1,3,2,2
+MT6001,Prob. Y proc. Est.,Aeronáutica,Básicas,6,2,0,3,2
+IE2109,Mecánica de Fluidos,Aeronáutica,comun,6,3,4,0,3
+IE2159,Laboratorio de Mecánica de Fluidos,Aeronáutica,comun,6,4,0,2,1
+IE2110,Máquinas y mecanismos,Aeronáutica,comun,6,5,4,0,3
+IE2507,Sist. De aeronaves,Aeronáutica,otros,6,6,0,4,2
+IE2508,Ing. Mant. Aeron.,Aeronáutica,otros,6,7,0,4,3
+IE2509,Aviónica,Aeronáutica,otros,7,1,0,4,3
+IE2510,Mét. Num. Electr.,Aeronáutica,otros,7,2,0,4,3
+IE2511,Sist. De propuls.,Aeronáutica,otros,7,3,0,4,3
+IE2512,Aerod. Din. Vuelo,Aeronáutica,otros,7,4,0,4,3
+IE2513,Tall. De med. Aero.,Aeronáutica,otros,7,5,4,0,3
+IE2514,El. De maq. Y det,Aeronáutica,otros,7,6,0,4,3
+IE2208,Instalaciones Eléctricas,Aeronáutica,comun,8,1,4,0,3
+IE2301,Transductores,Aeronáutica,comun,8,2,2,0,2
+IE2515,Ing. Mant. Avion.,Aeronáutica,otros,8,3,0,4,3
+IE2516,Fund. Mot. Reac.,Aeronáutica,otros,8,4,0,4,3
+IE2517,A. matr. Estr. Avión,Aeronáutica,otros,8,5,0,4,3
+IE2518,Electiva I,Aeronáutica,otros,8,6,0,3,2
+CS3404,Sem. Ética en ing.,Aeronáutica,Básicas,8,8,0,5,2
+IE2519,Diseño electr. Aero,Aeronáutica,otros,9,1,0,4,3
+IE2520,Sist. De cont. Auto,Aeronáutica,otros,9,2,0,4,3
+IE2521,Aeromecánica,Aeronáutica,otros,9,4,0,4,3
+IE2522,FGFE aeronáutica,Aeronáutica,otros,9,5,0,4,3
+IE2523,Electiva II,Aeronáutica,otros,9,6,0,3,2
+IE2524,Seg. Vuelos y am,Aeronáutica,otros,9,7,0,3,2
+CS4402,Sem. Est. C.R,Aeronáutica,Básicas,9,8,0,3,2
+IE2525,Proyecto final de graduación,Aeronáutica,otros,10,7,0,20,10
+AE4208,Des. Emprend.,Aeronáutica,Básicas,10,8,0,4,4

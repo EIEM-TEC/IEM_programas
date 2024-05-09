@@ -1,0 +1,144 @@
+\documentclass[letterpaper,landscape]{article}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage{geometry}%
+\geometry{left=0mm,right=0mm,top=2mm,bottom=0mm,headheight=1mm,footskip=1mm}%
+\usepackage{fontspec}%
+\usepackage[spanish,activeacute]{babel}%
+\usepackage{graphicx}%
+\usepackage{tikz}%
+\usepackage{anyfontsize}%
+\usepackage{xcolor}%
+\usepackage{colortbl}%
+\usepackage{array}%
+\usepackage{float}%
+\usepackage{longtable}%
+\usepackage{multirow}%
+\usepackage{fancyhdr}%
+%
+\tikzset{
+            pics/titulo/.style args={#1,#2}{
+            code={
+                \def\ancho{45}
+                \def\alto{0.7}
+                \draw[fill=#2] (-\ancho/2-2,2*\alto) rectangle (\ancho/2+2,-2*\alto) node[midway,align=center,text width=45cm]{\fontsize{30pt}{0pt}\selectfont \textbf{#1}};
+            }
+        }
+    }%
+\tikzset{
+            pics/curso/.style args={#1,#2,#3,#4,#5,#6}{
+            code={
+                \def\ancho{4}
+                \def\alto{0.7}
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=4cm]{\fontsize{8.5pt}{2pt}\selectfont {#2}};
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,\alto + \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #1};
+                \draw[fill=#6] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
+                \draw[fill=#6] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
+                \draw[fill=#6] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
+            }
+        }
+    }%
+\tikzset{
+            pics/semestre/.style args={#1,#2,#3,#4,#5}{
+            code={
+                \def\ancho{4}
+                \def\alto{0.7}
+                \draw[fill=#2] (-\ancho/2,1.5*\alto) rectangle (\ancho/2,-1.5*\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont \textbf{#1}};
+                \draw[fill=#2] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
+                \draw[fill=#2] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
+                \draw[fill=#2] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
+            }
+        }
+    }%
+%
+\begin{document}%
+\normalsize%
+\centering%
+\begin{tikzpicture}[scale = 0.45,transform shape]%
+\draw (22.5,4)pic{titulo={Licenciatura en Ingeniería en Electromecánica con énfasis en Matenimiento Aeronáutico - Plan: 0001,lightgray}};%
+\draw (0,0)pic{semestre={0,lightgray,5,0,2}};%
+\draw (0,-4)pic{semestre={I,lightgray,22,6,18}};%
+\draw (0,-8)pic{semestre={II,lightgray,22,6,18}};%
+\draw (0,-12)pic{semestre={III,lightgray,21,6,18}};%
+\draw (0,-16)pic{semestre={IV,lightgray,21,2,18}};%
+\draw (0,-20)pic{semestre={V,lightgray,22,4,18}};%
+\draw (0,-24)pic{semestre={VI,lightgray,24,2,18}};%
+\draw (0,-28)pic{semestre={VII,lightgray,20,4,18}};%
+\draw (0,-32)pic{semestre={VIII,lightgray,27,0,18}};%
+\draw (0,-36)pic{semestre={IX,lightgray,25,0,18}};%
+\draw (0,-40)pic{semestre={X,lightgray,24,0,14}};%
+\draw (10,0)pic{curso={MA0101,Matemática general,5,0,2,white}};%
+\draw (5,-4)pic{curso={CA2125,Elementos de computación,4,0,3,white}};%
+\draw (10,-4)pic{curso={MA1102,Cálculo diferencial e integral,5,0,4,white}};%
+\draw (15,-4)pic{curso={FI1101,Física general I,4,0,3,white}};%
+\draw (20,-4)pic{curso={FI1201,Laboratorio de física general I,0,2,1,white}};%
+\draw (25,-4)pic{curso={QU1102,Laboratorio de química básica I,0,2,1,white}};%
+\draw (30,-4)pic{curso={QU1106,Química básica I,4,0,3,white}};%
+\draw (35,-4)pic{curso={CI1106,Comunicación escrita,3,0,2,white}};%
+\draw (40,-4)pic{curso={CS1502,Introducción a la técnica ciencia y tecnología,2,0,1,white}};%
+\draw (45,-4)pic{curso={SE1200,Actividad deportiva I,0,2,0,white}};%
+\draw (5,-8)pic{curso={MA1103,Cálculo y álgebra lineal,4,0,4,white}};%
+\draw (10,-8)pic{curso={FI1102,Física general II,4,0,3,white}};%
+\draw (15,-8)pic{curso={FI1202,Laboratorio de física general II,0,2,1,white}};%
+\draw (20,-8)pic{curso={QU1104,Laboratorio de química básica II,0,2,1,white}};%
+\draw (25,-8)pic{curso={QU1107,Química básica II,4,0,3,white}};%
+\draw (30,-8)pic{curso={IEM2501,Geometría descriptiva,4,0,3,white}};%
+\draw (35,-8)pic{curso={CI1107,Comunicación oral,3,0,1,white}};%
+\draw (40,-8)pic{curso={CS1302,Derecho laboral,3,0,2,white}};%
+\draw (45,-8)pic{curso={SE1100,Actividad cultural I,0,2,0,white}};%
+\draw (5,-12)pic{curso={MI2205,Electricidad I,4,0,3,white}};%
+\draw (10,-12)pic{curso={MI2202,Laboratorio de electricidad I,0,2,1,white}};%
+\draw (15,-12)pic{curso={MA2104,Cálculo superior,4,0,4,white}};%
+\draw (20,-12)pic{curso={FI2103,Física general III,4,0,3,white}};%
+\draw (25,-12)pic{curso={ME3208,Tecnología de materiales,3,0,2,white}};%
+\draw (25,-12)pic{curso={ME3209,Laboratorio de tecnología de materiales,0,2,1,white}};%
+\draw (35,-12)pic{curso={MI2101,Dibujo técnico,4,0,3,white}};%
+\draw (40,-12)pic{curso={SO2601,Fundamentos de seguridad e higiene ocupacional,2,0,1,white}};%
+\draw (45,-12)pic{curso={SE1400,Actividad cultural - deportiva,0,2,0,white}};%
+\draw (5,-16)pic{curso={MI2207,Electricidad II,4,0,4,white}};%
+\draw (10,-16)pic{curso={MI2204,Laboratorio de electricidad II,0,2,1,white}};%
+\draw (15,-16)pic{curso={MA2105,Ecuaciones diferenciales,4,0,4,white}};%
+\draw (25,-16)pic{curso={MI2106,Estática,4,0,3,white}};%
+\draw (30,-16)pic{curso={IEM2502,Dibujo aeronáutico,4,0,3,white}};%
+\draw (40,-16)pic{curso={AE5121,Ingeniería económica,3,0,3,white}};%
+\draw (45,-16)pic{curso={FH1000,Centros de formación humanistica,2,0,0,white}};%
+\draw (5,-20)pic{curso={IA0001,Dispositivos analógicos,3,0,2,white}};%
+\draw (10,-20)pic{curso={IEM2503,Materiales de avición y hardware,4,0,2,white}};%
+\draw (15,-20)pic{curso={IEM2504,Termodinámica y transferencia de calor,4,0,3,white}};%
+\draw (20,-20)pic{curso={MI3117,Dinámica,4,0,3,white}};%
+\draw (25,-20)pic{curso={MI3103,Procesos de manufactura,3,0,3,white}};%
+\draw (30,-20)pic{curso={MI3104,Laboratorio procesos de manufactura,0,4,2,white}};%
+\draw (35,-20)pic{curso={MI3115,Resistencia de materiales,4,0,3,white}};%
+\draw (45,-20)pic{curso={IA0002,Examen Inglés,0,0,0,white}};%
+\draw (5,-24)pic{curso={IA0003,Dispositivos digitales ,3,0,2,white}};%
+\draw (10,-24)pic{curso={IA0004,Laboratorio de dispositivos analógicos y digitales,2,0,1,white}};%
+\draw (15,-24)pic{curso={MT6001,Probabilidad y procesos estocásticos,3,0,2,white}};%
+\draw (20,-24)pic{curso={MI3108,Mecánica de fluidos,4,0,4,white}};%
+\draw (25,-24)pic{curso={MI3111,Laboratorio de mecánica de fluidos,0,2,1,white}};%
+\draw (30,-24)pic{curso={IA0005,Teoría de máquinas y mecanismos,4,0,3,white}};%
+\draw (35,-24)pic{curso={IEM2507,Sistemas de aeronaves,4,0,2,white}};%
+\draw (40,-24)pic{curso={IEM2508,Ingeniería en mantenimiento aeronáutico,4,0,3,white}};%
+\draw (5,-28)pic{curso={IEM2509,Aviónica,4,0,3,white}};%
+\draw (20,-28)pic{curso={IA0006,Métodos numéricos para electromecánica,4,0,3,white}};%
+\draw (25,-28)pic{curso={IEM2511,Sistemas de propulsión,4,0,3,white}};%
+\draw (30,-28)pic{curso={IEM2512,Aerodinámica y dinámica de vuelo,4,0,3,white}};%
+\draw (35,-28)pic{curso={IEM2513,Taller de mediciones para aeronáutica,0,4,3,white}};%
+\draw (40,-28)pic{curso={IA0007,Elementos de máquinas y dispositivos de elevación y transporte,4,0,3,white}};%
+\draw (5,-32)pic{curso={IA0008,Diseño electromecánico industrial,4,0,3,white}};%
+\draw (15,-32)pic{curso={IA0009,Sensores y actuadores para aeronaútica,3,0,2,white}};%
+\draw (20,-32)pic{curso={IEM2515,Ingeniería en mantenimiento aviónico,4,0,3,white}};%
+\draw (25,-32)pic{curso={IEM2516,Fundamentos del motor de reacción,4,0,3,white}};%
+\draw (30,-32)pic{curso={IEM2517,Análisis matricial de estructuras del avión,4,0,3,white}};%
+\draw (35,-32)pic{curso={IEM2518,Electiva I,3,0,2,white}};%
+\draw (45,-32)pic{curso={CS3404,Seminario de ética en ingeniería,5,0,2,white}};%
+\draw (5,-36)pic{curso={IEM2519,Diseño eléctrico aeroportuario,4,0,3,white}};%
+\draw (15,-36)pic{curso={IA0010,Sistemas de control automático,4,0,3,white}};%
+\draw (25,-36)pic{curso={IEM2521,Aeromecánica,4,0,3,white}};%
+\draw (30,-36)pic{curso={IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,4,0,3,white}};%
+\draw (35,-36)pic{curso={IEM2523,Electiva II,3,0,2,white}};%
+\draw (40,-36)pic{curso={IEM2524,Seguridad de vuelos y del ambiente,3,0,2,white}};%
+\draw (45,-36)pic{curso={CS4402,Seminario de estudios costarricenses,3,0,2,white}};%
+\draw (40,-40)pic{curso={IEM2525,Proyecto final de graduación,20,0,10,white}};%
+\draw (45,-40)pic{curso={AE4208,Desarrollo de emprendedores,4,0,4,white}};%
+\end{tikzpicture}%
+\end{document}

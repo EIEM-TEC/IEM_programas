@@ -1,0 +1,78 @@
+﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+MA0101,Matemática general,Electromecánica,Básicas,1,1,5,0,2
+FI1101,Física general I,Electromecánica,Básicas,1,2,4,0,3
+FI2201,Laboratorio de física general I,Electromecánica,Básicas,1,3,0,2,1
+QU1106,Química básica I,Electromecánica,Básicas,1,4,4,0,3
+QU1102,Laboratorio de química básica I,Electromecánica,Básicas,1,5,0,2,1
+CI1230,Inglés I,Electromecánica,Básicas,1,6,3,0,2
+IEM2101,Dibujo técnico,Electromecánica,Mecánica,1,7,4,0,3
+CS1502,Introducción a la técnica ciencia y tecnología,Electromecánica,Básicas,1,8,2,0,1
+CI1106,Comunicación escrita,Electromecánica,Básicas,1,9,3,0,2
+MA1102,Cálculo diferencial e integral,Electromecánica,Básicas,2,1,5,0,4
+FI1102,Física general II,Electromecánica,Básicas,2,2,4,0,3
+FI1202,Laboratorio de física general II,Electromecánica,Básicas,2,3,0,2,1
+CA21XX,Introducción a la computación,Electromecánica,Básicas,2,5,4,0,3
+CI1231,Inglés II,Electromecánica,Básicas,2,6,3,0,2
+ME2208,Ciencia e ingeniería de los materiales,Electromecánica,Básicas,2,7,3,1,3
+CS2303,Relaciones laborales,Electromecánica,Básicas,2,8,3,0,2
+SE1200,Actividad deportiva I,Electromecánica,Básicas,2,9,0,2,0
+MA1103,Cálculo y algebra lineal,Electromecánica,Básicas,3,1,4,0,4
+FI2103,Física general III,Electromecánica,Básicas,3,2,4,0,3
+IEM2201,Análisis de circuitos 1,Electromecánica,Eléctrica,3,3,4,0,3
+IEM2251,Laboratorio de circuitos 1,Electromecánica,Eléctrica,3,4,0,2,1
+IEM2301,Transductores,Electromecánica,Sistemas,3,5,2,0,2
+IEM2102,Estática,Electromecánica,Mecánica,3,7,4,0,3
+CS4402,Seminario de estudios costarricenses,Electromecánica,Básicas,3,8,3,0,2
+SE1100,Actividad cultural I,Electromecánica,Básicas,3,9,2,0,0
+MA2105,Ecuaciones diferenciales,Electromecánica,Básicas,4,1,4,0,4
+MT6001,Probabilidad y procesos estocásticos,Electromecánica,Básicas,4,2,3,0,2
+IEM2202,Análisis de circuitos 2,Electromecánica,Eléctrica,4,3,4,0,3
+IEM2252,Laboratorio de circuitos 2,Electromecánica,Eléctrica,4,4,0,2,1
+IEM2302,Instrumentación,Electromecánica,Sistemas,4,5,2,0,2
+IEM2352,Laboratorio de instrumentación,Electromecánica,Sistemas,4,6,0,2,1
+IEM2103,Dinámica,Electromecánica,Mecánica,4,7,4,0,3
+CS3404,Seminario de ética para la ingeniería,Electromecánica,Básicas,4,8,3,0,2
+FH1000,Centros de formación humanistica,Electromecánica,Básicas,4,9,3,0,1
+MA2104,Cálculo superior,Electromecánica,Básicas,5,1,4,0,4
+CM3207,Métodos numéricos,Electromecánica,Básicas,5,2,4,0,3
+IEM2203,Sistemas analógicos,Electromecánica,Eléctrica,5,3,3,2,2
+IEM2104,Termodinámica,Electromecánica,Mecánica,5,6,4,0,3
+IEM2105,Manufactura,Electromecánica,Mecánica,5,7,3,0,3
+IEM2155,Laboratorio de manufactura,Electromecánica,Mecánica,5,8,0,4,2
+CI1107,Comunicación oral,Electromecánica,Básicas,5,9,3,0,1
+IEM2204,Sistemas digitales,Electromecánica,Eléctrica,6,3,3,2,2
+IEM2303,Modelado y simulación de sistemas electromecánicos,Electromecánica,Sistemas,6,4,3,1,3
+IEM2106,Transferencia de calor,Electromecánica,Mecánica,6,5,4,0,3
+IEM2107,Resistencia de materiales,Electromecánica,Mecánica,6,6,4,0,3
+IEM2108,Dibujo industrial,Electromecánica,Mecánica,6,7,4,0,3
+IEM2109,Mecánica de fluidos,Electromecánica,Mecánica,6,8,4,0,3
+IEM2159,Laboratorio de mecánica de fluidos,Electromecánica,Mecánica,6,9,0,2,1
+IEM2304,Fundamentos de gestión de proyectos,Electromecánica,Sistemas,7,1,4,0,2
+IEM2305,Gestión de la ingeniería electromecánica,Electromecánica,Sistemas,7,2,3,0,2
+IEM2205,Máquinas eléctricas 1,Electromecánica,Eléctrica,7,3,4,0,3
+IEM2255,Laboratorio de máquinas eléctricas 1,Electromecánica,Eléctrica,7,4,0,2,1
+IEM2306,Control automático,Electromecánica,Sistemas,7,5,3,0,3
+IEM2110,Máquinas y mecanismos,Electromecánica,Mecánica,7,6,4,0,3
+IEM2111,Turbomáquinas,Electromecánica,Mecánica,7,7,4,0,3
+IEM2161,Laboratorio de turbomáquinas,Electromecánica,Mecánica,7,8,0,2,1
+SE1400,Actividad cultural - deportiva,Electromecánica,Básica,7,9,0,2,0
+IEM2400,Metodología de la investigación,Electromecánica,Ciencias Básicas,8,1,0,1,3
+IEM2307,Monitoreo de la condición,Electromecánica,Sistemas,8,2,3,1,2
+IEM2206,Máquinas eléctricas 2,Electromecánica,Eléctrica,8,3,4,0,3
+IEM2256,Laboratorio de máquinas eléctricas 2,Electromecánica,Eléctrica,8,4,0,2,1
+IEM2308,Control eléctrico,Electromecánica,Sistemas,8,5,3,0,3
+IEM2358,Laboratorio de control,Electromecánica,Sistemas,8,6,0,2,1
+IEM2112,Elementos de máquinas,Electromecánica,Mecánica,8,7,0,2,3
+IEM2113,Sistemas térmicos,Electromecánica,Mecánica,8,8,3,0,3
+IEM2163,Laboratorio de sistemas térmicos,Electromecánica,Mecánica,8,9,0,2,1
+IEM2309,Gestión de la energía,Electromecánica,Sistemas,9,2,4,0,2
+IEM2207,Sistemas de potencia,Electromecánica,Eléctrica,9,3,4,0,3
+IEM2208,Instalaciones eléctricas,Electromecánica,Eléctrica,9,4,4,0,3
+IEM2310,Diseño e integración de sistemas electromecánicos,Electromecánica,Sistemas,9,5,2,0,3
+IEM2360,Laboratorio de diseño e integración de sistemas electromecánicos,Electromecánica,Sistemas,9,6,0,2,1
+IEM2114,Diseño mecánico,Electromecánica,Mecánica,9,7,0,2,3
+IEM2115,Fundamentos de refrigeración y aire acondicionado,Electromecánica,Mecánica,9,8,3,2,3
+IEM2401,Electiva I,Electromecánica,General,10,2,4,0,2
+IEM2402,Electiva II,Electromecánica,General,10,3,4,0,2
+IEM2311,Automatización,Electromecánica,Sistemas,10,5,1,3,3
+IEM2403,TFG,Electromecánica,General,10,6,0,21,7

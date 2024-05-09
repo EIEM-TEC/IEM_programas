@@ -1,150 +1,300 @@
-﻿Codigo,Nombre,Programa,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
-MA0101,Matemática General,Electromecánica,Básicas,1,1,5,0,2
-FI1101,Física General I,Electromecánica,Básicas,1,2,4,0,3
-FI2201,Laboratorio de Física General I,Electromecánica,Básicas,1,3,0,2,1
-QU1106,Química Básica I,Electromecánica,Básicas,1,4,4,0,3
-QU1102,Laboratorio de Química Básica I,Electromecánica,Básicas,1,5,0,2,1
-CI1230,Inglés I,Electromecánica,Básicas,1,6,3,0,2
-IEM2101,Dibujo Técnico,Electromecánica,Mecánica,1,7,4,0,3
-CS1502,Introducción a la Técnica Ciencia y Tecnología,Electromecánica,Básicas,1,8,2,0,1
-CI1106,Comunicación Escrita,Electromecánica,Básicas,1,9,3,0,2
-MA1102,Cálculo Diferencial e Integral,Electromecánica,Básicas,2,1,5,0,4
-FI1102,Física General II,Electromecánica,Básicas,2,2,4,0,3
-FI1202,Lab. Fis. Gral. II,Electromecánica,Básicas,2,3,0,2,1
-CA21XX,Introducción a la computación,Electromecánica,Básicas,2,5,4,0,3
-CI1231,Inglés II,Electromecánica,Básicas,2,6,3,0,2
-ME2208,Ciencia e Ing Materiales,Electromecánica,Básicas,2,7,3,1,3
-CS2303,Relaciones laborales,Electromecánica,Básicas,2,8,3,0,2
-SE1200,Actividad deportiva I,Electromecánica,Básicas,2,9,0,2,0
-MA1103,Cálculo y Alg. Lineal,Electromecánica,Básicas,3,1,4,0,4
-FI2103,Física Gral III,Electromecánica,Básicas,3,2,4,0,3
-IEM2201,Análisis de Circuitos 1,Electromecánica,Eléctrica,3,3,4,0,3
-IEM2251,Laboratorio de Análisis de Circuitos 1,Electromecánica,Eléctrica,3,4,0,2,1
-IEM2301,Transductores,Electromecánica,Sistemas,3,5,2,0,2
-IEM2102,Estática,Electromecánica,Mecánica,3,7,4,0,3
-CS4402,Sem. Est. Costarr.,Electromecánica,Básicas,3,8,3,0,2
-SE1100,Actividad cultural I,Electromecánica,Básicas,3,9,2,0,0
-MA2105,Ec. Diferenciales,Electromecánica,Básicas,4,1,4,0,4
-MT6001,Prob y Proc. Estocásticos,Electromecánica,Básicas,4,2,3,0,2
-IEM2202,Análisis de Circuitos 2,Electromecánica,Eléctrica,4,3,4,0,3
-IEM2252,Laboratorio de Análisis de Circuitos 2,Electromecánica,Eléctrica,4,4,0,2,1
-IEM2302,Instrumentación,Electromecánica,Sistemas,4,5,2,0,2
-IEM2352,Laboratorio de Instrumentación,Electromecánica,Sistemas,4,6,0,2,1
-IEM2103,Dinámica,Electromecánica,Mecánica,4,7,4,0,3
-CS3404,Sem. de ética para la ingeniería,Electromecánica,Básicas,4,8,3,0,2
-FH1000,Centros Forma. Hum,Electromecánica,Básicas,4,9,3,0,1
-MA2104,Cálculo superior,Electromecánica,Básicas,5,1,4,0,4
-CM3207,Métodos numéricos,Electromecánica,Básicas,5,2,4,0,3
-IEM2203,Sistemas Analógicos,Electromecánica,Eléctrica,5,3,3,2,2
-IEM2104,Termodinámica,Electromecánica,Mecánica,5,6,4,0,3
-IEM2105,Manufactura,Electromecánica,Mecánica,5,7,3,0,3
-IEM2155,Laboratorio de Manufactura,Electromecánica,Mecánica,5,8,0,4,2
-CI1107,Comunicación Oral,Electromecánica,Básicas,5,9,3,0,1
-IEM2204,Sistemas Digitales,Electromecánica,Eléctrica,6,3,3,2,2
-IEM2303,Modelado y Simulación de Sistemas Electromecánicos,Electromecánica,Sistemas,6,4,3,1,3
-IEM2106,Transferencia de Calor,Electromecánica,Mecánica,6,5,4,0,3
-IEM2107,Resistencia de Materiales,Electromecánica,Mecánica,6,6,4,0,3
-IEM2108,Dibujo Industrial,Electromecánica,Mecánica,6,7,4,0,3
-IEM2109,Mecánica de Fluidos,Electromecánica,Mecánica,6,8,4,0,3
-IEM2159,Laboratorio de Mecánica de Fluidos,Electromecánica,Mecánica,6,9,0,2,1
-IEM2304,Fundamentos de Gestión de Proyectos,Electromecánica,Sistemas,7,1,4,0,2
-IEM2305,Gestión de la Ingeniería Electromecánica,Electromecánica,Sistemas,7,2,3,0,2
-IEM2205,Máquinas Eléctricas 1,Electromecánica,Eléctrica,7,3,4,0,3
-IEM2255,Laboratorio de Máquinas Eléctricas 1,Electromecánica,Eléctrica,7,4,0,2,1
-IEM2306,Control Automático,Electromecánica,Sistemas,7,5,3,0,3
-IEM2110,Máquinas y mecanismos,Electromecánica,Mecánica,7,6,4,0,3
-IEM2111,Turbomáquinas,Electromecánica,Mecánica,7,7,4,0,3
-IEM2161,Laboratorio de Turbomáquinas,Electromecánica,Mecánica,7,8,0,2,1
-SE1400,Act Cultural Deportiva,Electromecánica,Básica,7,9,0,2,0
-IEM2400,Metodología de la Investigación,Electromecánica,Ciencias Básicas,8,1,0,1,3
-IEM2307,Monitoreo de la Condición,Electromecánica,Sistemas,8,2,3,1,2
-IEM2206,Máquinas Eléctricas 2,Electromecánica,Eléctrica,8,3,4,0,3
-IEM2256,Laboratorio de Máquinas Eléctricas 2,Electromecánica,Eléctrica,8,4,0,2,1
-IEM2308,Control Eléctrico,Electromecánica,Sistemas,8,5,3,0,3
-IEM2358,Laboratorio de Control,Electromecánica,Sistemas,8,6,0,2,1
-IEM2112,Elementos de Máquinas,Electromecánica,Mecánica,8,7,0,2,3
-IEM2113,Sistemas Térmicos,Electromecánica,Mecánica,8,8,3,0,3
-IEM2163,Laboratorio de Sistemas Térmicos,Electromecánica,Mecánica,8,9,0,2,1
-IEM2309,Gestión de la Energía,Electromecánica,Sistemas,9,2,4,0,2
-IEM2207,Sistemas de Potencia,Electromecánica,Eléctrica,9,3,4,0,3
-IEM2208,Instalaciones Eléctricas,Electromecánica,Eléctrica,9,4,4,0,3
-IEM2310,Diseño e Integración de Sistemas Electromecánicos,Electromecánica,Sistemas,9,5,2,0,3
-IEM2360,Laboratorio de Diseño e Integración de Sistemas Electromecánicos,Electromecánica,Sistemas,9,6,0,2,1
-IEM2114,Diseño Mecánico,Electromecánica,Mecánica,9,7,0,2,3
-IEM2115,Fundamentos de Refrigeración y Aire Acondicionado,Electromecánica,Mecánica,9,8,3,2,3
-IEM2401,Electiva I,Electromecánica,General,10,2,4,0,2
-IEM2402,Electiva II,Electromecánica,General,10,3,4,0,2
-IEM2311,Automatización,Electromecánica,Sistemas,10,5,1,3,3
-IEM2403,TFG,Electromecánica,General,10,6,0,21,7
-MA0101,Matemática general,Aeronáutica,-,0,0,5,0,2
-CA2125,Elementos de computación,Aeronáutica,-,1,1,4,0,3
-MA1102,Cálculo diferencial e intregal,Aeronáutica,-,1,2,5,0,4
-FI1101,Física general I,Aeronáutica,-,1,3,4,0,3
-FI1201,Laboratorio de Física general I,Aeronáutica,-,1,3,0,2,1
-QU1106,Química básica I,Aeronáutica,-,1,4,4,0,3
-QU1102,Laboratorio de Química básica I,Aeronáutica,-,1,4,0,2,1
-CI1106,Comunicación escrita,Aeronáutica,-,1,6,3,0,2
-CS1502,"Introducción a la técnica, ciencia y tecnología",Aeronáutica,-,1,7,2,0,1
-SE1200,Actividad Deportiva I,Aeronáutica,-,1,8,0,2,0
-MA1103,Cálculo y álgebra lineal,Aeronáutica,-,2,2,4,0,4
-FI1102,Física general II,Aeronáutica,-,2,3,4,0,3
-FI1202,Laboratorio de Física general II,Aeronáutica,-,2,3,0,2,1
-QU1107,Química básica II,Aeronáutica,-,2,4,4,0,3
-QU1104,Laboratorio de Química básica II,Aeronáutica,-,2,4,0,2,1
-IEM2501,Geometría descriptiva,Aeronáutica,-,2,5,4,0,3
-CI1107,Comunicación oral,Aeronáutica,-,2,6,3,0,1
-CS1302,Derecho laboral,Aeronáutica,-,2,7,3,0,2
-SE1100,Actividad Cultural I,Aeronáutica,-,2,8,0,2,0
-IEM2201,Análisis de Circuitos 1,Aeronáutica,-,3,1,4,0,3
-IEM2251,Laboratorio de Análisis de Circuitos 1,Aeronáutica,-,3,1,0,2,1
-MA2104,Cálculo superior,Aeronáutica,-,3,2,4,0,4
-FI2103,Física general III,Aeronáutica,-,3,3,4,0,3
-ME3208,Tecnología de materiales,Aeronáutica,-,3,4,3,0,2
-ME3209,Laboratorio de Tecnología de materiales,Aeronáutica,-,3,4,0,2,1
-IEM2101,Dibujo técnico,Aeronáutica,-,3,5,4,0,3
-SO2601,Fundamentos de Seguridad e Higiene Ocupacional,Aeronáutica,-,3,7,2,0,1
-SE1400,Actividad Cultural - Deportiva,Aeronáutica,-,3,8,0,2,0
-IEM2202,Análisis de Circuitos 2,Aeronáutica,-,4,1,4,0,3
-IEM2252,Laboratorio de Análisis de Circuitos 2,Aeronáutica,-,4,1,0,0,1
-MA2105,Ecuaciones diferenciales,Aeronáutica,-,4,2,4,0,4
-IEM2102,Estática,Aeronáutica,-,4,4,4,0,3
-IEM2502,Dibujo aeronáutico,Aeronáutica,-,4,5,4,0,3
-AE5121,Ingeniería Económica,Aeronáutica,-,4,7,3,0,3
-FH1000,Centros de Formación Humanistica,Aeronáutica,-,4,8,2,0,0
-IEM2203,Sistemas Analógicos,Aeronáutica,-,5,1,3,2,2
-IEM2503,Materiales de avición y hardware,Aeronáutica,-,5,2,4,0,2
-IEM2504,Termodinámica y transferencia de calor,Aeronáutica,-,5,3,4,0,3
-IEM2103,Dinámica,Aeronáutica,-,5,4,4,0,3
-IEM2105,Manufactura,Aeronáutica,-,5,5,3,0,3
-IEM2155,Laboratorio de Manufactura,Aeronáutica,-,5,5,0,4,2
-IEM2107,Resistencia de materiales,Aeronáutica,-,5,6,4,0,3
-IEM2505,Examen Inglés para Electromecánica con énfasis en Mantenimiento aeronáutico,Aeronáutica,-,5,8,0,0,0
-IEM2204,Sistemas Digitales,Aeronáutica,-,6,1,3,2,2
-MT6001,Probabilidad y Procesos Estocásticos,Aeronáutica,-,6,3,3,0,2
-IEM2109,Mecánica de Fluidos,Aeronáutica,-,6,4,4,0,3
-IEM2159,Laboratorio de Mecánica de Fluidos,Aeronáutica,-,6,4,0,2,1
-IEM2110,Máquinas y mecanismos,Aeronáutica,-,6,5,4,0,3
-IEM2507,Sistemas de aeronaves,Aeronáutica,-,6,6,4,0,2
-IEM2508,Ingeniería en Mantenimiento Aeronáutico,Aeronáutica,-,6,7,4,0,3
-IEM2509,Aviónica,Aeronáutica,-,7,1,4,0,3
-IEM2510,Métodos Numéricos para electromecánica,Aeronáutica,-,7,3,4,0,3
-IEM2511,Sistemas de propulsión,Aeronáutica,-,7,4,4,0,3
-IEM2512,Aerodinámica y Dinámica de vuelo,Aeronáutica,-,7,5,4,0,3
-IEM2513,Taller de mediciones para aeronáutica,Aeronáutica,-,7,6,4,0,3
-IEM2514,Elementos de máquinas y dispositivos de elevación y transporte,Aeronáutica,-,7,7,4,0,3
-IEM2208,Instalaciones Eléctricas,Aeronáutica,-,8,1,4,0,3
-IEM2301,Transductores,Aeronáutica,-,8,2,2,0,2
-IEM2515,Ingeniería en Mantenimiento Aviónico,Aeronáutica,-,8,3,4,0,3
-IEM2516,Fundamentos del motor de reacción,Aeronáutica,-,8,4,4,0,3
-IEM2517,Análisis matricial de estructuras del avión,Aeronáutica,-,8,5,4,0,3
-IEM2518,Electiva I,Aeronáutica,-,8,6,3,0,2
-CS3404,Seminario de ética en ingeniería,Aeronáutica,-,8,8,5,0,2
-IEM2519,Diseño eléctrico aeroportuario,Aeronáutica,-,9,1,4,0,3
-IEM2520,Sistemas de control automático,Aeronáutica,-,9,2,4,0,3
-IEM2521,Aeromecánica,Aeronáutica,-,9,4,4,0,3
-IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras aeronáuticas,Aeronáutica,-,9,5,4,0,3
-IEM2523,Electiva II,Aeronáutica,-,9,6,3,0,2
-IEM2524,Seguridad de vuelos y del ambiente,Aeronáutica,-,9,7,3,0,2
-CS4402,Seminario de estudios costarricenses,Aeronáutica,-,9,8,3,0,2
-IEM2525,Proyecto final de graduación,Aeronáutica,-,10,7,20,0,10
-AE4208,Desarrollo de emprendedores,Aeronáutica,-,10,8,4,0,4
+﻿Codigo,Programa,Plan,Area,Semestre,Columna,HorasTeoria,HorasPractica,Creditos
+MA0101,AE,0001,-,0,2,5,0,2
+CA2125,AE,0001,-,1,1,4,0,3
+MA1102,AE,0001,-,1,2,5,0,4
+FI1101,AE,0001,-,1,3,4,0,3
+FI1201,AE,0001,-,1,4,0,2,1
+QU1102,AE,0001,-,1,5,0,2,1
+QU1106,AE,0001,-,1,6,4,0,3
+CI1106,AE,0001,-,1,7,3,0,2
+CS1502,AE,0001,-,1,8,2,0,1
+SE1200,AE,0001,-,1,9,0,2,0
+MA1103,AE,0001,-,2,1,4,0,4
+FI1102,AE,0001,-,2,2,4,0,3
+FI1202,AE,0001,-,2,3,0,2,1
+QU1104,AE,0001,-,2,4,0,2,1
+QU1107,AE,0001,-,2,5,4,0,3
+IEM2501,AE,0001,-,2,6,4,0,3
+CI1107,AE,0001,-,2,7,3,0,1
+CS1302,AE,0001,-,2,8,3,0,2
+SE1100,AE,0001,-,2,9,0,2,0
+MI2205,AE,0001,-,3,1,4,0,3
+MI2202,AE,0001,-,3,2,0,2,1
+MA2104,AE,0001,-,3,3,4,0,4
+FI2103,AE,0001,-,3,4,4,0,3
+ME3208,AE,0001,-,3,5,3,0,2
+ME3209,AE,0001,-,3,5,0,2,1
+MI2101,AE,0001,-,3,7,4,0,3
+SO2601,AE,0001,-,3,8,2,0,1
+SE1400,AE,0001,-,3,9,0,2,0
+MI2207,AE,0001,-,4,1,4,0,4
+MI2204,AE,0001,-,4,2,0,2,1
+MA2105,AE,0001,-,4,3,4,0,4
+MI2106,AE,0001,-,4,5,4,0,3
+IEM2502,AE,0001,-,4,6,4,0,3
+AE5121,AE,0001,-,4,8,3,0,3
+FH1000,AE,0001,-,4,9,2,0,0
+IA0001,AE,0001,-,5,1,3,0,2
+IEM2503,AE,0001,-,5,2,4,0,2
+IEM2504,AE,0001,-,5,3,4,0,3
+MI3117,AE,0001,-,5,4,4,0,3
+MI3103,AE,0001,-,5,5,3,0,3
+MI3104,AE,0001,-,5,6,0,4,2
+MI3115,AE,0001,-,5,7,4,0,3
+IA0002,AE,0001,-,5,9,0,0,0
+IA0003,AE,0001,-,6,1,3,0,2
+IA0004,AE,0001,-,6,2,2,0,1
+MT6001,AE,0001,-,6,3,3,0,2
+MI3108,AE,0001,-,6,4,4,0,4
+MI3111,AE,0001,-,6,5,0,2,1
+IA0005,AE,0001,-,6,6,4,0,3
+IEM2507,AE,0001,-,6,7,4,0,2
+IEM2508,AE,0001,-,6,8,4,0,3
+IEM2509,AE,0001,-,7,1,4,0,3
+IA0006,AE,0001,-,7,4,4,0,3
+IEM2511,AE,0001,-,7,5,4,0,3
+IEM2512,AE,0001,-,7,6,4,0,3
+IEM2513,AE,0001,-,7,7,0,4,3
+IA0007,AE,0001,-,7,8,4,0,3
+IA0008,AE,0001,-,8,1,4,0,3
+IA0009,AE,0001,-,8,3,3,0,2
+IEM2515,AE,0001,-,8,4,4,0,3
+IEM2516,AE,0001,-,8,5,4,0,3
+IEM2517,AE,0001,-,8,6,4,0,3
+IEM2518,AE,0001,-,8,7,3,0,2
+CS3404,AE,0001,-,8,9,5,0,2
+IEM2519,AE,0001,-,9,1,4,0,3
+IA0010,AE,0001,-,9,3,4,0,3
+IEM2521,AE,0001,-,9,5,4,0,3
+IEM2522,AE,0001,-,9,6,4,0,3
+IEM2523,AE,0001,-,9,7,3,0,2
+IEM2524,AE,0001,-,9,8,3,0,2
+CS4402,AE,0001,-,9,9,3,0,2
+IEM2525,AE,0001,-,10,8,20,0,10
+AE4208,AE,0001,-,10,9,4,0,4
+MA0101,EM,0001,Básicas,1,1,5,0,2
+FI1101,EM,0001,Básicas,1,2,4,0,3
+FI2201,EM,0001,Básicas,1,3,0,2,1
+QU1106,EM,0001,Básicas,1,4,4,0,3
+QU1102,EM,0001,Básicas,1,5,0,2,1
+CI1230,EM,0001,Básicas,1,6,3,0,2
+IEM2101,EM,0001,Mecánica,1,7,4,0,3
+CS1502,EM,0001,Básicas,1,8,2,0,1
+CI1106,EM,0001,Básicas,1,9,3,0,2
+MA1102,EM,0001,Básicas,2,1,5,0,4
+FI1102,EM,0001,Básicas,2,2,4,0,3
+FI1202,EM,0001,Básicas,2,3,0,2,1
+CA21XX,EM,0001,Básicas,2,5,4,0,3
+CI1231,EM,0001,Básicas,2,6,3,0,2
+ME2208,EM,0001,Básicas,2,7,3,1,3
+CS2303,EM,0001,Básicas,2,8,3,0,2
+SE1200,EM,0001,Básicas,2,9,0,2,0
+MA1103,EM,0001,Básicas,3,1,4,0,4
+FI2103,EM,0001,Básicas,3,2,4,0,3
+IEM2201,EM,0001,Eléctrica,3,3,4,0,3
+IEM2251,EM,0001,Eléctrica,3,4,0,2,1
+IEM2301,EM,0001,Sistemas,3,5,2,0,2
+IEM2102,EM,0001,Mecánica,3,7,4,0,3
+CS4402,EM,0001,Básicas,3,8,3,0,2
+SE1100,EM,0001,Básicas,3,9,2,0,0
+MA2105,EM,0001,Básicas,4,1,4,0,4
+MT6001,EM,0001,Básicas,4,2,3,0,2
+IEM2202,EM,0001,Eléctrica,4,3,4,0,3
+IEM2252,EM,0001,Eléctrica,4,4,0,2,1
+IEM2302,EM,0001,Sistemas,4,5,2,0,2
+IEM2352,EM,0001,Sistemas,4,6,0,2,1
+IEM2103,EM,0001,Mecánica,4,7,4,0,3
+CS3404,EM,0001,Básicas,4,8,3,0,2
+FH1000,EM,0001,Básicas,4,9,3,0,1
+MA2104,EM,0001,Básicas,5,1,4,0,4
+CM3207,EM,0001,Básicas,5,2,4,0,3
+IEM2203,EM,0001,Eléctrica,5,3,3,2,2
+IEM2104,EM,0001,Mecánica,5,6,4,0,3
+IEM2105,EM,0001,Mecánica,5,7,3,0,3
+IEM2155,EM,0001,Mecánica,5,8,0,4,2
+CI1107,EM,0001,Básicas,5,9,3,0,1
+IEM2204,EM,0001,Eléctrica,6,3,3,2,2
+IEM2303,EM,0001,Sistemas,6,4,3,1,3
+IEM2106,EM,0001,Mecánica,6,5,4,0,3
+IEM2107,EM,0001,Mecánica,6,6,4,0,3
+IEM2108,EM,0001,Mecánica,6,7,4,0,3
+IEM2109,EM,0001,Mecánica,6,8,4,0,3
+IEM2159,EM,0001,Mecánica,6,9,0,2,1
+IEM2304,EM,0001,Sistemas,7,1,4,0,2
+IEM2305,EM,0001,Sistemas,7,2,3,0,2
+IEM2205,EM,0001,Eléctrica,7,3,4,0,3
+IEM2255,EM,0001,Eléctrica,7,4,0,2,1
+IEM2306,EM,0001,Sistemas,7,5,3,0,3
+IEM2110,EM,0001,Mecánica,7,6,4,0,3
+IEM2111,EM,0001,Mecánica,7,7,4,0,3
+IEM2161,EM,0001,Mecánica,7,8,0,2,1
+SE1400,EM,0001,Básica,7,9,0,2,0
+IEM2400,EM,0001,Ciencias Básicas,8,1,3,0,1
+IEM2307,EM,0001,Sistemas,8,2,3,1,2
+IEM2206,EM,0001,Eléctrica,8,3,4,0,3
+IEM2256,EM,0001,Eléctrica,8,4,0,2,1
+IEM2308,EM,0001,Sistemas,8,5,3,0,3
+IEM2358,EM,0001,Sistemas,8,6,0,2,1
+IEM2112,EM,0001,Mecánica,8,7,0,2,3
+IEM2113,EM,0001,Mecánica,8,8,3,0,3
+IEM2163,EM,0001,Mecánica,8,9,0,2,1
+IEM2309,EM,0001,Sistemas,9,2,4,0,2
+IEM2207,EM,0001,Eléctrica,9,3,4,0,3
+IEM2208,EM,0001,Eléctrica,9,4,4,0,3
+IEM2310,EM,0001,Sistemas,9,5,2,0,3
+IEM2360,EM,0001,Sistemas,9,6,0,2,1
+IEM2114,EM,0001,Mecánica,9,7,0,2,3
+IEM2115,EM,0001,Mecánica,9,8,3,2,3
+IEM2401,EM,0001,General,10,2,4,0,2
+IEM2402,EM,0001,General,10,3,4,0,2
+IEM2311,EM,0001,Sistemas,10,5,1,3,3
+IEM2403,EM,0001,General,10,6,0,21,7
+AE4208,EM,0001,-,10,9,4,0,4
+MA0101,MA,0001,-,0,2,5,0,2
+CA2125,MA,0001,-,1,1,4,0,3
+MA1102,MA,0001,-,1,2,5,0,4
+FI1101,MA,0001,-,1,3,4,0,3
+FI1201,MA,0001,-,1,4,0,2,1
+QU1106,MA,0001,-,1,5,4,0,3
+QU1102,MA,0001,-,1,6,0,2,1
+CI1106,MA,0001,-,1,7,3,0,2
+CS1502,MA,0001,-,1,8,2,0,1
+SE1200,MA,0001,-,1,9,0,2,0
+MA1103,MA,0001,-,2,1,4,0,4
+FI1102,MA,0001,-,2,2,4,0,3
+FI1202,MA,0001,-,2,3,0,2,1
+QU1107,MA,0001,-,2,4,4,0,3
+QU1104,MA,0001,-,2,5,0,2,1
+IEM2501,MA,0001,-,2,6,4,0,3
+CI1107,MA,0001,-,2,7,3,0,1
+CS1302,MA,0001,-,2,8,3,0,2
+SE1100,MA,0001,-,2,9,0,2,0
+IEM2201,MA,0001,-,3,1,4,0,3
+IEM2251,MA,0001,-,3,2,0,2,1
+MA2104,MA,0001,-,3,3,4,0,4
+FI1103,MA,0001,-,3,4,4,0,3
+ME2208,MA,0001,-,3,5,3,0,2
+IEM2101,MA,0001,-,3,6,4,0,3
+SO2601,MA,0001,-,3,8,2,0,1
+SE1400,MA,0001,-,3,9,0,2,0
+IEM2202,MA,0001,-,4,1,4,0,3
+IEM2252,MA,0001,-,4,2,0,2,1
+MA2105,MA,0001,-,4,3,4,0,4
+IEM2102,MA,0001,-,4,5,4,0,3
+IEM2502,MA,0001,-,4,6,4,0,3
+AE5121,MA,0001,-,4,8,3,0,3
+FH1000,MA,0001,-,4,9,2,0,0
+IEM2203,MA,0001,-,5,1,3,2,2
+IEM2503,MA,0001,-,5,2,4,0,2
+IEM2504,MA,0001,-,5,3,4,0,3
+IEM2103,MA,0001,-,5,4,4,0,3
+IEM2105,MA,0001,-,5,5,3,0,3
+IEM2155,MA,0001,-,5,6,0,4,2
+IEM2107,MA,0001,-,5,7,4,0,3
+IEM2505,MA,0001,-,5,9,0,0,0
+IEM2204,MA,0001,-,6,1,3,2,2
+MT6001,MA,0001,-,6,3,3,0,2
+IEM2109,MA,0001,-,6,4,4,0,3
+IEM2159,MA,0001,-,6,5,0,2,1
+IEM2110,MA,0001,-,6,6,4,0,3
+IEM2507,MA,0001,-,6,7,4,0,2
+IEM2508,MA,0001,-,6,8,4,0,3
+IEM2509,MA,0001,-,7,1,4,0,3
+CM3207,MA,0001,-,7,4,4,0,3
+IEM2511,MA,0001,-,7,5,4,0,3
+IEM2512,MA,0001,-,7,6,4,0,3
+IEM2513,MA,0001,-,7,7,0,4,3
+IEM2112,MA,0001,-,7,8,4,0,3
+IEM2310,MA,0001,-,8,1,2,0,3
+IEM2301,MA,0001,-,8,3,2,0,2
+IEM2515,MA,0001,-,8,4,4,0,3
+IEM2516,MA,0001,-,8,5,4,0,3
+IEM2517,MA,0001,-,8,6,4,0,3
+IEM2518,MA,0001,-,8,7,3,0,2
+CS3404,MA,0001,-,8,9,5,0,2
+IEM2519,MA,0001,-,9,1,4,0,3
+IEM2306,MA,0001,-,9,3,4,0,3
+IEM2521,MA,0001,-,9,5,4,0,3
+IEM2522,MA,0001,-,9,6,4,0,3
+IEM2523,MA,0001,-,9,7,3,0,2
+IEM2524,MA,0001,-,9,8,3,0,2
+CS4402,MA,0001,-,9,9,3,0,2
+IEM2525,MA,0001,-,10,8,20,0,10
+AE4208,MA,0001,-,10,9,4,0,4
+CI0200,MI,1313,Básicas,0,5,0,0,0
+CI0202,MI,1313,Básicas,0,6,2,0,2
+MA0101,MI,1313,Básicas,1,1,5,0,2
+QU1106,MI,1313,Básicas,1,3,4,0,3
+QU1102,MI,1313,Básicas,1,4,0,2,1
+CI1230,MI,1313,Básicas,1,5,3,0,2
+CA2125,MI,1313,Básicas,1,6,4,0,3
+CS1502,MI,1313,Básicas,1,7,2,0,1
+CI1106,MI,1313,Básicas,1,8,3,0,2
+SE1200,MI,1313,Básicas,1,9,0,2,0
+MA1102,MI,1313,Básicas,2,1,5,0,4
+FI1101,MI,1313,Básicas,2,2,4,0,3
+FI2201,MI,1313,Básicas,2,3,0,2,1
+QU1107,MI,1313,-,2,4,4,0,3
+QU1104,MI,1313,-,2,5,0,2,1
+CI1107,MI,1313,-,2,6,3,0,1
+MI2101,MI,1313,Solido,2,7,4,0,3
+SE1100,MI,1313,-,2,9,0,2,0
+MA1103,MI,1313,Básicas,3,1,4,0,4
+FI1102,MI,1313,Básicas,3,2,4,0,3
+FI1202,MI,1313,Básicas,3,3,0,2,1
+MI2106,MI,1313,Solido,3,4,4,0,3
+MI3103,MI,1313,Solido,3,5,3,0,3
+MI3104,MI,1313,Solido,3,6,0,4,2
+CS2303,MI,1313,Básicas,3,7,3,0,2
+CI1231,MI,1313,Básicas,3,8,3,0,2
+SE1400,MI,1313,Básica,3,9,0,2,0
+MA2104,MI,1313,Básicas,4,1,4,0,4
+FI1103,MI,1313,Básicas,4,2,4,0,3
+MI2205,MI,1313,Eléctrica,4,4,4,0,3
+MI2202,MI,1313,Eléctrica,4,5,0,2,1
+MI3124,MI,1313,Solido,4,7,4,0,4
+FH1000,MI,1313,Básicas,4,9,3,0,1
+MA2105,MI,1313,Básicas,5,1,4,0,4
+MI2207,MI,1313,Eléctrica,5,3,4,0,4
+MI2204,MI,1313,Eléctrica,5,4,0,2,1
+MI3115,MI,1313,Solido,5,5,4,0,3
+MI3117,MI,1313,Solido,5,6,4,0,3
+ME3208,MI,1313,-,5,7,3,0,2
+ME3209,MI,1313,-,5,8,0,2,1
+MI3130,MI,1313,Fluidos,5,9,4,0,4
+PI2609,MI,1313,Básicas,6,2,3,0,2
+AE5121,MI,1313,-,6,3,3,0,3
+MI3210,MI,1313,Eléctrica,6,4,3,0,4
+MI3206,MI,1313,Eléctrica,6,5,0,2,1
+MI3108,MI,1313,Fluidos,6,7,4,0,4
+MI3111,MI,1313,Fluidos,6,8,0,3,1
+CM4108,MI,1313,Básicas,6,9,3,0,3
+CM3207,MI,1313,Básicas,7,1,4,0,3
+MI4300,MI,1313,Gestión,7,2,4,0,4
+MI4311,MI,1313,Gestión,7,3,3,0,3
+MI3209,MI,1313,Eléctrica,7,4,3,0,3
+MI3116,MI,1313,Fluidos,7,7,4,0,4
+MI3119,MI,1313,Fluidos,7,8,0,2,1
+AE4208,MI,1313,-,7,9,4,0,4
+MI4305,MI,1313,Gestión,8,2,3,0,3
+MI4209,MI,1313,Eléctrica,8,4,3,0,3
+MI4210,MI,1313,Eléctrica,8,5,0,2,1
+MI4136,MI,1313,Solido,8,7,5,0,4
+SO2601,MI,1313,-,8,8,2,0,1
+CS3404,MI,1313,-,8,9,5,0,2
+MI6351,MI,1313,Gestión,9,2,4,0,4
+MI5215,MI,1313,Eléctrica,9,4,4,0,4
+MI4212,MI,1313,Eléctrica,9,5,4,0,4
+MI4125,MI,1313,Fluidos,9,8,0,2,1
+CS4402,MI,1313,-,9,9,3,0,2
+MI5520,MI,1313,Básicas,10,9,0,30,12
+MI4126,MI,1313,Fluidos,11,1,4,0,4
+MI4127,MI,1313,Fluidos,11,2,0,2,1
+MI5135,MI,1313,Fluidos,11,3,4,0,4
+MI5152,MI,1313,Fluidos,11,4,4,0,4
+MI5411,MI,1313,Eléctrica,11,5,4,0,4
+MI6153,MI,1313,Gestión,11,6,4,0,4
+MI6252,MI,1313,Fluidos,11,7,4,0,4
+MI6253,MI,1313,Gestión,11,8,4,0,4
+MI6254,MI,1313,Fluidos,11,9,4,0,4
+MI6255,MI,1313,Eléctrica,11,10,4,0,4

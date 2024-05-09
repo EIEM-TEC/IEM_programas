@@ -1,18 +1,63 @@
 ﻿Codigo,Nombre,Titulo,Titulos,Correo,Oficina,Escuela,Sede
-LCR0,Luis Felipe Córdoba Ramírez,M. Sc.,"Máster en ciencias en Ingeniería Mecánica. Universidad de Utah. Estados Unidos.
+LCR0,Luis Felipe Córdoba Ramírez,M.Sc.,"Máster en ciencias en Ingeniería Mecánica. Universidad de Utah. Estados Unidos.
 Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica",lfcordoba@itcr.ac.cr,22,Ingeniería Electromecánica,Cartago
-CVS0,Christopher Vega Sánchez,Ph. D.,"Doctor en filosofía en ciencias. Universidad de Sídney, Australia. 
+CVS0,Christopher Vega Sánchez,Ph.D.,"Doctor en filosofía en ciencias. Universidad de Sídney, Australia. 
 Máster en ciencias en Ingeniería de Sistemas Microelectromecánicos. Universidad de Freiburg. Alemania.
 Licenciado en Ingeniería en Mantenimiento Industrial,Instituto Tecnológico de Costa Rica. Costa Rica.",cvega@itcr.ac.cr,20,Ingeniería Electromecánica,Cartago
-NUS0,Noel Jacob Ureña Sandí,M. Sc.,"Máster en ciencias en Concepción y Producción Asistida por Computadora en Ingeniería Mecánica. RWTH Aachen University. Alemania.
+NUS0,Noel Jacob Ureña Sandí,M.Sc.,"Máster en ciencias en Concepción y Producción Asistida por Computadora en Ingeniería Mecánica. RWTH Aachen University. Alemania.
 Licenciado en Ingeniería en Materiales. Instituto Tecnológico de Costa Rica. Costa Rica",nurena@itcr.ac.cr,22,Ingeniería Electromecánica,Cartago
-JGF0,Juan Luis Guerrero Fernández,Ph.D.,"Doctor en filosofía en ciencias. Universidad de Sheffield. Inglaterra.",
-Máster en Ciencias en Mecatrónica. FH Aachen University of Applied Sciences. Alemania.
-Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.",jguerrero@itcr.ac.cr,10,Ingeniería Electromecánica,Cartago
+JGF0,Juan Luis Guerrero Fernández,Ph.D.,"Doctor en filosofía en ciencias. Universidad de Sheffield. Inglaterra.
+Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.
+Máster en Ciencias en Mecatrónica. FH Aachen University of Applied Sciences. Alemania.",jguerrero@itcr.ac.cr,10,Ingeniería Electromecánica,Cartago
 HJQ0,Herberth Jackson Quirós,Máster,"Máster profesional en Ingeniería Mecánica. Universidad de Costa Rica. Costa Rica.
 Licenciado en Ingeniería Mecánica. Universidad de Costa Rica. Costa Rica.
 Bachiller en Ingeniería Electromecánica. Universidad Fidélitas. Costa Rica.",hjackson@itcr.ac.cr,15,Ingeniería Electromecánica,Cartago
 COZ0,Carlos Otárola Zúñiga,Máster,"Máster en Sistemas Modernos de Manufactura. Instituto Tecnológico de Costa Rica.  Costa Rica.
 Bachiller en Ingeniería Mecánica. Universidad de Costa Rica. Costa Rica.",cotarola@itcr.ac.cr,4,Ingeniería Electromecánica,Cartago
-VJH0,Víctor Julio Hernández,Máster,"Máster en ciencias con especialización explotación técnica de aviones y motores. Instituto de Kiev de los Ingenieros de Aviación Civil. Ucrania.
-Ingeniero aeronáutico. Instituto de Kiev de los Ingenieros de Aviación Civil. Ucrania.",vhernandezg@itcr.ac.cr,0,Ingeniería Electromecánica,Cartago
+VJH0,Víctor Julio Hernández,M.Sc.,"Máster en ciencias con especialización explotación técnica de aviones y motores. Instituto de Kiev de los Ingenieros de Aviación Civil. Ucrania.
+Ingeniero aeronáutico. Instituto de Kiev de los Ingenieros de Aviación Civil. Ucrania.",vhernandezg@itcr.ac.cr,11,Ingeniería Electromecánica,Cartago
+LGG0,Luis Gómez Gutierrez,Máster,"Maestria en Gestión de Activos Físicos. 0.0
+Ingeniero en Mantenimiento industrial.0.0",lugomez@itcr.a.cr,24,Ingeniería Electromecánica,Cartago
+AGZ0,Alberto Garro Zavaleta,Ing.,Licenciado en Ingeniería en Mantenimiento Industrial.Instituto Tecnológico de Costa Rica.Costa Rica,jagarro@itcr.ac.cr,12,Ingeniería Electromecánica,Cartago
+OGC0,Osvaldo Guerrero Castro,Máster,"Máster en Administración de la Ingeniería Electromecánica. Instituto Tecnológico de Costa Rica. Costa Rica
+Licenciado en Ingenieria en Mantenimiento Industrial.Instituto Tecnológico de Costa Rica.Costa Rica",oguerrero@tec.ac.cr,6,Ingeniería Electromecánica,Cartago
+LMS0,Luis Diego Murillo Soto,M.Sc.,"Máster en Ciencias de la Ingeniería Eléctrica.Universidad de Costa Rica.Costa Rica
+Máster en computación. Instituto Tecnológico de Costa Rica 
+Ingeniero en Mantenimiento Industrial. Tecnológico de Costa Rica.Costa Rica
+Técnico en Electrónica. COVAO",lmurillo@itcr.ac.cr,7,Ingeniería Electromecánica,Cartago
+JRH0,Juan José Rojas Hernández,Ph.D.,"Doctor en ciencia aplicada a la integración de sistemas. Instituto Tecnológico de Kyushu. Japón
+Máster en electrónica con énfasis en microsistemas. Instituto Tecnológico de Costa Rica. Costa Rica. 
+Licenciado en Mantenimiento Industrial.Instituto Tecnológico de Costa Rica. Costa Rica.  ",juan.rojas@itcr.ac.cr,31,Ingeniería Electromecánica,Cartago
+SMO0,Sebastián Mata Ortega,Máster,"Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. Instituto Tecnológico de Costa Rica. Costa Rica.  
+Ingeniero en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.  ",semata@itcr.ac.cr,26,Ingeniería Electromecánica,Cartago
+CPS0,Carlos Piedra Santamaria,,,cpiedra@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+FBG0,Francisco Bonilla Guido,Ing.,Licenciatura en Ingenieria en Mantenimiento Industrial.Instituto Tecnologico de Costa Rica.Costa Rica,frbonilla@itcr.ac.cr,15,Ingeniería Electromecánica,Cartago
+GBG0,Greivin Barahona Guzmán,Máster,"Maestría en Administración de la Ingeniería Electromecánica con énfasis en Administración de la Energía. Instituto Tecnológico de Costa Rica. Costa Rica.
+Bachiller y Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.",gbarahona@itcr.ac.cr,1,Ingeniería Electromecánica,Cartago
+GGR0,Gustavo Gomez Ramirez,,"Maestría Académica en Ingeniería Eléctrica. Universidad de Costa Rica. Costa Rica
+Maestría Profesional en Administración de Negocios. Universidad Estatal a Distancia. Costa Rica
+Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica
+Bachiller en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica",ggomez@itcr.ac.cr,17,Ingeniería Electromecánica,Cartago
+GRN0,Gustavo Richmond Navarro,,"Doctor en Ingeniería.Universidad de Costa Rica.Costa Rica.
+Máster en Ciencias de la Ingeniería Mecánica.Universidad de Chile.Chile
+Licenciado en Ingeniería en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.
+Bachiller en Física. Universidad de Costa Rica. Costa Rica.",grichmond@itcr.ac.cr,8,Ingeniería Electromecánica,Cartago
+IVG0,Ignacio del Valle Granados,,,idelvalle@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+JGC0,Joshua Guzmán Conejo,Ing.,Licenciatura en Ingeniería Electromecánica.Instituto Tecnológico de Costa Rica.Costa Rica.,joguzman@itcr.ac.cr,25,Ingeniería Electromecánica,Cartago
+JMJ0,Juan José Montero Jimenez,M.Sc.,"Doctorado en Ingeniería Industrial e Informática. Universidad de Toulouse. Francia.
+Máster en ciencias en Ingeniería Aeroespacial. ISAE-SUPAERO. Francia
+Licenciado en Ingeniería en Mantenimiento Industrial. TEC. Costa Rica",juan.montero@itcr.ac.cr,5,Ingeniería Electromecánica,Cartago
+JAC0,Juan Pablo Arias Cartín ,Máster,"Máster en Sistemas Modernos de Manufactura. Instituto Tecnológico de Costa Rica. Costa Rica
+Licenciado en Ingenieria en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica",jarias@itcr.ac.cr,26,Ingeniería Electromecánica,Cartago
+JMH0,Julio Andrés Morera Hidalgo,,,jmorera@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+JRG0,Julio César Rojas Gómez,,,jrojas@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+LSM0,Laura Salas Moya ,Máster,"Maestría Profesional en Administración de Proyectos de Construcción. Universidad de Costa Rica. Costa Rica
+Licenciatura en Ingeniería Mecánica. Universidad de Costa Rica. Costa Rica
+",lausalas@itcr.ac.cr,0,Ingeniería Electromecánica,Cartago
+LAR0,Lisandro Araya Rodriguez,Máster,"Maestría Ingeniería en Computación. Instituto Tecnológico de Costa Rica. Costa Rica
+Ingeniería Electrónica. Instituto Tecnológico de Costa Rica. Costa Rica",laraya@itcr.ac.cr,19,Ingeniería Electromecánica,Cartago
+MMC0,Manuel Francisco Mata Coto,,,mfmata@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+NVP0,Nicolás Vaquerano Pineda,,,nvaquerano@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+OMR0,Oscar Monge Ruiz,,,omonge@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+PCJ0,Pablo Andrés Campos Jimenez,,,pcampos@itcr.ac.cr,,Ingeniería Electromecánica,Cartago
+REH0,Rodolfo Elizondo Hernandez,,,relizondo@itcr.ac.cr,,Ingeniería Electromecánica,Cartago

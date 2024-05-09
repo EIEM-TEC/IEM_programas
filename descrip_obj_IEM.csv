@@ -1,11 +1,10 @@
 ﻿Codigo,Descripcion,ObjetivoGeneral,ObjetivosEspecificos,Contenidos,Metodologia,Evaluacion,Bibliografia,Bibtex,Profesores,Profesor
-IEM2101,"El curso de Dibujo Industrial contribuye significativamente a la formación y desarrollo profesional de los estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería. 
-Entre los aprendizajes más destacados se encuentran:  comprender, utilizar y aplicar con propiedad los elementos, conceptos y procedimientos del dibujo en ingeniería junto con las normas técnicas pertinentes (INTE-ISO, ANSI)
-Este curso: contribuye con el desarrollo de habilidades cognitivas de orden espacial, espacio tridimensional, proporción, percepción visual, proyección, edificación tridimensional y espacial, que le serán de gran utilidad al estudiante en su desempeño profesional presente y futuro. Esto, será clave para su rendimiento en cursos posteriores tanto del área mecánica como eléctrica, y de esta manera el estudiante será capaz de leer diferentes planos, realizar reingeniería de planos antiguos e identificar sistemas y subsistemas en las diferentes industrias.","Al final del curso el estudiante será capaz de elaborar un plano de una pieza mecánica, según las normas INTE/ISO. Dicho plano debe contener la información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza. Además, el estudiante será capaz de interpretar correctamente la información contenida en un plano mecánico, realizado de acuerdo con las normas INTE/ISO.","Dar a conocer al estudiante las normas INTE/ISO y similares aplicadas al Dibujo Técnico. 
-Dominar el uso de tablas de la norma INTE/ISO en el Dibujo (Rotulado, líneas, sólidos, cortes, etc.) 
-Representar mediante proyecciones ortogonales y proyecciones axonométricas una pieza. 
-Representar mediante vistas y cortes una pieza. 
- Aplicar los criterios para acotar una pieza en las proyecciones ortogonales. ","*Generalidades
+IEM2101,"El curso de Dibujo Técnico Asistido por Computadora contribuye significativamente a la formación y desarrollo profesional de los estudiantes, equipándolos con las habilidades y herramientas necesarias para la comunicación, el diseño y la ejecución en el ámbito de la ingeniería.
+Entre los aprendizajes más destacados se encuentran:  interpretar y aplicar las normas INTE/ISO de dibujo técnico en situaciones prácticas; visualizar y representar objetos tridimensionales en un plano bidimensional y viceversa; desarrollar destrezas en el uso de herramientas CAD para la elaboración de planos; y además de las habilidades técnicas, se busca promover el compromiso, el respeto y la ética profesional entre los participantes.​
+Este curso: sienta las bases fundamentales para asignaturas más avanzadas en el campo del diseño y la ingeniería mecánica. Proporciona una comprensión sólida de los principios y técnicas de dibujo técnico que son esenciales para el desarrollo de proyectos más complejos las áreas de diseño y manufactura. De esta manera, establece una conexión con otros cursos de la carrera, preparando a los estudiantes para enfrentar desafíos en su trayectoria académica y profesional.​
+En caso de que un estudiante requiera apoyos educativos, podrá solicitarlos a través del Departamento de Orientación y Psicología.","Realizar un plano de una pieza mecánica, según las normas INTE/ISO, que contenga información necesaria y suficiente para la interpretación de la forma y dimensiones de la pieza.","Aplicar las normas INTE/ISO y de otros estándares.
+Representar mediante proyecciones ortogonales, proyecciones axonométricas, vistas auxiliares y vistas de corte una pieza mecánica.
+Acotar adecuadamente una pieza mecánica en las proyecciones ortogonales.","*Generalidades
 **El Dibujo Técnico como lenguaje. Historia del Dibujo Técnico.
 **Objetivos del curso
 **Instrumentos de Dibujo: Escalímetro, escuadras.
@@ -50,7 +49,7 @@ Representar mediante vistas y cortes una pieza.
 **Ejes de proyección
 **Tipos de axonometrías
 **Proyecciones axonométricas a mano alzada y utilizando software de dibujo.
-Acotado (4 hrs) 
+*Acotado (4 hrs) 
 **Normas y recomendaciones INTE/ISO 129/1-2008 sobre acotado.
 **Líneas utilizadas en el acotado
 **Posición de la cota
@@ -76,11 +75,10 @@ Acotado (4 hrs)
 **Vistas auxiliares
 **Tipos de vistas auxiliares
 **Ubicación de las vistas auxiliares
-**Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","
-Examen Parcial;1;25
+**Rotulado de vistas auxiliares.","Modalidad presencial en el horario de clase correspondiente. En las sesiones se expondrán los conceptos teóricos relevantes de cada tema por medio de material escrito o audiovisual, los cuales serán trabajados por el estudiante en numerosas prácticas realizadas en clases y tareas coordinadas.","Examen Parcial;1;25
 Examen Parcial;1;35
 Proyecto grupal;1;25
-Tareas digitales coordinadas;1;15	 	 	 	 ","[1] Normas INTE-ISO para Dibujo Técnico
+Tareas digitales coordinadas;1;15","[1] Normas INTE-ISO para Dibujo Técnico
 [2]	Hernández, Barahona, Dibujo Técnico, Editorial Tecnológica, 1 edición, Costa Rica, 2013
 [3]	Lieu, Dennis K., and Sheryl Sorby. Dibujo para diseño de ingeniería, Cengage Learning, 2017. ProQuest Ebook Central, 
 [4]	Bogoliubov S, Dibujo Técnico, Editorial Mir, Moscú, 1985;
@@ -88,7 +86,7 @@ Tareas digitales coordinadas;1;15	 	 	 	 ","[1] Normas INTE-ISO para Dibujo Téc
 [6]	Gisecke M, Dibujo y Comunicación Gráfica, Printece Hall, 3 edición, México, 2006
 [7]	Spencer H, Dibujo Técnico, Alfa Omega, 8 edición, México, 2009
 [8]	Material didáctico preparado por el profesor
-",hernandez2013dibujo;lieu2011dibujo,LCR0;CVS0;NUS0;JGF0;HJQ0;COZ0;VJH0,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
+",hernandez2013dibujo;lieu2011dibujo;bogoliubov1988dibujo;bogoliubov1989tareas,LCR0;CVS0;NUS0;JGF0;HJQ0;COZ0;VJH0,"Ing. Luis Felipe Córdoba Ramírez M.Sc. (Coordinador)
 Máster en ciencias Ingeniería Mecánica, Universidad de Utah. 
 Licenciado en Ingeniería en Mantenimiento Industrial, Instituto Tecnológico de Costa Rica. 
 Contacto: lfcordoba@itcr.ac.cr
