@@ -466,12 +466,12 @@ def generar_programa(codigo,listProf):
     doc.append(VerticalSpace("10mm", star=True))
     doc.append(VarCol("8 Profesor",proCurso))
     doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
-    subprocess.run(["biber", "C:\\Repositories\\IEM_programas\\programas\\IEM2101"])
+    subprocess.run(["biber", f"C:\\Repositories\\IEM_programas\\programas\\{codCurso}"])
     doc.generate_pdf(f"./programas/{codCurso}", clean=False, clean_tex=False, compiler='lualatex')
     doc.generate_pdf(f"./programas/{codCurso}", clean=True, clean_tex=False, compiler='lualatex') 
 
 # for codigo in cursos.Codigo:
 #      generar_programa(codigo)
 
-listProf = ['LCR0','CVS0']
-generar_programa("IEM2101",listProf)
+listProf = ['SMO0']
+generar_programa("IEM2301",listProf)

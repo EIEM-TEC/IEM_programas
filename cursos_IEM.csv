@@ -70,7 +70,8 @@ IEM2205,Máquinas eléctricas I,
 IEM2206,Máquinas eléctricas II,
 IEM2207,Sistemas de potencia,
 IEM2208,Instalaciones eléctricas,
-IEM2251,Laboratorio de circuitos I,
+IEM2251,Laboratorio de circuitos I,"Ingeniería Electromecánica;3
+Ingeniería Aeronaútica con énfasis en Mantenimiento;3"
 IEM2252,Laboratorio de circuitos II,
 IEM2255,Laboratorio de máquinas eléctricas I,
 IEM2256,Laboratorio de máquinas eléctricas II,
@@ -132,7 +133,7 @@ Ingeniería en Producción Industrial;4
 Ingeniería Mecatrónica;4
 Ingeniería Física;3
 Ingeniería en Materiales;4"
-MI2202,Laboratorio de electricidad I,
+MI2202,Laboratorio de electricidad I,Ingeniería en Mantenimiento Industrial;4
 MI2204,Laboratorio de electricidad II,
 MI2205,Electricidad I,
 MI2207,Electricidad II,

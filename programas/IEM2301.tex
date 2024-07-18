@@ -1,0 +1,315 @@
+\documentclass[letterpaper]{article}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage{geometry}%
+\geometry{left=22.5mm,right=16.1mm,top=48mm,bottom=25mm,headheight=12.5mm,footskip=12.5mm}%
+\usepackage{fontspec}%
+\usepackage[spanish,activeacute]{babel}%
+\usepackage{anyfontsize}%
+\usepackage{fancyhdr}%
+\usepackage{csquotes}%
+\usepackage[style=ieee,backend=biber]{biblatex}%
+\usepackage[skins,breakable]{tcolorbox}%
+\usepackage{color}%
+\usepackage{tikz}%
+\usepackage{tabularx}%
+\usepackage{longtable}%
+\usepackage{ltablex}%
+\usepackage{ragged2e}%
+\usepackage{graphicx}%
+\usepackage{xcolor}%
+%
+\setmainfont{Arial}%
+\addbibresource{../bibliografia.bib}%
+\renewcommand*{\bibfont}{\fontsize{12}{16}\selectfont}%
+\definecolor{gris}{rgb}{0.27,0.27,0.27}%
+\definecolor{parte}{rgb}{0.02,0.204,0.404}%
+\definecolor{azulsuaveTEC}{rgb}{0.02,0.455,0.773}%
+\definecolor{fila}{rgb}{0.929,0.929,0.929}%
+\definecolor{linea}{rgb}{0.749,0.749,0.749}%
+\fancypagestyle{headfoot}{%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyhead{%
+}%
+\fancyfoot{%
+}%
+\fancyhead[L]{%
+\begin{minipage}{0.5\textwidth}%
+\flushleft%
+\includegraphics[width=62.5mm]{../figuras/Logo.png}%
+\end{minipage}%
+}%
+\fancyfoot[L]{%
+\textcolor{azulsuaveTEC}{%
+Escuela de Ingeniería Electromecánica%
+}%
+\par \parbox{0.85\textwidth}{%
+\fontsize{8}{0}\selectfont \textcolor{azulsuaveTEC}{Carreras de: Ingeniería Electromecánica e Ingeniería Aeronaútica con énfasis en Mantenimiento}%
+}%
+}%
+\fancyfoot[R]{%
+\textcolor{azulsuaveTEC}{%
+Página \thepage \hspace{1pt} de \pageref*{LastPage}%
+}%
+}%
+}%
+%
+\begin{document}%
+\normalsize%
+\thispagestyle{empty}%
+\begin{tikzpicture}[overlay,remember picture]%
+\node[inner sep = 0mm,outer sep = 0mm,anchor = north west,xshift = -23mm,yshift = 22mm] at (0.0,0.0) {\includegraphics[width=21cm]{../figuras/Logo_portada.png}};%
+\end{tikzpicture}%
+\vspace*{150mm}%
+\par\fontsize{14}{0}\selectfont \textcolor{black}{Programa del curso IEM2301}%
+\par\fontsize{18}{25}\selectfont \textbf{\textcolor{azulsuaveTEC}{Transductores}}%
+\begin{tabularx}{\textwidth}{m{0.02\textwidth}m{0.98\textwidth}}%
+&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Escuela de Ingeniería Electromecánica}}\\%
+[-4pt]%
+&\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{gris}{Carreras de: Ingeniería Electromecánica e Ingeniería Aeronaútica con énfasis en Mantenimiento}}\\%
+\end{tabularx}%
+\newpage%
+\pagestyle{headfoot}%
+\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{I parte: Aspectos relativos al plan de estudios}}%
+\par\hspace*{4mm}\fontsize{12}{20}\selectfont \textbf{\textcolor{parte}{1 Datos generales}}%
+\begin{tabularx}{\textwidth}{p{7cm}p{9cm}}%
+\textbf{Nombre del curso:}&Transductores\\%
+[10pt]%
+\textbf{Código:}&IEM2301\\%
+[10pt]%
+\textbf{Tipo de curso:}&Teórico\\%
+[10pt]%
+\textbf{Electivo o no:}&No\\%
+[10pt]%
+\textbf{Nº de créditos:}&2\\%
+[10pt]%
+\textbf{Nº horas de clase por semana:}&2\\%
+[10pt]%
+\textbf{Nº horas extraclase por semana:}&4\\%
+[10pt]%
+\textbf{\% de areas curriculares:}&6.7\% del area: \textbf{sistemas}\\%
+[10pt]%
+\textbf{Ubicación en el plan de estudios:}&Curso de 3 semestre en Ingeniería Electromecánica. Curso de 8\textsuperscript{vo} semestre en Ingeniería Aeronaútica con énfasis en Mantenimiento. \\%
+[10pt]%
+\textbf{Requisitos:}&nan\\%
+[10pt]%
+\textbf{Correquisitos:}&nan\\%
+[10pt]%
+\textbf{El curso es requisito de:}&nan\\%
+[10pt]%
+\textbf{Asistencia:}&nan\\%
+[10pt]%
+\textbf{Suficiencia:}&nan\\%
+[10pt]%
+\textbf{Posibilidad de reconocimiento:}&nan\\%
+[10pt]%
+\textbf{Vigencia del programa:}&nan\\%
+[10pt]%
+\end{tabularx}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{2 Descripción general}}
+};}]
+El curso de Transductores contribuye para que los estudiantes tengan conocimientos y destrezas sobre la trasformación de distintas manifestaciones de energía a señales eléctricas y viceversa. Los transductores están presentes en toda la maquinaria moderna, básicamente divididos en dos grupos: sensores y actuadores; por lo que los Ingenieros electromecánicos deben conocerlos, identificarlos, seleccionarlos y usarlos correctamente.
+Entre los aprendizajes más destacados se encuentran la correcta identificación, selección, instalación, calibración de los distintos tipos de transductores.  Así como un estudio profundo de los transductores usados para generar señales eléctricas de pequeña potencia a partir de manifestaciones físicas tales como: presión, temperatura, peso, aceleración, movimientos rotacionales o lineales, caudal, densidad, viscosidad, acidez, ondas sonoras, luz, voltaje, corriente, etc. La parte final de curso se enfoca en dispositivos que reciben una señal eléctrica que se transforma en alguna manifestación física.
+Este Curso se ubica en el tercer semestre de la carrera por lo que tienen un carácter inicial, sin embargo, es fundamental la correcta comprensión de los conocimientos, ya que serán utilizados de forma reiterada durante toda la carrera. Se puede indicar que este curso es base para los cursos de instrumentación, modelado, control eléctrico y automático, mantenimiento basado en la condición, automatización, entre otros; por lo que la asignatura posee un carácter de obligatoriedad.
+En caso de que un estudiante requiera apoyos educativos, podrá solicitarlos a través del Departamento de Orientación y Psicología. 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{3 Objetivos}}
+};}]
+Al final del curso la persona estudiante será capaz de comprender el funcionamiento de los transductores según la situación o aplicación planteada, usando para esto los criterios técnicos entre ellos los errores estáticos y dinámicos de los mismos.\\
+La persona estudiante será capaz de:\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Comprender los principios constructivos de los sensores: resistivos, capacitivos, inductivos, ultrasónicos, electromagnéticos, autogeneradores.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Conocer el funcionamiento de actuadores magnéticos como los relés y solenoides.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Comprender las especificaciones técnicas de los transductores.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut\textbullet\, Experimentar con transductores para lograr aprendizajes significativos.\strut}\\
+ 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{4 Contenidos}}
+};}]
+1. Señales eléctricas y sus mediciones\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.1. Medición directa e indirecta\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 1.2. Valores rms, medio, eficaz\strut}\\
+2. Características estáticas de los sensores\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.1. Conceptos de Sensibilidad y Resolución del sensor\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.2. Conceptos de Intervalo y Alcance de la medición\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.3. Índice de protección de los sensores\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.4. Incertidumbre de una medición\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.5. Definición de error\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.6. Error exactitud y error de precisión\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 2.7. Tipo de errores de medición\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.7.1. Error de repetición por dos procesos de calibración\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.7.2. Error de histéresis\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.7.3. Error de zonas muertas\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.7.4. Error por no linealidad\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 2.7.5. Otros errores. Ejemplo: error de fluencia (creep error)\strut}\\
+3. Sensores industriales discretos de presencia\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.1. Tipos de sensores discretos: inductivos, capacitivos, fotoeléctricos, ultrasónicos  y mecánicos\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.2. Materiales que detectan según la tecnología usada\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.3. Voltaje de alimentación de sensores\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.4. Conexiones eléctricas de sensores tipo PNP, NPN\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.5. Código de colores del cableado\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.6. Instalación, montaje de sensores\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 3.7. Rangos de operación, limitaciones y errores presentes\strut}\\
+4. Características dinámicas en el tiempo de los sensores \\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.1. Tiempo de subida, tiempo de asentamiento, tiempo al pico, tiempo de retardo, sobrelongación\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.2. Sensores de orden cero\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.3. Sensores de orden uno\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.4. Sensores de orden dos \strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.5. Respuesta en el tiempo  de cada tipo de sensor\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 4.6. Ejemplos de cada tipo de sensor\strut}\\
+5. Sensores con funcionamiento resistivo\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.1. Tipos de sensores con principio resistivo:\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.1. Potenciómetros\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.2. Galgas de fuerza\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.3. Sensores de temperatura RTD\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.4. Termistores\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.5. Magneto resistores\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.6. Fotorresistencias LDR\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.7. Hidrómetros resistivos\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 5.1.8. Sensores de gas resistivos.\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.2. Para cada tipo de sensor se estudia su modelo físico (ecuación)\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 5.3. Para cada sensor se estudia sus aplicaciones\strut}\\
+6. Sensores con funcionamiento capacitivo\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.1. Tipos de sensores con principio capacitivo:\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 6.1.1. Sensores de capacitancia variable\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 6.1.2. Sensores de capacitancia diferencial\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.2. Para cada tipo de sensor se estudia su modelo físico (ecuación)\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 6.3. Para cada sensor se estudia sus aplicaciones\strut}\\
+7. Sensores con funcionamiento electromagnético\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.1. Tipos de sensores inductivos:\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.1.1. Sensores de reluctancia variable\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.1.2. Sensores de corrientes de Eddy\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.1.3. Transformadores diferencial variable lineal (LVDT)\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.1.4. Synchros, resolvers e Inductosyn\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.2. Tipos de sensores con principio electromegnético:\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.2.1. Sensores basados en la ley de Faraday\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 7.2.2. Sensores basados en el efecto Hall\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.3. Para cada tipo de sensor se estudia su modelo físico (ecuación)\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 7.4. Para cada sensor se estudia sus aplicaciones industriales o en aeronaves\strut}\\
+8. Sensores autogeneradores\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.1. Termocuplas\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.2. Sensores pizoeléctricos\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.3. Sensores piroeléctricos\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.4. Sensores fotovoltaicos\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.5. Para cada tipo de sensor se estudia su modelo físico (ecuación)\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 8.6. Para cada sensor se estudia sus aplicaciones industriales o en aeronaves\strut}\\
+9. Otros Sensores \\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.1. Codificadores incremental y absoluto (Encoders)\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.2. Sensores basados en resonancia\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.3. Sensores basados en juntas semiconductoras\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.4. Sensores basados en ultrasonido\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.5. Sensores de fibra óptica\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.6. Biosensores\strut}\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 9.7. Aplicaciones y ejemplos\strut}\\
+10. Actuadores eléctricos \\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 10.1. Principios de funcionamiento de:\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 10.1.1. Relés de estado sólido y mecánico\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 10.1.2. Solenoides\strut}\\
+\hspace*{0.04\linewidth}\parbox{0.96\linewidth}{\strut 10.1.3. Piezoeléctricos\strut}\\
+11. Actuadores hidráulicos y neumáticos\\
+\hspace*{0.02\linewidth}\parbox{0.98\linewidth}{\strut 11.1. Tipo de válvulas solenoides para control de flujo\strut}\\ 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+\newpage%
+\par\fontsize{14}{0}\selectfont \textbf{\textcolor{parte}{II parte: Aspectos operativos}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{ }}%
+\renewcommand{\arraystretch}{1.5}%
+\begin{tabularx}{\textwidth}{>{\raggedright}p{0.18\textwidth}p{0.72\textwidth}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{5 Metodología de enseñanza y aprendizaje}}&El modelo pedagógico del ITCR busca que el estudiante adquiera un aprendizaje significativo, constructivista e interaccionista, para lograr este objetivo de aprendizaje el curso utiliza una combinación de la metodología de simulación, la metodología de Inmersión y las metodologías participativas.\newline%
+Los 3 proyectos colaborativos buscan que los estudiantes experimenten con los transductores, sus características, usos y brinden ejemplos con aplicaciones reales de los mismos. Para esto los estudiantes usaran equipos como multímetros u osciloscopios para medir la respuesta de los sensores. Así mismo las presentaciones orales de un grupo de estudiantes muestran la teoría asociada y ejemplos de aplicaciones del tema signado para el desarrollo. Finalmente, el profesor en desarrollará temas complejos con ejemplos demostrativos, visitas a laboratorio y videos entre otros.\\%
+\end{tabularx}%
+\begin{tabularx}{\textwidth}{>{\raggedright}m{0.18\textwidth}m{0.07\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.17\textwidth}m{0.04\textwidth}}%
+\par\fontsize{12}{0}\selectfont \textbf{\textcolor{parte}{6 Evaluación}}&&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Tipo}}&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Cantidad}}&\par\fontsize{12}{16}\selectfont \textbf{\textcolor{black}{Porcentaje}}&\\%
+[12pt]%
+&&Proyectos& 2& 35&\\%
+[12pt]%
+&&Exámenes& 3& 45&\\%
+[12pt]%
+&&Exposiciones& 2& 20&\\%
+[12pt]%
+\end{tabularx}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{7 Bibliografía}}
+};}]
+
+\nocite{pallas2012sensors}
+\nocite{fraden2016handbook}
+\printbibliography[heading=none] 
+\end{tcolorbox}
+%
+\vspace*{10mm}%
+
+\begin{tcolorbox}[
+blanker,
+width=0.78\textwidth,enlarge left by=0.24\textwidth,
+before skip=6pt,
+breakable,
+overlay unbroken and first={%
+    \node[inner sep=0pt,outer sep=0pt,text width=0.22\textwidth,
+    align=none,
+    below right]
+    at ([xshift=-0.24\textwidth]frame.north west)
+{
+\hspace*{0mm}\fontsize{12}{14}\selectfont \textbf{\textcolor{parte}{8 Profesor}}
+};}]
+Máster Sebastián Mata Ortega\\
+Maestría en Ingeniería Electromecánica con énfasis en Administración de la Energía. Instituto Tecnológico de Costa Rica. Costa Rica.  \\
+Ingeniero en Mantenimiento Industrial. Instituto Tecnológico de Costa Rica. Costa Rica.  \\
+Correo: semata@itcr.ac.cr. Oficina: 26.0\\
+Escuela de Ingeniería Electromecánica. Cartago\\[12pt]
+ 
+\end{tcolorbox}
+%
+\end{document}

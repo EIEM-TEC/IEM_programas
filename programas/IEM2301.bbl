@@ -1,0 +1,84 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{pallas2012sensors}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=f806e340f8eeb2b83e0b1949011704ae}{%
+           family={Pallas-Areny},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+        {{hash=23eb40ac2e72d6c6489b462c8d863584}{%
+           family={Webster},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{fullhash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{fullhashraw}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{bibnamehash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{authorbibnamehash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{authornamehash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{authorfullhash}{1925446d7b631f2840e9fc17ea889df7}
+      \strng{authorfullhashraw}{1925446d7b631f2840e9fc17ea889df7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sensors and signal conditioning}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{fraden2016handbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e76d46be5d7ee9722f07829c42358f70}{%
+           family={Fraden},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cham: Springer}%
+      }
+      \strng{namehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{bibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorbibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authornamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of modern sensors: physics, designs, and applications}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
