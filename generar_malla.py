@@ -47,6 +47,7 @@ def colocar_semestre(semestre,color,horasteoriasemestre,horaspracticasemestre,cr
     return dump
 
 def generar_malla(programa,plan):
+    acumulado = 0
     cursos = datos[datos.Programa == programa]
     cursos = cursos[cursos.Plan == plan]
     nombreProg = nombresProg[nombresProg.Programa == programa].NomPrograma.item()
@@ -150,7 +151,7 @@ def generar_malla(programa,plan):
             horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
             horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
             creditos = cursos[cursos.Codigo == codigo].Creditos.item()
-            area = cursos[cursos.Codigo == codigo].Area.item()
+            #area = cursos[cursos.Codigo == codigo].Area.item()
             # match area:
             #     case "Mecánica":
             #         color = "teal"
@@ -168,13 +169,20 @@ def generar_malla(programa,plan):
             #         color = "teal"
             #     case "-":
             #         color = "white"
-            color = "white"
+            acumulado = acumulado + creditos
+            print(acumulado)
+            if acumulado < 108:
+                color = "green"
+            elif acumulado < 135:
+                color = "yellow"
+            else:
+                color = "white"
             if semestre <= 10:
                 malla.append(colocar_curso(codigo,nombre,columna,semestre,horasteoria,horaspractica,creditos,color))
     doc.generate_pdf(f"./mallas/{programa}-{plan}", clean=True, clean_tex=False, compiler='lualatex',silent=True)
 
 
-generar_malla('MI','1313')
-generar_malla('AE','0001')
+# generar_malla('MI','1313')
+# generar_malla('AE','0001')
 generar_malla('EM','0001')
-generar_malla('MA','0001')
+# generar_malla('MA','0001')
