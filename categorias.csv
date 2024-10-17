@@ -1,0 +1,12 @@
+categoria,codigo,porcTRC,porcDIG,porcAER,porcCIB,porcENF
+Analisís de datos,ADD,4.0,3.0,3.0,3.0,3.0
+Automática,AUT,10.0,7.5,7.5,7.5,7.5
+Ciencias básicas,CIB,28.0,21.0,21.0,21.0,21.0
+Comunicación y dibujo,CYD,7.0,5.25,5.25,5.25,5.25
+Formación profesional y habilidades interpersonales,FPH,8.0,6.0,6.0,6.0,6.0
+Ingeniería eléctrica y electrónica,IEE,19.0,14.25,14.25,14.25,14.25
+Ingeniería mecánica y de materiales,IMM,21.0,15.75,15.75,15.75,15.75
+"Diseño, instalaciones y gestión",INS,0.0,25.0,0.0,0.0,0.0
+Aeronáutica,AER,0.0,0.0,25.0,0.0,0.0
+Sistemas ciberfísicos,SCB,0.0,0.0,0.0,25.0,0.0
+Énfasis,ENF,0.0,0.0,0.0,0.0,25.0

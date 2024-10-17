@@ -11,9 +11,7 @@ from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
 datos = pd.read_csv("malla_EM.csv",
-    dtype = {'Codigo':str,'Programa':str,'Plan':str,'Semestre':int,'Fila':int,'HorasTeoria':int,'HorasPractica':int,'Creditos':int})
-nombresCurs = pd.read_csv("cursos_IEM.csv")
-nombresProg = pd.read_csv("nombres_programas.csv")
+    dtype = {'Codigo':str,'Nombre':str,'Area':str,'Semestre':int,'Fila':int,'HorasTeoria':int,'HorasPractica':int,'Creditos':int})
 
 def textcolor(size,vspace,color,bold,text,hspace="0"):
     dump = NoEscape(r"\par")
@@ -45,11 +43,13 @@ def colocar_semestre(semestre,color,horasteoriasemestre,horaspracticasemestre,cr
         dump += NoEscape(f"pic{{semestre={{{roman.toRoman(semestre)},{color},{horasteoriasemestre},{horaspracticasemestre},{creditossemestre}}}}};")
     return dump
 
-def generar_malla(programa,plan):
+
+
+def generar_TC(programa,plan):
+    cred_list = [0,0,0,0,0,0,0,0,0,0]
+    cred_acum = []
     acumulado = 0
-    cursos = datos[datos.Programa == programa]
-    cursos = cursos[cursos.Plan == plan]
-    nombreProg = nombresProg[nombresProg.Programa == programa].NomPrograma.item()
+    nombreProg = "Ingeniería Electromecánica - Tronco Común"
     #Geometría
     geometry_options = { 
         "left": "0mm",
@@ -75,7 +75,7 @@ def generar_malla(programa,plan):
     doc.packages.append(Package(name="graphicx"))
     doc.packages.append(Package(name="tikz"))
     doc.packages.append(Package(name="anyfontsize"))
-    doc.packages.append(Package(name="xcolor"))
+    doc.packages.append(Package(name="xcolor",options="dvipsnames"))
     doc.packages.append(Package(name="colortbl"))
     doc.packages.append(Package(name="array"))
     doc.packages.append(Package(name="float"))
@@ -138,49 +138,67 @@ def generar_malla(programa,plan):
         )) as malla:
         # malla.append(NoEscape(r"\draw (,0)--(45,-2);"))
         malla.append(colocar_titulo(f"{nombreProg} - Plan: {plan}","lightgray"))
-        for semestre in range(0,4):
-            horasteoriasemestre = cursos[cursos.Semestre == semestre].HorasTeoria.sum()
-            horaspracticasemestre = cursos[cursos.Semestre == semestre].HorasPractica.sum()
-            creditossemestre = cursos[cursos.Semestre == semestre].Creditos.sum()
+        for semestre in range(0,9):
+            horasteoriasemestre = datos[datos.Semestre == semestre].HorasTeoria.sum()
+            horaspracticasemestre = datos[datos.Semestre == semestre].HorasPractica.sum()
+            creditossemestre = datos[datos.Semestre == semestre].Creditos.sum()
             malla.append(colocar_semestre(semestre,"lightgray",horasteoriasemestre,horaspracticasemestre,creditossemestre))            
-        for codigo in cursos.Codigo:
-            nombre = nombresCurs[nombresCurs.Codigo == codigo].Nombre.item()
-            fila = cursos[cursos.Codigo == codigo].Fila.item()
-            semestre = cursos[cursos.Codigo == codigo].Semestre.item()
-            horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
-            horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
-            creditos = cursos[cursos.Codigo == codigo].Creditos.item()
-            #area = cursos[cursos.Codigo == codigo].Area.item()
-            # match area:
-            #     case "Mecánica":
-            #         color = "teal"
-            #     case "Eléctrica":
-            #         color = "gray"
-            #     case "Sistemas":
-            #         color = "purple"
-            #     case "Básicas":
-            #         color = "lime"
-            #     case "Gestion":
-            #         color = "purple"
-            #     case "Solido":
-            #         color = "teal"
-            #     case "Fluidos":
-            #         color = "teal"
-            #     case "-":
-            #         color = "white"
-            acumulado = acumulado + creditos
-            if acumulado < 108:
-                color = "green"
-            elif acumulado < 135:
-                color = "yellow"
-            else:
-                color = "white"
-            if semestre <= 8:
+        for codigo in datos.Codigo:
+            nombre = datos[datos.Codigo == codigo].Nombre.item()
+            fila = datos[datos.Codigo == codigo].Fila.item()
+            semestre = datos[datos.Codigo == codigo].Semestre.item()
+            horasteoria = datos[datos.Codigo == codigo].HorasTeoria.item()
+            horaspractica = datos[datos.Codigo == codigo].HorasPractica.item()
+            creditos = datos[datos.Codigo == codigo].Creditos.item()
+            area = datos[datos.Codigo == codigo].Area.item()
+            match area:
+                case "CIB":
+                    color = "Apricot"
+                    i = 0
+                case "FPH":
+                    color = "Aquamarine"
+                    i = 1
+                case "CYD":
+                    color = "Lavender"
+                    i = 2
+                case "IEE":
+                    color = "LimeGreen"
+                    i = 3
+                case "IMM":
+                    color = "WildStrawberry"
+                    i = 4
+                case "AUT":
+                    color = "Tan"
+                    i = 5
+                case "ADD":
+                    color = "YellowOrange"
+                    i = 6
+                case "INS":
+                    color = "white"
+                    i = 7
+                case "AER":
+                    color = "white"
+                    i = 7
+                case "SCB":
+                    color = "white"
+                    i = 7
+            if semestre <= 8:                    
+                cred_list[i] = cred_list[i] + creditos
+                acumulado = acumulado + creditos
+            # if acumulado < 108:
+            #     color = "green"
+            # elif acumulado < 135:
+            #     color = "yellow"
+            # else:
+            #     color = "white"
                 malla.append(colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color))
+    cred_acum.append(cred_list)
+    cred_list = [(x/acumulado)*100 for x in cred_list]
+    cred_acum.append(cred_list)
+    print(cred_acum)
+    acum_cred = pd.DataFrame(cred_acum, columns=["CIB","FPH","CYD","IEE","IMM","AUT","ADD","INS","AER","SCB"]) 
+    print(acum_cred)
+    print(acumulado)
     doc.generate_pdf(f"./mallas/{programa}-{plan}", clean=True, clean_tex=False, compiler='lualatex',silent=True)
 
-
-# generar_malla('MI','1313')
-# generar_malla('AE','0001')
-generar_malla('EM','0001')
-# generar_malla('MA','0001')
+generar_TC('EM','0001')

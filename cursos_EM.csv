@@ -1,27 +1,59 @@
-﻿Codigo,Nombre,Programas
+﻿Codigo,Nombre,Area,Programas
+MA0101,Matemática general,CIB,
+CI0205,Prueba avanzada de inglés,CYD,
+MA1102,Cálculo diferencial e integral,CIB,
+FI1101,Física general I,CIB,
+FI1201,Laboratorio de física general I,CIB,
+QU1106,Química básica I,CIB,
+QU1102,Laboratorio de química básica I,CIB,
+IEM2101,Dibujo técnico,CYD,"Ingeniería en Mantenimiento Industrial;2
+Ingeniería en Electrónica;1
+Ingeniería en Producción Industrial;1
+Ingeniería Mecatrónica;3
+Ingeniería en Materiales;4"
+CS1502,Introducción a la técnica ciencia y tecnología,FPH,
+CI1106,Comunicación escrita,CYD,
+
+MA1103,Cálculo y álgebra lineal,
+MA2104,Cálculo superior,
+MA2105,Ecuaciones diferenciales,
+ME2208,Ciencia e ingeniería de los materiales,
+ME3208,Tecnología de materiales,
+ME3209,Laboratorio de tecnología de materiales,
+MI8304,Maquinas y equipos para ingeniería en seguridad laboral e higiene ambiental,
+MT6001,Probabilidad y procesos estocásticos,
+PI2609,Probabilidad y estadística,
+
+QU1104,Laboratorio de química básica II,
+
+QU1107,Química básica II,
+SE1100,Actividad cultural I,
+SE1200,Actividad deportiva I,
+SE1400,Actividad cultural - deportiva,
+SO2601,Fundamentos de seguridad e higiene ocupacional,
 AE4208,Desarrollo de emprendedores,
 AE5121,Ingeniería económica,
 CA2125,Elementos de computación,
 CA21XX,Introducción a la computación,
-CI0205,Prueba avanzada de inglés,
+
 CI0200,Examen de diagnóstico,
 CI0202,Ingles básico,
-CI1106,Comunicación escrita,
+
 CI1107,Comunicación oral,
 CI1230,Inglés I,
 CI1231,Inglés II,
 CM3207,Métodos numéricos,
 CM4108,Transferencia de calor,
 CS1302,Derecho laboral,
-CS1502,Introducción a la técnica ciencia y tecnología,
+
 CS2303,Relaciones laborales,
 CS3404,Seminario de ética en ingeniería,
 CS4402,Seminario de estudios costarricenses,
 FH1000,Centros de formación humanistica,
-FI1101,Física general I,
+
 FI1102,Física general II,
 FI1103,Física general III,
-FI1201,Laboratorio de física general I,
+
 FI1202,Laboratorio de física general II,
 FI2103,Física general III,
 FI2201,Laboratorio de física general I,
@@ -35,12 +67,8 @@ IA0007,Elementos de máquinas y dispositivos de elevación y transporte,
 IA0008,Diseño electromecánico industrial,
 IA0009,Sensores y actuadores para aeronaútica,
 IA0010,Sistemas de control automático,
-IEM2101,Dibujo técnico,"Ingeniería en Mantenimiento Industrial;2
-Ingeniería en Electrónica;1
-Ingeniería en Producción Industrial;1
-Ingeniería Mecatrónica;3
-Ingeniería en Materiales;4"
-IEM2102,Estática,"Ingeniería en Mantenimiento Industrial;3
+
+IEM2102,Estática,,"Ingeniería en Mantenimiento Industrial;3
 Ingeniería Electromecánica;3
 Ingeniería en Producción Industrial;4
 Ingeniería Mecatrónica;4
@@ -71,14 +99,14 @@ IEM2205,Máquinas eléctricas I,
 IEM2206,Máquinas eléctricas II,
 IEM2207,Sistemas de potencia,
 IEM2208,Instalaciones eléctricas,
-IEM2251,Laboratorio de circuitos I,"Ingeniería Electromecánica;3
+IEM2251,Laboratorio de circuitos I,,"Ingeniería Electromecánica;3
 Ingeniería Aeronaútica con énfasis en Mantenimiento;3"
 IEM2252,Laboratorio de circuitos II,
 IEM2255,Laboratorio de máquinas eléctricas I,
 IEM2256,Laboratorio de máquinas eléctricas II,
-IEM2301,Transductores,"Ingeniería Electromecánica;3
+IEM2301,Transductores,,"Ingeniería Electromecánica;3
 Ingeniería Aeronaútica con énfasis en Mantenimiento;8"
-IEM2302,Instrumentación,Ingeniería Electromecánica;4
+IEM2302,Instrumentación,,Ingeniería Electromecánica;4
 IEM2303,Modelado y simulación de sistemas electromecánicos,
 IEM2304,Fundamentos de gestión de proyectos,
 IEM2305,Gestión de la ingeniería electromecánica,
@@ -119,70 +147,3 @@ IEM2522,Fundamentos de la construcción y fuerzas actuantes de las estructuras a
 IEM2523,Electiva II,
 IEM2524,Seguridad de vuelos y del ambiente,
 IEM2525,Proyecto final de graduación,
-MA0101,Matemática general,
-MA1102,Cálculo diferencial e integral,
-MA1103,Cálculo y álgebra lineal,
-MA2104,Cálculo superior,
-MA2105,Ecuaciones diferenciales,
-ME2208,Ciencia e ingeniería de los materiales,
-ME3208,Tecnología de materiales,
-ME3209,Laboratorio de tecnología de materiales,
-MI2101,Dibujo técnico,
-MI2106,Estática,"Ingeniería en Mantenimiento Industrial;3
-Ingeniería Electromecánica;3
-Ingeniería en Producción Industrial;4
-Ingeniería Mecatrónica;4
-Ingeniería Física;3
-Ingeniería en Materiales;4"
-MI2202,Laboratorio de electricidad I,Ingeniería en Mantenimiento Industrial;4
-MI2204,Laboratorio de electricidad II,
-MI2205,Electricidad I,
-MI2207,Electricidad II,
-MI3103,Procesos de manufactura,
-MI3104,Laboratorio procesos de manufactura,
-MI3108,Mecánica de fluidos,
-MI3111,Laboratorio de mecánica de fluidos,
-MI3115,Resistencia de materiales,
-MI3116,Turbomáquinas,
-MI3117,Dinámica,
-MI3119,Laboratorio de turbomáquinas,
-MI3124,Dibujo industrial,
-MI3130,Termodinámica,
-MI3138,Máquinas y equipos,
-MI3206,Laboratorio de máquinas eléctricas,
-MI3209,Electricidad III,
-MI3210,Máquinas eléctricas,
-MI4125,Laboratorio de sistemas de vapor,
-MI4126,Refrigeración,
-MI4127,Laboratorio de refrigeración,
-MI4129,Sistemas de vapor,
-MI4136,Elementos de máquinas,
-MI4209,Control eléctrico,
-MI4210,Laboratorio de control eléctrico,
-MI4212,Instalaciones eléctricas,
-MI4300,Administración de mantenimiento I,
-MI4305,Administración de mantenimiento II,
-MI4311,Modelos cuantitativos para la toma de decisiones,
-MI4510,Electrotecnia,
-MI5135,Ventilación industrial,
-MI5152,Aire acondicionado,
-MI5215,Análisis de sistemas eléctricos de potencia,
-MI5411,Automatismo,
-MI5520,Práctica profesional,
-MI6153,Ahorro energético,
-MI6252,Neumática,
-MI6253,Fundamentos en administración de proyectos en ingeniería,
-MI6254,Sistemas de protección contra incendios a base de agua,
-MI6255,Sistemas de control automático,
-MI6351,Mantenimiento predictivo,
-MI8304,Maquinas y equipos para ingeniería en seguridad laboral e higiene ambiental,
-MT6001,Probabilidad y procesos estocásticos,
-PI2609,Probabilidad y estadística,
-QU1102,Laboratorio de química básica I,
-QU1104,Laboratorio de química básica II,
-QU1106,Química básica I,
-QU1107,Química básica II,
-SE1100,Actividad cultural I,
-SE1200,Actividad deportiva I,
-SE1400,Actividad cultural - deportiva,
-SO2601,Fundamentos de seguridad e higiene ocupacional,

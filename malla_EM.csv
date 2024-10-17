@@ -1,0 +1,77 @@
+﻿Codigo,Nombre,Area,Semestre,Fila,HorasTeoria,HorasPractica,Creditos
+MA0101,Matemática general,CIB,0,1,5,0,2
+CI0205,Prueba avanzada de inglés,CYD,0,2,0,0,0
+MA1102,Cálculo diferencial e integral,CIB,1,1,5,0,4
+FI1101,Física general I,CIB,1,2,4,0,3
+FI2201,Laboratorio de física general I,CIB,1,3,0,2,1
+QU1106,Química básica I,CIB,1,4,4,0,3
+QU1102,Laboratorio de química básica I,CIB,1,5,0,2,1
+MI2101,Dibujo técnico,CYD,1,7,4,0,3
+CS1502,Introducción a la técnica ciencia y tecnología,FPH,1,8,2,0,1
+CI1106,Comunicación escrita,CYD,1,9,3,0,2
+MA1103,Cálculo y álgebra lineal,CIB,2,1,4,0,4
+FI1102,Física general II,CIB,2,2,4,0,3
+FI1202,Laboratorio de física general II,CIB,2,3,0,2,1
+CA21XX,Introducción a la computación,AUT,2,5,4,0,3
+ME2208,Ciencia e ingeniería de los materiales,IMM,2,7,3,1,3
+CS2303,Relaciones laborales,FPH,2,8,3,0,2
+SE1200,Actividad deportiva I,FPH,2,9,0,2,0
+MA2105,Ecuaciones diferenciales,CIB,3,1,4,0,4
+FI2103,Física general III,CIB,3,2,4,0,3
+IEM2201,Análisis de circuitos I,IEE,3,3,4,0,3
+IEM2251,Laboratorio de circuitos I,IEE,3,4,0,2,1
+IEM2301,Transductores,IEE,3,5,2,0,2
+MI2102,Estática,IMM,3,7,4,0,3
+CS4402,Seminario de estudios costarricenses,FPH,3,8,3,0,2
+SE1100,Actividad cultural I,FPH,3,9,2,0,0
+MA2104,Cálculo superior,CIB,4,1,4,0,4
+IEM4200,Estadística aplicada I,ADD,4,2,3,0,2
+IEM2202,Análisis de circuitos II,IEE,4,3,4,0,3
+IEM2252,Laboratorio de circuitos II,IEE,4,4,0,2,1
+IEM2302,Instrumentación,IEE,4,5,2,0,2
+IEM2352,Laboratorio de instrumentación,IEE,4,6,0,2,1
+MI2103,Dinámica,IMM,4,7,4,0,3
+CS3404,Seminario de ética en ingeniería,FPH,4,8,3,0,2
+FH1000,Centros de formación humanistica,FPH,4,9,3,0,1
+CM3207,Métodos numéricos,CIB,5,2,4,0,3
+IEM2203,Sistemas analógicos,IEE,5,3,3,2,2
+IEM2303,Modelado y simulación de sistemas electromecánicos,AUT,5,5,3,1,3
+IEM2104,Termodinámica,IMM,5,6,4,0,3
+IEM2105,Manufactura,IMM,5,7,3,0,3
+IEM2155,Laboratorio de manufactura,IMM,5,8,0,4,2
+CI1107,Comunicación oral,CYD,5,9,3,0,1
+IEM2204,Sistemas digitales,IEE,6,3,3,2,2
+IEM2106,Transferencia de calor,IMM,6,5,4,0,3
+IEM2107,Resistencia de materiales,IMM,6,6,4,0,3
+IEM2108,Dibujo industrial,CYD,6,7,4,0,3
+IEM2109,Mecánica de fluidos,IMM,6,8,4,0,3
+IEM2159,Laboratorio de mecánica de fluidos,IMM,6,9,0,2,1
+IEM2304,Sistemas,,7,1,4,0,2
+IEM2305,Sistemas,,7,2,3,0,2
+IEM2205,Eléctrica,,7,3,4,0,3
+IEM2255,Eléctrica,,7,4,0,2,1
+IEM2306,Sistemas,,7,5,3,0,3
+IEM2110,Mecánica,,7,6,4,0,3
+IEM2111,Mecánica,,7,7,4,0,3
+IEM2161,Mecánica,,7,8,0,2,1
+SE1400,Básica,,7,9,0,2,0
+IEM2400,Ciencias Básicas,,8,1,3,0,1
+IEM2307,Sistemas,,8,2,3,1,2
+IEM2206,Eléctrica,,8,3,4,0,3
+IEM2256,Eléctrica,,8,4,0,2,1
+IEM2308,Sistemas,,8,5,3,0,3
+IEM2358,Sistemas,,8,6,0,2,1
+IEM2112,Mecánica,,8,7,0,2,3
+IEM2113,Mecánica,,8,8,3,0,3
+IEM2163,Mecánica,,8,9,0,2,1
+IEM2309,Sistemas,,9,2,4,0,2
+IEM2207,Eléctrica,,9,3,4,0,3
+IEM2208,Eléctrica,,9,4,4,0,3
+IEM2310,Sistemas,,9,5,2,0,3
+IEM2360,Sistemas,,9,6,0,2,1
+IEM2114,Mecánica,,9,7,0,2,3
+IEM2115,Mecánica,,9,8,3,2,3
+IEM2401,General,,10,2,4,0,2
+IEM2402,General,,10,3,4,0,2
+IEM2311,Sistemas,,10,5,1,3,3
+IEM2403,General,,10,6,0,21,7

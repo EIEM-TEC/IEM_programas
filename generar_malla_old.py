@@ -10,10 +10,11 @@ from pylatex import Document, Package, Command, PageStyle, Head, Foot, NewPage,\
 from pylatex.base_classes import Environment, Arguments
 from pylatex.utils import NoEscape, bold, italic
 
-datos = pd.read_csv("malla_EM.csv",
+datos = pd.read_csv("mallas_IEM.csv",
     dtype = {'Codigo':str,'Programa':str,'Plan':str,'Semestre':int,'Fila':int,'HorasTeoria':int,'HorasPractica':int,'Creditos':int})
 nombresCurs = pd.read_csv("cursos_IEM.csv")
 nombresProg = pd.read_csv("nombres_programas.csv")
+
 
 def textcolor(size,vspace,color,bold,text,hspace="0"):
     dump = NoEscape(r"\par")
@@ -28,17 +29,17 @@ def textcolor(size,vspace,color,bold,text,hspace="0"):
     return dump
 
 def colocar_titulo(titulo,color):
-    dump = NoEscape(f"\draw ({round(57/2)},{round(4)})")
+    dump = NoEscape(f"\draw ({round(27)},{round(4)})")
     dump += NoEscape(f"pic{{titulo={{{titulo},{color}}}}};")
     return dump
 
 def colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color):
-    dump = NoEscape(f"\draw ({round(6.87*semestre,2)+0.5},{round(-4.2*fila,1)-0.5})")
+    dump = NoEscape(f"\draw ({round(-4*semestre)},{round(5*fila)})")
     dump += NoEscape(f"pic{{curso={{{codigo},{nombre},{round(horasteoria)},{round(horaspractica)},{round(creditos)},{color}}}}};")
     return dump
 
 def colocar_semestre(semestre,color,horasteoriasemestre,horaspracticasemestre,creditossemestre):
-    dump = NoEscape(f"\draw ({round(6.87*semestre,2)+0.5},{round(0)})")
+    dump = NoEscape(f"\draw ({round(5*semestre)},{round(0)})")
     if semestre == 0:
         dump += NoEscape(f"pic{{semestre={{{semestre},{color},{horasteoriasemestre},{horaspracticasemestre},{creditossemestre}}}}};")
     else:
@@ -54,7 +55,7 @@ def generar_malla(programa,plan):
     geometry_options = { 
         "left": "0mm",
         "right": "0mm",
-        "top": "1mm",
+        "top": "2mm",
         "bottom": "0mm",
         "headheight": "1mm",
         "footskip": "1mm"
@@ -87,7 +88,7 @@ def generar_malla(programa,plan):
     r'''\tikzset{
             pics/titulo/.style args={#1,#2}{
             code={
-                \def\ancho{57}
+                \def\ancho{45}
                 \def\alto{0.7}
                 \draw[fill=#2] (-\ancho/2-2,2*\alto) rectangle (\ancho/2+2,-2*\alto) node[midway,align=center,text width=45cm]{\fontsize{30pt}{0pt}\selectfont \textbf{#1}};
             }
@@ -98,11 +99,11 @@ def generar_malla(programa,plan):
     r'''\tikzset{
             pics/curso/.style args={#1,#2,#3,#4,#5,#6}{
             code={
-                \def\ancho{5}
-                \def\alto{0.8}
-                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=\ancho cm]{\fontsize{14pt}{2pt}\selectfont {#2}};
-                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,\alto + \alto) node[midway]{\fontsize{14pt}{14pt}\selectfont #1};
-                \draw[fill=#6] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{14pt}{14pt}\selectfont #3};
+                \def\ancho{8}
+                \def\alto{1.5}
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,-\alto) node[midway,align=center,text width=4cm]{\fontsize{8.5pt}{2pt}\selectfont {#2}};
+                \draw[fill=#6] (-\ancho/2,\alto) rectangle (\ancho/2,\alto + \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #1};
+                \draw[fill=#6] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
                 \draw[fill=#6] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
                 \draw[fill=#6] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
             }
@@ -114,9 +115,9 @@ def generar_malla(programa,plan):
     r'''\tikzset{
             pics/semestre/.style args={#1,#2,#3,#4,#5}{
             code={
-                \def\ancho{6}
-                \def\alto{0.8}
-                \draw[fill=#2] (-\ancho/2,1.5*\alto) rectangle (\ancho/2,-1.5*\alto) node[midway,align=center,text width=6cm]{\fontsize{16pt}{12pt}\selectfont \textbf{#1}};
+                \def\ancho{4}
+                \def\alto{0.7}
+                \draw[fill=#2] (-\ancho/2,1.5*\alto) rectangle (\ancho/2,-1.5*\alto) node[midway,align=center,text width=4cm]{\fontsize{10pt}{12pt}\selectfont \textbf{#1}};
                 \draw[fill=#2] (-\ancho/2,-\alto) rectangle (-\ancho/2 + \ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #3};
                 \draw[fill=#2] (-\ancho/2 + \ancho/3,-\alto) rectangle (-\ancho/2 + 2*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #4};
                 \draw[fill=#2] (-\ancho/2 + 2*\ancho/3,-\alto) rectangle (-\ancho/2 + 3*\ancho/3, -\alto - \alto) node[midway]{\fontsize{12pt}{14pt}\selectfont #5};
@@ -138,45 +139,45 @@ def generar_malla(programa,plan):
         )) as malla:
         # malla.append(NoEscape(r"\draw (,0)--(45,-2);"))
         malla.append(colocar_titulo(f"{nombreProg} - Plan: {plan}","lightgray"))
-        for semestre in range(0,4):
+        for semestre in range(0,11):
             horasteoriasemestre = cursos[cursos.Semestre == semestre].HorasTeoria.sum()
             horaspracticasemestre = cursos[cursos.Semestre == semestre].HorasPractica.sum()
             creditossemestre = cursos[cursos.Semestre == semestre].Creditos.sum()
             malla.append(colocar_semestre(semestre,"lightgray",horasteoriasemestre,horaspracticasemestre,creditossemestre))            
-        for codigo in cursos.Codigo:
-            nombre = nombresCurs[nombresCurs.Codigo == codigo].Nombre.item()
-            fila = cursos[cursos.Codigo == codigo].Fila.item()
-            semestre = cursos[cursos.Codigo == codigo].Semestre.item()
-            horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
-            horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
-            creditos = cursos[cursos.Codigo == codigo].Creditos.item()
-            #area = cursos[cursos.Codigo == codigo].Area.item()
-            # match area:
-            #     case "Mecánica":
-            #         color = "teal"
-            #     case "Eléctrica":
-            #         color = "gray"
-            #     case "Sistemas":
-            #         color = "purple"
-            #     case "Básicas":
-            #         color = "lime"
-            #     case "Gestion":
-            #         color = "purple"
-            #     case "Solido":
-            #         color = "teal"
-            #     case "Fluidos":
-            #         color = "teal"
-            #     case "-":
-            #         color = "white"
-            acumulado = acumulado + creditos
-            if acumulado < 108:
-                color = "green"
-            elif acumulado < 135:
-                color = "yellow"
-            else:
-                color = "white"
-            if semestre <= 8:
-                malla.append(colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color))
+        # for codigo in cursos.Codigo:
+        #     nombre = nombresCurs[nombresCurs.Codigo == codigo].Nombre.item()
+        #     fila = cursos[cursos.Codigo == codigo].Fila.item()
+        #     semestre = cursos[cursos.Codigo == codigo].Semestre.item()
+        #     horasteoria = cursos[cursos.Codigo == codigo].HorasTeoria.item()
+        #     horaspractica = cursos[cursos.Codigo == codigo].HorasPractica.item()
+        #     creditos = cursos[cursos.Codigo == codigo].Creditos.item()
+        #     #area = cursos[cursos.Codigo == codigo].Area.item()
+        #     # match area:
+        #     #     case "Mecánica":
+        #     #         color = "teal"
+        #     #     case "Eléctrica":
+        #     #         color = "gray"
+        #     #     case "Sistemas":
+        #     #         color = "purple"
+        #     #     case "Básicas":
+        #     #         color = "lime"
+        #     #     case "Gestion":
+        #     #         color = "purple"
+        #     #     case "Solido":
+        #     #         color = "teal"
+        #     #     case "Fluidos":
+        #     #         color = "teal"
+        #     #     case "-":
+        #     #         color = "white"
+        #     acumulado = acumulado + creditos
+        #     if acumulado < 108:
+        #         color = "green"
+        #     elif acumulado < 135:
+        #         color = "yellow"
+        #     else:
+        #         color = "white"
+        #     if semestre <= 10:
+        #         malla.append(colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color))
     doc.generate_pdf(f"./mallas/{programa}-{plan}", clean=True, clean_tex=False, compiler='lualatex',silent=True)
 
 
