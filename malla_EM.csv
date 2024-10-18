@@ -15,7 +15,7 @@ FI1202,Laboratorio de física general II,CIB,2,3,0,2,1
 CA21XX,Introducción a la computación,AUT,2,5,4,0,3
 ME2208,Ciencia e ingeniería de los materiales,IMM,2,7,3,1,3
 CS2303,Relaciones laborales,FPH,2,8,3,0,2
-SE1200,Actividad deportiva I,FPH,2,9,0,2,0
+CI1107,Comunicación oral,CYD,2,9,3,0,1
 MA2105,Ecuaciones diferenciales,CIB,3,1,4,0,4
 FI2103,Física general III,CIB,3,2,4,0,3
 IEM2201,Análisis de circuitos I,IEE,3,3,4,0,3
@@ -33,37 +33,37 @@ IEM2352,Laboratorio de instrumentación,IEE,4,6,0,2,1
 MI2103,Dinámica,IMM,4,7,4,0,3
 CS3404,Seminario de ética en ingeniería,FPH,4,8,3,0,2
 FH1000,Centros de formación humanistica,FPH,4,9,3,0,1
-CM3207,Métodos numéricos,CIB,5,2,4,0,3
+CM3207,Métodos numéricos,CIB,5,1,4,0,3
+IEM2209,Metrología,ADD,5,2,1,1,1
 IEM2203,Sistemas analógicos,IEE,5,3,3,2,2
 IEM2303,Modelado y simulación de sistemas electromecánicos,AUT,5,5,3,1,3
 IEM2104,Termodinámica,IMM,5,6,4,0,3
 IEM2105,Manufactura,IMM,5,7,3,0,3
 IEM2155,Laboratorio de manufactura,IMM,5,8,0,4,2
-CI1107,Comunicación oral,CYD,5,9,3,0,1
+SE1200,Actividad deportiva I,FPH,5,9,0,2,0
 IEM2204,Sistemas digitales,IEE,6,3,3,2,2
 IEM2106,Transferencia de calor,IMM,6,5,4,0,3
 IEM2107,Resistencia de materiales,IMM,6,6,4,0,3
 IEM2108,Dibujo industrial,CYD,6,7,4,0,3
 IEM2109,Mecánica de fluidos,IMM,6,8,4,0,3
 IEM2159,Laboratorio de mecánica de fluidos,IMM,6,9,0,2,1
-IEM2304,Sistemas,,7,1,4,0,2
-IEM2305,Sistemas,,7,2,3,0,2
-IEM2205,Eléctrica,,7,3,4,0,3
-IEM2255,Eléctrica,,7,4,0,2,1
-IEM2306,Sistemas,,7,5,3,0,3
-IEM2110,Mecánica,,7,6,4,0,3
-IEM2111,Mecánica,,7,7,4,0,3
-IEM2161,Mecánica,,7,8,0,2,1
-SE1400,Básica,,7,9,0,2,0
-IEM2400,Ciencias Básicas,,8,1,3,0,1
-IEM2307,Sistemas,,8,2,3,1,2
-IEM2206,Eléctrica,,8,3,4,0,3
-IEM2256,Eléctrica,,8,4,0,2,1
-IEM2308,Sistemas,,8,5,3,0,3
-IEM2358,Sistemas,,8,6,0,2,1
-IEM2112,Mecánica,,8,7,0,2,3
-IEM2113,Mecánica,,8,8,3,0,3
-IEM2163,Mecánica,,8,9,0,2,1
+IEM2304,Fundamentos de gestión de proyectos,FPH,7,1,4,0,2
+IEM2305,Estadística aplicada II,ADD,7,2,3,0,2
+IEM2205,Máquinas eléctricas I,IEE,7,3,4,0,3
+IEM2255,Laboratorio de máquinas eléctricas I,IEE,7,4,0,2,1
+IEM2306,Control automático,AUT,7,5,3,0,3
+IEM2112,Elementos de máquinas,IMM,8,7,0,2,3
+SE1400,Actividad cultural - deportiva,FPH,7,9,0,2,0
+IEM2400,Metodología de la investigación,FPH,8,1,3,0,1
+IEM2307,Microprocesadores,AUT,8,2,2,1,2
+IEM2206,Máquinas eléctricas II,IEE,8,3,4,0,3
+IEM2256,Laboratorio de máquinas eléctricas II,IEE,8,4,0,2,1
+IEM2308,Control por eventos discretos,AUT,8,5,3,0,3
+IEM2358,Laboratorio de control,AUT,8,6,0,2,1
+IEM2113,Sistemas térmicos,IMM,8,8,3,0,3
+IEM2163,Laboratorio de sistemas térmicos,IMM,8,9,0,2,1
+IEM2111,Turbomáquinas,INS,7,7,4,0,3
+IEM2161,Laboratorio de turbomáquinas,INS,7,8,0,2,1
 IEM2309,Sistemas,,9,2,4,0,2
 IEM2207,Eléctrica,,9,3,4,0,3
 IEM2208,Eléctrica,,9,4,4,0,3

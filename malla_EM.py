@@ -46,7 +46,7 @@ def colocar_semestre(semestre,color,horasteoriasemestre,horaspracticasemestre,cr
 
 
 def generar_TC(programa,plan):
-    cred_list = [0,0,0,0,0,0,0,0,0,0]
+    cred_TC = [0,0,0,0,0,0,0,0,0,0,0]
     cred_acum = []
     acumulado = 0
     nombreProg = "Ingeniería Electromecánica - Tronco Común"
@@ -156,6 +156,7 @@ def generar_TC(programa,plan):
                     color = "Apricot"
                     i = 0
                 case "FPH":
+                    print(nombre)
                     color = "Aquamarine"
                     i = 1
                 case "CYD":
@@ -178,27 +179,27 @@ def generar_TC(programa,plan):
                     i = 7
                 case "AER":
                     color = "white"
-                    i = 7
+                    i = 8
                 case "SCB":
                     color = "white"
-                    i = 7
-            if semestre <= 8:                    
-                cred_list[i] = cred_list[i] + creditos
+                    i = 9
+            if area in ["CIB","FPH","CYD","IEE","IMM","AUT","ADD"]:                    
+                cred_TC[i] = cred_TC[i] + creditos
                 acumulado = acumulado + creditos
+                malla.append(colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color))
+            cred_TC[10] = acumulado
             # if acumulado < 108:
             #     color = "green"
             # elif acumulado < 135:
             #     color = "yellow"
             # else:
-            #     color = "white"
-                malla.append(colocar_curso(codigo,nombre,fila,semestre,horasteoria,horaspractica,creditos,color))
-    cred_acum.append(cred_list)
-    cred_list = [(x/acumulado)*100 for x in cred_list]
-    cred_acum.append(cred_list)
-    print(cred_acum)
-    acum_cred = pd.DataFrame(cred_acum, columns=["CIB","FPH","CYD","IEE","IMM","AUT","ADD","INS","AER","SCB"]) 
+            #     color = "white"                
+    cred_acum.append(cred_TC)
+    cred_TC = [(x/acumulado)*100 for x in cred_TC]
+    cred_acum.append(cred_TC)
+    acum_cred = pd.DataFrame(cred_acum, columns=["CIB","FPH","CYD","IEE","IMM","AUT","ADD","INS","AER","SCB","Total"]) 
+    acum_cred.insert(0,'detalle',["Creditos TC", "Porcentajes TC"])
     print(acum_cred)
-    print(acumulado)
     doc.generate_pdf(f"./mallas/{programa}-{plan}", clean=True, clean_tex=False, compiler='lualatex',silent=True)
 
 generar_TC('EM','0001')
